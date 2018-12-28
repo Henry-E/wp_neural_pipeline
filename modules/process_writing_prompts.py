@@ -10,7 +10,9 @@ def main():
                                      'sents')
     parser.add_argument('-o', '--output_dir_name', help='output directory')
     parser.add_argument('-i', '--input_file_names', nargs='*', help='writing'
-                        'prompts story files, one story per line')
+                        'prompts and story files, one story per line')
+    parser.add_argument('-num_stories', default=100, help='how many stories to'
+                        'process')
     args = parser.parse_args()
 
     nlp = spacy.load('en_core_web_sm')
@@ -25,6 +27,8 @@ def main():
     # Again join at the end using \1\2, these special contractions get double
     # tokenized by spacy. ugh
     match_special_contractions = re.compile(r"(\b\w+)\s('(ve|m))\b")
+    # this is for splitting apart quotations and newline characters
+    match_split_chars = re.compile(r"(“|”|newwline)")
 
     for input_file_name in args.input_file_names:
         with open(input_file_name) as in_file:
@@ -40,7 +44,7 @@ def main():
                 # is it bad that we edit the same variable?
                 story = story.strip()
                 # A whole bunch of regex substitutions
-                story = re.sub(match_newline_tokens, r"\\n", story)
+                story = re.sub(match_newline_tokens, r"newwline", story)
                 # run this twice in case there are two in a row
                 story = re.sub(match_ellipses, r" … ", story)
                 story = re.sub(match_ellipses, r" … ", story)
@@ -48,6 +52,9 @@ def main():
                 story = re.sub(match_double_open_quote, r"“", story)
                 story = re.sub(match_double_close_quote, r"”", story)
                 story = re.sub(match_special_contractions, r"\1\2", story)
+                # TODO
+                # Maybe we can speed things up by setting a max number of
+                # characters before running the spacy tokenizer
                 story_doc = nlp(story)
                 sents = []
                 num_tokens = 0
@@ -58,7 +65,15 @@ def main():
                     if num_tokens >= 1000:
                         break
                     sents.append(' '.join(tokens))
-                out_file.write('\n'.join(sents) + "\n\n")
+                # Here we break apart quotation marks and newlines into their
+                # own separate lines
+                final_lines = []
+                for sent in sents:
+                    split_sent = re.split(match_split_chars, sent)
+                    split_sent = [this.strip() for this in split_sent]
+                    split_sent = list(filter(None, split_sent))
+                    final_lines.extend(split_sent)
+                out_file.write('\n'.join(final_lines) + "\n\n")
 
 if __name__ == '__main__':
     main()
