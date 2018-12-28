@@ -22,6 +22,9 @@ def main():
     match_single_close_quote = re.compile(r"(\w)(\s’\s)(\w{1,2}\b)")
     match_double_open_quote = re.compile(r"``")
     match_double_close_quote = re.compile(r"''")
+    # Again join at the end using \1\2, these special contractions get double
+    # tokenized by spacy. ugh
+    match_special_contractions = re.compile(r"(\b\w+)\s('(ve|m))\b")
 
     for input_file_name in args.input_file_names:
         with open(input_file_name) as in_file:
@@ -44,6 +47,7 @@ def main():
                 story = re.sub(match_single_close_quote, r"\1'\3", story)
                 story = re.sub(match_double_open_quote, r"“", story)
                 story = re.sub(match_double_close_quote, r"”", story)
+                story = re.sub(match_special_contractions, r"\1\2", story)
                 story_doc = nlp(story)
                 sents = []
                 num_tokens = 0
