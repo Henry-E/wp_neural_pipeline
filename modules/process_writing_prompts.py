@@ -132,6 +132,7 @@ def main():
                 split_sent = [this.strip() for this in split_sent]
                 split_sent = list(filter(None, split_sent))
                 final_lines.extend(split_sent)
+            final_lines.append('end_of_story')
             sentence_tokenized_stories.append('\n'.join(final_lines))
         out_file.write('\n\n'.join(sentence_tokenized_stories) + "\n\n")
 
