@@ -14,11 +14,13 @@ def main():
                         help='udpipe model name from: '
                         'http://lindat.mff.cuni.cz/services/udpipe/api/models')
     args = parser.parse_args()
+    # TODO reset to 200
     num_stories_per_chunk = 200
     model = 'model={}'.format(args.model_name)
+    # in this case, the data is already tokenized, with sents on separate lines
     udpipe_api_template = ['curl', '-F', 'data=@{upload_file_name}',
                            '-F', model,
-                           '-F', 'tokenizer=',
+                           '-F', 'input=horizontal',
                            '-F', 'tagger=', '-F', 'parser=',
                'http://lindat.mff.cuni.cz/services/udpipe/api/process']
     for input_file_name in args.input_file_names:
@@ -45,32 +47,34 @@ def main():
                                                      # stderr=subprocess.STDOUT)
                 udpipe_json_results = udpipe_json_results.stdout.decode()
                 udpipe_results = json.loads(udpipe_json_results)['result']
-                udpipe_strings = udpipe_results.split('\n\n')
+                # udpipe_strings = udpipe_results.split('\n\n')
+                # Note: for now we won't remove boiler plate comments
                 # there's some boiler plate information in the first two lines
                 # returned by the udpipe api that we need to remove
-                udpipe_strings[0] = '\n'.join(udpipe_strings[0].split('\n')[2:])
-                conll = []
-                sentences = []
-                for full_conll in udpipe_strings:
-                    full_conll = full_conll.split('\n')
-                    if '' in  full_conll:
-                        continue
-                    conll.append('\n'.join(full_conll[2:]))
-                    sentences.append('\n'.join(full_conll[:2]))
+                # import ipdb; ipdb.set_trace()
+                # udpipe_strings[0] = '\n'.join(udpipe_strings[0].split('\n')[2:])
+                # conll = []
+                # sentences = []
+                # for full_conll in udpipe_strings:
+                #     full_conll = full_conll.split('\n')
+                #     if '' in  full_conll:
+                #         continue
+                #     conll.append('\n'.join(full_conll[2:]))
+                #     sentences.append('\n'.join(full_conll[:2]))
                 model_name_simplified = '_'.join(args.model_name.split('-')[1:-1])
                 input_file_basename = os.path.basename(input_file_name)
                 output_file_name = os.path.join(args.output_dir_name,
                                                 input_file_basename + '.' +
                                                 model_name_simplified +
-                                                '.conll')
+                                                '.conllu')
                 with open(output_file_name, 'a') as out_file:
-                    out_file.write('\n\n'.join(conll) + '\n\n')
-                output_file_name = os.path.join(args.output_dir_name,
-                                                input_file_basename + '.' +
-                                                model_name_simplified +
-                                                '.sentences')
-                with open(output_file_name, 'a') as out_file:
-                    out_file.write('\n\n'.join(sentences) + '\n\n')
+                    out_file.write(udpipe_results)
+                # output_file_name = os.path.join(args.output_dir_name,
+                #                                 input_file_basename + '.' +
+                #                                 model_name_simplified +
+                #                                 '.sentences')
+                # with open(output_file_name, 'a') as out_file:
+                #     out_file.write('\n\n'.join(sentences) + '\n\n')
             # making sure to clean up after the uploads are finished
             os.remove(upload_file_name)
         # For posterity
