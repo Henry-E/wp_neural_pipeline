@@ -62,6 +62,7 @@ def main():
     match_special_contractions = re.compile(r"(\b\w+)\s('(ve|m))\b")
     # this is for splitting apart quotations, newline characters and special
     # start and end writing prompt ones
+    # we use * instead of + because some staart prompts don't have letters
     match_split_chars = re.compile(r"(“|”|newwline|staart\w*|ennd\w*)")
     # writing prompts at the start
     match_wp_acronym = re.compile(r"^\[ (\w*) \] (.*)")

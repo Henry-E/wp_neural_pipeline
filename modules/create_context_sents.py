@@ -14,7 +14,6 @@ def main():
 
     tokenized_sents = []
     for sentence in tqdm(stories):
-        import ipdb; ipdb.set_trace()
         tokens = []
         for token in sentence:
             if token.form:
