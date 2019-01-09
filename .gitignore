@@ -2,3 +2,5 @@ data/
 writing_prompts_sent_tokenized/
 data_processing/
 *.swp
+preprocess/
+train/
