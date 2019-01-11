@@ -10,10 +10,13 @@
 
 python /home/henrye/downloads/Henry_OpenNMT-py/train.py \
 	-data preprocess/5th_jan_tests/1k_stories_content_selection \
-	-save_model train/5th_jan_tests \
+	-save_model train/5th_jan_tests_brnn/1k_stories_content_selection \
 	-share_embeddings \
 	--optim adam \
 	--learning_rate 0.001 \
+	--encoder_type brnn \
+	--layers 1 \
+	--word_vec_size 250 \
 	--valid_steps 650 \
 	--save_checkpoint 1300 \
 	--train_steps 8000 \
