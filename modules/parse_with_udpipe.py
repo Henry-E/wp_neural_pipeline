@@ -9,18 +9,17 @@ def main():
     parser.add_argument('-o', '--output_dir_name', help='output directory')
     parser.add_argument('-i', '--input_file_names', nargs='*', help='story file')
     parser.add_argument('-m', '--model_name',
-                        default='english-ud-2.0-170801',
+                        default='english-ewt-ud-2.3-181115',
                         type=str,
                         help='udpipe model name from: '
                         'http://lindat.mff.cuni.cz/services/udpipe/api/models')
     args = parser.parse_args()
-    # TODO reset to 200
-    num_stories_per_chunk = 200
+    num_stories_per_chunk = 300
     model = 'model={}'.format(args.model_name)
     # in this case, the data is already tokenized, with sents on separate lines
     udpipe_api_template = ['curl', '-F', 'data=@{upload_file_name}',
                            '-F', model,
-                           '-F', 'input=horizontal',
+                           '-F', 'tokenizer=',
                            '-F', 'tagger=', '-F', 'parser=',
                'http://lindat.mff.cuni.cz/services/udpipe/api/process']
     for input_file_name in args.input_file_names:
