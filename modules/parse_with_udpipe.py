@@ -62,6 +62,8 @@ def main():
                 #     sentences.append('\n'.join(full_conll[:2]))
                 model_name_simplified = '_'.join(args.model_name.split('-')[1:-1])
                 input_file_basename = os.path.basename(input_file_name)
+                # Simon's deep parser script breaks if the file name doesn't
+                # have conllu, specifically at the end. Before we had conll
                 output_file_name = os.path.join(args.output_dir_name,
                                                 input_file_basename + '.' +
                                                 model_name_simplified +
