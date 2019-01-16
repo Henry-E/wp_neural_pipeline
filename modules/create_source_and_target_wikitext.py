@@ -3,23 +3,28 @@ import os
 import re
 from collections import deque
 import pyconll
-import pyconll.tree
+from pyconll.tree import SentenceTree
 from tqdm import tqdm
 
 def linearize_tree(node):
     linearization = []
-    linearization.append(node.id)
+    linearization.append(node.data.id)
+    # TODO later on we will order the children based on the order they appeared
+    # in the original sentence
     child_nodes = node.children
     for child in child_nodes:
         linearization.extend(linearize_tree(child))
     return linearization
 
 def process_deep_ud(deep_ud):
-    linearized_deep = []
-    for token in deep_ud:
-        if token.form:
-            linearized_deep.append(token.form)
-    return linearized_deep
+    deep_tree = SentenceTree(deep_ud).tree
+    linearized_ids = linearize_tree(deep_tree)
+    linearized_deep_tokens = []
+    for tok_id in linearized_ids:
+        # we index using a string, could also do tok_id-1 to index to 0
+        if deep_ud[str(tok_id)].form:
+            linearized_deep_tokens.append(deep_ud[str(tok_id)].form)
+    return linearized_deep_tokens
 
 def get_ud_sent_tokens(sentence):
     tokens = []
@@ -66,12 +71,11 @@ def main():
                 # remove sentences until total tokens is under 200
                 while True:
                     if 'new_sent' not in context_sents:
-                        # TODO
-                        # We're tempted to remove this pair entirely from the
-                        # training corpus. All we'd have to do is reset the
-                        # deque
-                        import ipdb; ipdb.set_trace()
                         # it's possible 1 sent + 1 tgt is > 200
+                        # And we don't really want this so we reset the context
+                        # and ignore this source target pair
+                        context_sents = deque()
+                        num_context_sents_toks = 0
                         print(num_context_sents_toks, num_deep_sent_toks)
                         break
                     cur_token = context_sents.popleft()
@@ -79,12 +83,15 @@ def main():
                     if cur_token == 'new_sent' and \
                          num_context_sents_toks + num_deep_sent_toks <= 200:
                         break
-            # needs at least 1 sentence context
-            if context_sents:
-                content_selection_src.append(' '.join(context_sents))
-                content_selection_tgt.append(' '.join(deep_sent_tokens))
-            surface_realization_src.append(' '.join(deep_sent_tokens))
-            surface_realization_tgt.append(' '.join(ud_sent_tokens))
+            # We've decided to avoid deep representations with greater than 35
+            # tokens. This accounts for about 2.5% of deep representations
+            if num_deep_sent_toks <= 35:
+                # needs at least 1 sentence context
+                if context_sents:
+                    content_selection_src.append(' '.join(context_sents))
+                    content_selection_tgt.append(' '.join(deep_sent_tokens))
+                surface_realization_src.append(' '.join(deep_sent_tokens))
+                surface_realization_tgt.append(' '.join(ud_sent_tokens))
             num_ud_sent_tokens = len(ud_sent_tokens)
             if context_sents:
                 context_sents.extend(['new_sent'] + ud_sent_tokens)
