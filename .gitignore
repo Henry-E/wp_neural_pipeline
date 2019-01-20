@@ -6,3 +6,4 @@ preprocess/
 train/
 wikitext_data_processing/
 writing_prompt_data_processing/
+bookscorpus_data_processing/

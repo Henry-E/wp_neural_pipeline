@@ -3,6 +3,7 @@ import os
 import json
 import subprocess
 from itertools import islice
+from tqdm import tqdm
 
 def split_corpus(path, shard_size):
     with open(path, 'r') as in_file:
@@ -24,8 +25,8 @@ def main():
                         'http://lindat.mff.cuni.cz/services/udpipe/api/models')
     args = parser.parse_args()
     # num_stories_per_chunk = 300
-    # TODO reset to 5000
     shard_size = 5000
+    num_shards = 14546
     model = 'model={}'.format(args.model_name)
     # in this case, the data is already tokenized, with sents on separate lines
     udpipe_api_template = ['curl', '-F', 'data=@{upload_file_name}',
@@ -35,7 +36,7 @@ def main():
                'http://lindat.mff.cuni.cz/services/udpipe/api/process']
     for input_file_name in args.input_file_names:
         text_shards = split_corpus(input_file_name, shard_size)
-        for this_shard in text_shards:
+        for this_shard in tqdm(text_shards, total=num_shards):
             string_chunk = ''.join(this_shard)
         # with open(input_file_name) as in_file:
         #     stories = in_file.read().split('\n\n')
