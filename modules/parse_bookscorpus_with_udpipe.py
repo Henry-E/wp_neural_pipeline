@@ -25,8 +25,8 @@ def main():
                         'http://lindat.mff.cuni.cz/services/udpipe/api/models')
     args = parser.parse_args()
     # num_stories_per_chunk = 300
-    shard_size = 5000
-    num_shards = 14546
+    shard_size = 4000
+    num_shards = 7300
     model = 'model={}'.format(args.model_name)
     # in this case, the data is already tokenized, with sents on separate lines
     udpipe_api_template = ['curl', '-F', 'data=@{upload_file_name}',
@@ -42,6 +42,7 @@ def main():
             # same input again returns the correct output. This happens very
             # randomly and very rarely. So we just try except and rerun if it
             # fails.
+            num_exceptions = 0
             still_running = True
             while still_running:
                 try:
@@ -104,6 +105,12 @@ def main():
                     still_running = False
                 except ValueError:
                     print("ran into another json error, rerunning agian")
+                    num_exceptions += 1
+                    if num_exceptions > 2:
+                        # this probably does have something wrong with the
+                        # input
+                        print("aborting this one")
+                        still_running = False
         # For posterity
         # We need to do smaller API calls, otherwise we'll end up overwhelming
         # the API and getting rejected. We did a 1mb file that took about 7
