@@ -6,33 +6,69 @@ import pyconll
 from pyconll.tree import SentenceTree
 from tqdm import tqdm
 
-def linearize_tree(node, args):
+def linearize_tree(node, scopes_to_close=0):
     linearization = []
-    linearization.append(node.data.id)
+    if node.data.form:
+        linearization.append(node.data.form)
     # TODO Add scoping markers
+    # Remove empty nodes with form "_" them because they're missing original
+    # IDs in the feats column
+    child_nodes = [child for child in node.children if child.data.form]
     # we want child nodes to appear in the order they appeared in the original
     # sentence. This will simplify things for the model a bit
-    child_nodes = sorted(node.children,
-                         key=lambda child:
-                         int(list(child.data.feats['original_id'])[0]))
-    for child in child_nodes:
-        linearization.extend(linearize_tree(child, args))
+    sorted_child_nodes = sorted(child_nodes,
+                                key=lambda child:
+                                int(list(child.data.feats['original_id'])[0]))
+    # More than one child or the sole child has its own children
+    if sorted_child_nodes and (len(sorted_child_nodes) > 1 or
+                               sorted_child_nodes[0].children):
+        # Open scope
+        linearization.append('_(')
+    # if there's no more child nodes
+    elif not sorted_child_nodes:
+        # Close scopes
+        linearization.extend([')_'] * scopes_to_close)
+    for k, child in enumerate(sorted_child_nodes):
+        # if it's the last one and we just opened a scope
+        if k == len(sorted_child_nodes) - 1 and (len(sorted_child_nodes) > 1 or
+                                                 sorted_child_nodes[0].children):
+            scopes_to_close += 1
+            linearization.extend(linearize_tree(child, scopes_to_close))
+        elif len(sorted_child_nodes) == 1:
+            linearization.extend(linearize_tree(child, scopes_to_close))
+        else:
+            # if it's not the last one then it's not going to have anything to
+            # do with closing scopes
+            linearization.extend(linearize_tree(child))
     return linearization
 
 def process_deep_ud(deep_ud, args):
     if args.original_sentence_order:
-        linearized_ids = \
-            [str(node.id) for node in \
-             sorted(deep_ud,
-                    key=lambda node: int(list(node.feats['original_id'])[0]))]
+        tokens = [token for token in deep_ud if token.form]
+        linearized_deep_tokens = \
+            [str(token.form) for token in \
+             sorted(tokens,
+                    key=lambda token: int(list(token.feats['original_id'])[0]))]
     else:
         deep_tree = SentenceTree(deep_ud).tree
-        linearized_ids = linearize_tree(deep_tree, args)
-    linearized_deep_tokens = []
-    for tok_id in linearized_ids:
-        # we index using a string, could also do tok_id-1 to index to 0
-        if deep_ud[str(tok_id)].form:
-            linearized_deep_tokens.append(deep_ud[str(tok_id)].form)
+        linearized_deep_tokens = linearize_tree(deep_tree)
+        if args.add_scope_markers:
+            pass
+        else:
+            # we determined it was easier to simpler filter out the scoping
+            # markers than to add a whole bunch of special statements in the
+            # original function
+            linearized_deep_tokens = [token for token in linearized_deep_tokens
+                                      if token != '_(' or token != ')_']
+
+    # we don't even need what comes after this at all really, both functions
+    # can simply return lists of forms, especially because we now filter out
+    # empty forms
+    # linearized_deep_tokens = []
+    # for tok_id in linearized_ids:
+    #     # we index using a string, could also do tok_id-1 to index to 0
+    #     if deep_ud[str(tok_id)].form:
+    #         linearized_deep_tokens.append(deep_ud[str(tok_id)].form)
     return linearized_deep_tokens
 
 def get_ud_sent_tokens(sentence):
@@ -48,7 +84,7 @@ def get_ud_sent_tokens(sentence):
 
 def main():
     parser = argparse.ArgumentParser(description='create source and target')
-    parser.add_argument('-u', '--udpipe_file_name', help='udpipe output')
+    parser.add_argument('-u', '--udpipe_file_name', help='filtered udpipe output')
     parser.add_argument('-d', '--deep_parser_file_name', help='deep parser output')
     parser.add_argument('-c', '--content_selection_dir_name', help='output directory')
     parser.add_argument('-s', '--surface_realization_dir_name', help='output dir')
@@ -60,7 +96,7 @@ def main():
 
     with open(args.udpipe_file_name) as in_file:
         udpipe_input = in_file.read().replace('# newdoc\n', '')
-    sections = udpipe_input.split('# newpar')
+    sections = udpipe_input.split('# new_par')
     deep_sents = pyconll.load.iter_from_file(args.deep_parser_file_name)
 
     content_selection_src = []
@@ -70,12 +106,16 @@ def main():
 
     # we read it's much quicker to join a list of strings than keep a
     # continuously updating string https://waymoot.org/home/python_string/
+
+    # TODO We realize now it would be quicker to load an iter of both files.
+    # and figure out how to check the comments above each conllu for special
+    # markers to indicate that it's a new paragraph
     for section in tqdm(sections):
         this_section = pyconll.load.iter_from_string(section)
         # keeping a rolling context with max length of src + tgt of 200
         context_sents = deque()
         num_context_sents_toks = 0
-        for sent in this_section:
+        for sent in tqdm(this_section):
             deep_sent_conll = next(deep_sents)
             deep_sent_tokens = process_deep_ud(deep_sent_conll, args)
             ud_sent_tokens = get_ud_sent_tokens(sent)
