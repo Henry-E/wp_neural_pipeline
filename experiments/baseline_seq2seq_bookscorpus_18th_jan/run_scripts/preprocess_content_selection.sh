@@ -13,9 +13,12 @@ python ~/downloads/Henry_OpenNMT-py/preprocess.py \
 	-train_tgt data/7m_sents/bookscorpus.tok.7m_sents.train.ewt_ud_2.3.tgt \
 	-valid_src data/7m_sents/bookscorpus.tok.7m_sents.valid.ewt_ud_2.3.src \
 	-valid_tgt data/7m_sents/bookscorpus.tok.7m_sents.valid.ewt_ud_2.3.tgt \
-	-save_data preprocess/7m_sents/7m_sents_bookscorpus_baseline_seq2seq \
+	-save_data preprocess/7m_sents_100k_vocab/7m_sents_bookscorpus_baseline_100k_vocab \
 	-shard_size 100000 \
 	-dynamic_dict \
 	-share_vocab \
 	-src_seq_length 200 \
-	-tgt_seq_length 50
+	-tgt_seq_length 50 \
+	-src_vocab_size 100000 \
+	-tgt_vocab_size 100000
+
