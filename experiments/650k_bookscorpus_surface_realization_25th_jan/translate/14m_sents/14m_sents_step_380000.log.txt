@@ -1,0 +1,11 @@
+PRED AVG SCORE: -0.1996, PRED PPL: 1.2209
+GOLD AVG SCORE: -14.7580, GOLD PPL: 2566294.7138
+
+>> BLEU = 63.33, 92.0/72.1/59.5/49.9 (BP=0.951, ratio=0.952, hyp_len=40958, ref_len=43026)
+
+[2019-01-31 08:19:30,451 INFO] Step 379000/600000; acc:  86.65; ppl:  1.61; xent: 0.48; lr: 0.00100; 8741/9033 tok/s;  76837 sec
+[2019-01-31 08:22:12,249 INFO] Step 380000/600000; acc:  86.66; ppl:  1.61; xent: 0.48; lr: 0.00100; 10633/11005 tok/s;  76999 sec
+[2019-01-31 08:22:12,452 INFO] Loading dataset from preprocess/14m_sents/14m_sents_surface_realization.valid.0.pt, number of examples: 2622
+[2019-01-31 08:22:47,691 INFO] Validation perplexity: 1.70405
+[2019-01-31 08:22:47,692 INFO] Validation accuracy: 85.0424
+[2019-01-31 08:22:47,692 INFO] Saving checkpoint train/14m_sents/14m_sents_surface_realization_step_380000.pt
