@@ -1,0 +1,1902 @@
+Located _( centre city restaurant _( Alimentum friendly non-family range _( price 20 _( £ 25 )_ )_ )_ )_
+break
+restaurant _( centre _( city King Burger )_ called _( Eagle _( serves _( food _( priced moderately )_ )_ )_ )_ )_
+break
+is _( centre city restaurant _( child friendly called Alimentum )_ )_
+break
+restaurant _( centre _( city King Burger )_ friendly family called _( Eagle _( serves _( food _( priced moderately French )_ )_ )_ )_ )_
+break
+located _( Alimentum riverside serves _( and food _( priced moderately )_ )_ )_
+friendly _( It not family )_
+break
+is _( restaurant _( riverside _( King Burger )_ called _( Eagle _( serves _( food _( priced moderately )_ )_ )_ )_ )_ )_
+break
+restaurant _( Alimentum friendly family riverside )_
+break
+restaurant _( King _( Near Burger riverside )_ child friendly called _( Eagle _( serves _( food _( priced moderately French )_ )_ )_ )_ )_
+break
+shop _( Aromi coffee providing _( food Chinese )_ )_
+located _( It riverside )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Aromi coffee providing _( food Chinese )_ )_
+located _( It riverside )_
+3 _( rating _( Its customer )_ 5 )_
+break
+shop _( Aromi coffee providing _( food Chinese )_ )_
+located _( It centre city )_
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Aromi coffee providing _( food Chinese )_ )_
+located _( It centre city )_
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Aromi coffee providing _( food Chinese )_ )_
+located _( It riverside )_
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Aromi coffee providing _( food Chinese )_ )_
+located _( It riverside )_
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Aromi coffee providing _( food Chinese )_ )_
+located _( It centre city )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Aromi coffee providing _( food Chinese )_ )_
+located _( It centre city )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Aromi coffee providing _( food Chinese )_ )_
+located _( It riverside )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Aromi coffee providing _( food Chinese )_ )_
+located _( It riverside )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Aromi coffee providing _( food Chinese )_ )_
+located _( It riverside )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Aromi coffee providing _( food Chinese )_ )_
+located _( It centre city )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Aromi coffee providing _( food Chinese )_ )_
+located _( It centre city )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Aromi coffee providing _( food Chinese )_ )_
+located _( It riverside )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Aromi coffee providing _( food Chinese )_ )_
+located _( It riverside )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Aromi friendly family coffee serves _( food English )_ )_
+located _( It riverside has _( and rating _( customer 1 5 )_ )_ )_
+break
+shop _( Aromi English coffee riverside )_
+kid _( It friendly has _( and rating _( customer 3 5 )_ )_ )_
+break
+shop _( Aromi friendly non-family English coffee centre city rating _( customer 5 5 )_ )_
+break
+shop _( Aromi friendly family English coffee located _( centre city rating _( customer 5 5 )_ )_ )_
+break
+shop _( Aromi English coffee riverside )_
+has _( It out _( 5 rating _( 5 customer )_ )_ friendly _( and not family )_ )_
+break
+shop _( Aromi friendly family coffee serves _( food English )_ )_
+located _( It riverside has _( and rating _( customer 5 5 )_ )_ )_
+break
+shop _( Aromi English coffee located _( centre city )_ )_
+has _( It rating _( average customer )_ friendly _( and not family )_ )_
+break
+shop _( Aromi friendly family English coffee centre city rating _( average customer )_ )_
+break
+shop _( Aromi English coffee riverside )_
+has _( It rating _( average customer )_ friendly _( and not family )_ )_
+break
+shop _( Aromi friendly family coffee serves _( food English )_ )_
+located _( It riverside has _( and rating _( average customer )_ )_ )_
+break
+shop _( Aromi kid friendly coffee riverside )_
+serves _( It food English has _( and rating _( high customer )_ )_ )_
+break
+shop _( Aromi coffee centre _( city serves _( food English )_ )_ )_
+friendly _( It not family has _( and rating _( low customer )_ )_ )_
+break
+shop _( Aromi friendly family coffee centre _( city serves _( food English )_ )_ )_
+has _( It rating _( low customer )_ )_
+break
+shop _( Aromi coffee riverside )_
+friendly _( It not family has _( and rating _( low customer )_ )_ )_
+break
+shop _( Aromi friendly family coffee serves _( food English )_ )_
+located _( It riverside has _( and rating _( low customer )_ )_ )_
+break
+located _( House Bibimbap centre _( city Sicilia Café )_ )_
+serves _( It food French )_
+break
+located _( House _( Bibimbap riverside )_ Sicilia Café )_
+break
+shop _( Browns Cambridge coffee providing _( food Chinese )_ )_
+located _( It riverside )_
+Hotel _( It Plaza Crowne )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Browns Cambridge coffee providing _( food Chinese )_ )_
+located _( It riverside )_
+Hotel _( It Plaza Crowne )_
+3 _( rating _( Its customer )_ 5 )_
+break
+shop _( Browns Cambridge coffee serves _( food Chinese )_ )_
+located _( It Hotel _( Plaza Crowne centre city )_ )_
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Browns Cambridge friendly family Chinese coffee Hotel _( Plaza Crowne centre city )_ )_
+has _( It rating _( customer 5 5 )_ )_
+break
+shop _( Browns Cambridge coffee providing _( food Chinese )_ )_
+located _( It riverside )_
+Hotel _( It Plaza Crowne )_
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Browns Cambridge coffee providing _( food Chinese )_ )_
+located _( It riverside )_
+Hotel _( It Plaza Crowne )_
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Browns Cambridge coffee providing _( food Chinese )_ )_
+located _( It centre city )_
+Hotel _( It Plaza Crowne )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Browns Cambridge friendly family Chinese coffee Hotel _( Plaza Crowne centre city )_ )_
+break
+shop _( Browns Cambridge coffee providing _( food Chinese )_ )_
+located _( It riverside )_
+Hotel _( It Plaza Crowne )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Browns Cambridge coffee providing _( food Chinese )_ )_
+located _( It riverside )_
+Hotel _( It Plaza Crowne )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Browns Cambridge child friendly coffee serves _( food Chinese )_ )_
+located _( It Hotel _( Plaza Crowne area riverside )_ )_
+break
+shop _( Browns Cambridge coffee providing _( food Chinese )_ )_
+located _( It centre city )_
+Hotel _( It Plaza Crowne )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Browns Cambridge friendly family Chinese coffee Hotel _( Plaza Crowne centre city )_ )_
+break
+shop _( Browns Cambridge coffee providing _( food Chinese )_ )_
+located _( It riverside )_
+Hotel _( It Plaza Crowne )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Browns Cambridge coffee providing _( food Chinese )_ )_
+located _( It riverside )_
+Hotel _( It Plaza Crowne )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Browns Cambridge child friendly coffee serves _( food English )_ )_
+located _( It Hotel _( Plaza Crowne riverside )_ has _( and rating _( customer 1 5 )_ )_ )_
+break
+shop _( Browns Cambridge kid friendly coffee Hotel _( Plaza Crowne riverside )_ )_
+serves _( It food English has _( and rating _( customer 3 5 )_ )_ )_
+break
+shop _( Browns Cambridge English coffee Hotel _( Plaza Crowne centre city )_ )_
+has _( It rating _( customer 5 5 )_ friendly _( and not family )_ )_
+break
+shop _( Browns Cambridge friendly family coffee Hotel _( Plaza Crowne centre city )_ )_
+break
+shop _( Browns Cambridge English coffee Hotel _( Plaza Crowne riverside )_ )_
+friendly _( It not family has _( and out _( 5 rating _( 5 customer )_ )_ )_ )_
+break
+shop _( Browns Cambridge friendly family coffee Hotel _( Plaza Crowne )_ )_
+break
+shop _( Browns Cambridge English coffee Hotel _( Plaza Crowne centre city )_ )_
+has _( It rating _( average customer )_ friendly _( and not family )_ )_
+break
+shop _( Browns Cambridge friendly family coffee serves _( food English )_ )_
+located _( It Hotel _( Plaza Crowne centre city )_ )_
+break
+shop _( Browns Cambridge English coffee Hotel _( Plaza Crowne riverside )_ )_
+friendly _( It not family has _( and rating _( average customer )_ )_ )_
+break
+shop _( Browns Cambridge family friendly coffee located _( Hotel _( Plaza Crowne )_ )_ )_
+break
+shop _( Browns Cambridge child friendly coffee serves _( food English )_ )_
+located _( It Hotel _( Plaza Crowne riverside )_ has _( and rating _( high customer )_ )_ )_
+break
+shop _( Browns Cambridge coffee Hotel _( Plaza Crowne centre city )_ )_
+friendly _( It not family has _( and rating _( low customer )_ )_ )_
+break
+shop _( Browns Cambridge friendly family coffee Hotel _( Plaza Crowne centre city )_ )_
+break
+shop _( Browns Cambridge coffee located _( Hotel _( Plaza Crowne )_ )_ )_
+break
+shop _( Browns Cambridge family friendly coffee located _( Hotel _( Plaza Crowne )_ )_ )_
+break
+shop _( Clowns coffee providing _( food Chinese )_ )_
+located _( It riverside )_
+Hall _( It Clare )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Clowns coffee providing _( food Chinese )_ )_
+located _( It riverside )_
+Hall _( It Clare )_
+3 _( rating _( Its customer )_ 5 )_
+break
+shop _( Clowns coffee providing _( food Chinese )_ )_
+located _( It centre city )_
+Hall _( It Clare )_
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Clowns coffee providing _( food Chinese )_ )_
+located _( It riverside )_
+Hall _( It Clare )_
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Clowns coffee providing _( food Chinese )_ )_
+located _( It centre city )_
+Hall _( It Clare )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Clowns coffee providing _( food Chinese )_ )_
+located _( It riverside )_
+Hall _( It Clare )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Clowns coffee providing _( food Chinese )_ )_
+located _( It riverside )_
+Hall _( It Clare )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Clowns coffee providing _( food Chinese )_ )_
+located _( It centre city )_
+Hall _( It Clare )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Clowns coffee providing _( food Chinese )_ )_
+located _( It riverside )_
+Hall _( It Clare )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Clowns coffee serves _( food English )_ )_
+located _( It riverside _( Hall Clare )_ has _( and rating _( customer 1 5 )_ )_ )_
+break
+shop _( Clowns English coffee located _( riverside _( Hall Clare )_ )_ )_
+has _( It rating _( customer 3 5 )_ )_
+break
+shop _( Clowns English coffee located _( Hall Clare centre city )_ )_
+has _( It rating _( customer 5 5 )_ )_
+break
+shop _( Clowns coffee Hall Clare riverside )_
+has _( It rating _( customer 5 5 )_ )_
+break
+shop _( Clowns English coffee located _( centre _( city Hall Clare )_ )_ )_
+has _( It rating _( average customer )_ )_
+break
+shop _( Clowns English coffee located _( riverside _( Hall Clare )_ )_ )_
+has _( It rating _( average customer )_ )_
+break
+shop _( Clowns rated highly coffee Hall Clare riverside )_
+break
+located _( shop _( Clowns coffee )_ Hall Clare centre city )_
+has _( It rating _( low customer )_ )_
+break
+shop _( Clowns coffee serves _( food English )_ )_
+located _( It riverside _( Hall Clare )_ has _( and rating _( low customer )_ )_ )_
+break
+shop _( Cocum coffee providing _( food Chinese )_ range _( £ _( 25 20 )_ price )_ )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Cocum coffee providing _( food Chinese )_ range _( £ _( 25 20 )_ price )_ )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Cocum cheap coffee serves _( food Chinese )_ )_
+has _( It rating _( customer 5 5 )_ friendly _( and not family )_ )_
+break
+shop _( Cocum cheap family friendly Chinese coffee 5 _( rating _( 5 customer )_ )_ )_
+break
+shop _( Cocum cheap average Chinese coffee friendly _( not family )_ )_
+break
+shop _( Cocum cheap family friendly Chinese coffee rating _( average customer )_ )_
+break
+shop _( Cocum coffee providing _( food Chinese )_ range _( high price )_ )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Cocum coffee providing _( food Chinese )_ range _( high price )_ )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Cocum coffee providing _( food Chinese )_ range _( high price )_ )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Cocum coffee providing _( food Chinese )_ range _( high price )_ )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Cocum coffee providing _( food Chinese )_ range _( £ less price 20 )_ )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Cocum coffee providing _( food Chinese )_ range _( £ less price 20 )_ )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Cocum coffee providing _( food Chinese )_ range _( moderate price )_ )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Cocum coffee providing _( food Chinese )_ range _( moderate price )_ )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Cocum coffee providing _( food Chinese )_ range _( moderate price )_ )_
+3 _( rating _( Its customer )_ 5 )_
+break
+shop _( Cocum priced moderately Chinese coffee )_
+rated _( It 3 5 friendly _( and kid )_ )_
+break
+shop _( Cocum coffee providing _( food Chinese )_ range _( more £ 30 price )_ )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Cocum coffee providing _( food Chinese )_ range _( more £ 30 price )_ )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Cocum coffee providing _( food English )_ range _( £ _( 25 20 )_ price )_ )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Cocum kid friendly coffee serving _( food English )_ )_
+has _( It rating _( high customer range _( and price 20 _( £ 25 )_ )_ )_ )_
+break
+shop _( Cocum cheap coffee serves _( food English )_ )_
+has _( It rating _( customer 5 5 )_ friendly _( and not family )_ )_
+break
+shop _( Cocum cheap family friendly coffee serves _( food English )_ has _( and rating _( customer 5 5 )_ )_ )_
+break
+shop _( Cocum cheap coffee serves _( food English )_ )_
+has _( It rating _( average customer )_ friendly _( and not family )_ )_
+break
+shop _( Cocum cheap family friendly coffee serves _( food English )_ has _( and rating _( average customer )_ )_ )_
+break
+shop _( Cocum English coffee range _( high price )_ )_
+has _( It rating _( customer 1 5 )_ friendly _( and not child )_ )_
+break
+shop _( Cocum priced high child friendly coffee serves _( food English )_ )_
+has _( It rating _( customer 1 5 )_ )_
+break
+shop _( Cocum English coffee range _( high price )_ )_
+has _( It rating _( average customer )_ friendly _( and not child )_ )_
+break
+shop _( Cocum coffee providing _( food English )_ range _( high price )_ )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Cocum coffee serves _( food English )_ )_
+has _( It rating _( low customer )_ friendly _( and not family )_ )_
+break
+shop _( Cocum cheap family friendly coffee serves _( food English )_ )_
+has _( It rating _( low customer )_ )_
+break
+shop _( Cocum priced moderately English coffee )_
+kid _( It not friendly has _( and rating _( customer 1 5 )_ )_ )_
+break
+shop _( Cocum priced moderately coffee friendly family )_
+break
+shop _( Cocum priced moderately English coffee )_
+kid _( It not friendly has _( and rating _( customer 3 5 )_ )_ )_
+break
+shop _( Cocum priced moderately coffee friendly family )_
+break
+shop _( Cotto coffee providing _( food Chinese )_ range _( £ _( 25 20 )_ price )_ )_
+located _( It centre city )_
+Arms _( It Portland )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Cotto coffee providing _( food Chinese )_ range _( £ _( 25 20 )_ price )_ )_
+located _( It riverside )_
+Arms _( It Portland )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Cotto coffee providing _( food Chinese )_ range _( cheap price )_ )_
+located _( It centre city )_
+Arms _( It Portland )_
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Cotto coffee providing _( food Chinese )_ range _( cheap price )_ )_
+located _( It riverside )_
+Arms _( It Portland )_
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Cotto coffee providing _( food Chinese )_ range _( cheap price )_ )_
+located _( It centre city )_
+Arms _( It Portland )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Cotto coffee providing _( food Chinese )_ range _( cheap price )_ )_
+located _( It riverside )_
+Arms _( It Portland )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Cotto coffee providing _( food Chinese )_ range _( high price )_ )_
+located _( It centre city )_
+Arms _( It Portland )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Cotto coffee providing _( food Chinese )_ range _( high price )_ )_
+located _( It riverside )_
+Arms _( It Portland )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Cotto coffee providing _( food Chinese )_ range _( high price )_ )_
+located _( It centre city )_
+Arms _( It Portland )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Cotto coffee providing _( food Chinese )_ range _( high price )_ )_
+located _( It riverside )_
+Arms _( It Portland )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Cotto coffee providing _( food Chinese )_ range _( £ less price 20 )_ )_
+located _( It centre city )_
+Arms _( It Portland )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Cotto coffee providing _( food Chinese )_ range _( £ less price 20 )_ )_
+located _( It riverside )_
+Arms _( It Portland )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Cotto coffee providing _( food Chinese )_ range _( moderate price )_ )_
+located _( It centre city )_
+Arms _( It Portland )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Cotto coffee providing _( food Chinese )_ range _( moderate price )_ )_
+located _( It riverside )_
+Arms _( It Portland )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Cotto coffee providing _( food Chinese )_ range _( moderate price )_ )_
+located _( It centre city )_
+Arms _( It Portland )_
+3 _( rating _( Its customer )_ 5 )_
+break
+shop _( Cotto coffee providing _( food Chinese )_ range _( moderate price )_ )_
+located _( It riverside )_
+Arms _( It Portland )_
+3 _( rating _( Its customer )_ 5 )_
+break
+shop _( Cotto coffee providing _( food Chinese )_ range _( more £ 30 price )_ )_
+located _( It centre city )_
+Arms _( It Portland )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Cotto coffee providing _( food Chinese )_ range _( more £ 30 price )_ )_
+located _( It riverside )_
+Arms _( It Portland )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Cotto coffee providing _( food English )_ range _( £ _( 25 20 )_ price )_ )_
+located _( It centre city )_
+Arms _( It Portland )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Cotto coffee providing _( food English )_ range _( £ _( 25 20 )_ price )_ )_
+located _( It riverside )_
+Arms _( It Portland )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Cotto coffee providing _( food English )_ range _( cheap price )_ )_
+located _( It centre city )_
+Arms _( It Portland )_
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Cotto coffee providing _( food English )_ range _( cheap price )_ )_
+located _( It riverside )_
+Arms _( It Portland )_
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Cotto coffee centre city Arms Portland )_
+serves _( It food _( cheap English )_ has _( and rating _( average customer )_ )_ )_
+break
+shop _( Cotto coffee serves _( food English )_ )_
+has _( It rating _( average customer )_ located _( and Arms Portland )_ )_
+break
+shop _( Cotto coffee providing _( food English )_ range _( high price )_ )_
+located _( It centre city )_
+Arms _( It Portland )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Cotto coffee serves _( food English )_ )_
+has _( It range _( high price rating _( and customer 1 5 )_ )_ )_
+located _( It riverside _( Arms Portland )_ )_
+break
+shop _( Cotto coffee centre city Arms Portland )_
+serves _( It food English range _( high price rating _( and average customer )_ )_ )_
+break
+is _( shop _( expensive coffee called Cotto )_ )_
+located _( It Arms Portland )_
+break
+shop _( Cotto coffee providing _( food English )_ range _( £ less price 20 )_ )_
+located _( It centre city )_
+Arms _( It Portland )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Cotto coffee providing _( food English )_ range _( £ less price 20 )_ )_
+located _( It riverside )_
+Arms _( It Portland )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Cotto coffee providing _( food English )_ range _( moderate price )_ )_
+located _( It centre city )_
+Arms _( It Portland )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Cotto coffee providing _( food English )_ range _( moderate price )_ )_
+located _( It riverside )_
+Arms _( It Portland )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Cotto coffee providing _( food English )_ range _( moderate price )_ )_
+located _( It centre city )_
+Arms _( It Portland )_
+3 _( rating _( Its customer )_ 5 )_
+break
+shop _( Cotto coffee providing _( food English )_ range _( moderate price )_ )_
+located _( It riverside )_
+Arms _( It Portland )_
+3 _( rating _( Its customer )_ 5 )_
+break
+shop _( Cotto coffee providing _( food English )_ range _( more £ 30 price )_ )_
+located _( It centre city )_
+Arms _( It Portland )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( £ _( 25 20 )_ price )_ )_
+located _( It centre city )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( £ _( 25 20 )_ price )_ )_
+located _( It centre city )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( £ _( 25 20 )_ price )_ )_
+located _( It riverside )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( £ _( 25 20 )_ price )_ )_
+located _( It riverside )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( cheap price )_ )_
+located _( It centre city )_
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( cheap price )_ )_
+located _( It centre city )_
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( cheap price )_ )_
+located _( It riverside )_
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( cheap price )_ )_
+located _( It riverside )_
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( cheap price )_ )_
+located _( It centre city )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( cheap price )_ )_
+located _( It centre city )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( cheap price )_ )_
+located _( It riverside )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( cheap price )_ )_
+located _( It riverside )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( high price )_ )_
+located _( It centre city )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( high price )_ )_
+located _( It centre city )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( high price )_ )_
+located _( It riverside )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( high price )_ )_
+located _( It riverside )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( high price )_ )_
+located _( It centre city )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( high price )_ )_
+located _( It centre city )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( high price )_ )_
+located _( It riverside )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( high price )_ )_
+located _( It riverside )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( £ less price 20 )_ )_
+located _( It centre city )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( £ less price 20 )_ )_
+located _( It centre city )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( £ less price 20 )_ )_
+located _( It riverside )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( £ less price 20 )_ )_
+located _( It riverside )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( moderate price )_ )_
+located _( It centre city )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( moderate price )_ )_
+located _( It centre city )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( moderate price )_ )_
+located _( It riverside )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( moderate price )_ )_
+located _( It riverside )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( moderate price )_ )_
+located _( It centre city )_
+3 _( rating _( Its customer )_ 5 )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( moderate price )_ )_
+located _( It centre city )_
+3 _( rating _( Its customer )_ 5 )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( moderate price )_ )_
+located _( It riverside )_
+3 _( rating _( Its customer )_ 5 )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( moderate price )_ )_
+located _( It riverside )_
+3 _( rating _( Its customer )_ 5 )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( more £ 30 price )_ )_
+located _( It centre city )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( more £ 30 price )_ )_
+located _( It centre city )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( more £ 30 price )_ )_
+located _( It riverside )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Fitzbillies coffee providing _( food Chinese )_ range _( more £ 30 price )_ )_
+located _( It riverside )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Fitzbillies coffee providing _( food English )_ range _( £ _( 25 20 )_ price )_ )_
+located _( It centre city )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Fitzbillies kid friendly coffee centre _( city serves _( food English range _( price 20 _( £ 25 )_ )_ )_ )_ )_
+break
+shop _( Fitzbillies coffee providing _( food English )_ range _( £ _( 25 20 )_ price )_ )_
+located _( It riverside )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Fitzbillies coffee providing _( food English )_ range _( £ _( 25 20 )_ price )_ )_
+located _( It riverside )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Fitzbillies coffee providing _( food English )_ range _( cheap price )_ )_
+located _( It centre city )_
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Fitzbillies coffee providing _( food English )_ )_
+located _( It centre city )_
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Fitzbillies coffee providing _( food English )_ range _( cheap price )_ )_
+located _( It riverside )_
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Fitzbillies coffee providing _( food English )_ range _( cheap price )_ )_
+located _( It riverside )_
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Fitzbillies coffee providing _( food English )_ range _( cheap price )_ )_
+located _( It centre city )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Fitzbillies coffee providing _( food English )_ range _( cheap price )_ )_
+located _( It centre city )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Fitzbillies coffee providing _( food English )_ range _( cheap price )_ )_
+located _( It riverside )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Fitzbillies coffee providing _( food English )_ range _( cheap price )_ )_
+located _( It riverside )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Fitzbillies coffee providing _( food English )_ range _( high price )_ )_
+located _( It centre city )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Fitzbillies coffee providing _( food English )_ range _( high price )_ )_
+located _( It centre city )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Fitzbillies coffee providing _( food English )_ range _( high price )_ )_
+located _( It riverside )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Fitzbillies coffee providing _( food English )_ range _( high price )_ )_
+located _( It riverside )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Fitzbillies coffee centre _( city serves _( food English )_ )_ )_
+has _( It range _( high price rating _( average customer )_ )_ children _( and not friendly )_ )_
+break
+shop _( Fitzbillies coffee providing _( food English )_ range _( high price )_ )_
+located _( It centre city )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Fitzbillies coffee providing _( food English )_ range _( high price )_ )_
+located _( It riverside )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Fitzbillies coffee providing _( food English )_ range _( high price )_ )_
+located _( It riverside )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Fitzbillies coffee providing _( food English )_ range _( £ less price 20 )_ )_
+located _( It centre city )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Fitzbillies coffee providing _( food English )_ range _( £ less price 20 )_ )_
+located _( It centre city )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Fitzbillies coffee providing _( deliveries _( away take )_ range _( low price )_ )_ )_
+located _( It centre city )_
+break
+shop _( Fitzbillies coffee providing _( food English )_ range _( £ less price 20 )_ )_
+located _( It riverside )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Fitzbillies coffee providing _( food English )_ range _( moderate price )_ )_
+located _( It centre city )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Fitzbillies coffee providing _( food English )_ range _( moderate price )_ )_
+located _( It centre city )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Fitzbillies coffee providing _( deliveries _( away take )_ range _( low price )_ )_ )_
+located _( It riverside )_
+break
+shop _( Fitzbillies coffee providing _( food English )_ range _( moderate price )_ )_
+located _( It riverside )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Fitzbillies coffee providing _( food English )_ range _( moderate price )_ )_
+located _( It centre city )_
+break
+shop _( Fitzbillies coffee providing _( food English )_ range _( moderate price )_ )_
+located _( It centre city )_
+3 _( rating _( Its customer )_ 5 )_
+break
+shop _( Fitzbillies priced moderately coffee located riverside )_
+kid _( It not friendly )_
+break
+is _( shop _( coffee called _( Fitzbillies _( located river )_ )_ )_ )_
+break
+shop _( Fitzbillies coffee providing _( food English )_ range _( more £ 30 price )_ )_
+located _( It centre city )_
+break
+shop _( Fitzbillies child friendly coffee centre _( city serves _( food English )_ )_ )_
+break
+shop _( Fitzbillies coffee serves _( food English )_ )_
+located _( It riverside )_
+break
+has _( restaurant _( called _( House _( Midsummer Bakers )_ )_ )_ rating _( customer 1 5 )_ )_
+break
+located _( restaurant _( called _( House Midsummer )_ )_ Bakers )_
+has _( It rating _( customer 3 5 )_ )_
+break
+restaurant _( House Midsummer star five Bakers )_
+break
+restaurant _( House Midsummer average priced Bakers )_
+break
+restaurant _( House Midsummer rated highly located Bakers )_
+break
+located _( restaurant _( star one called _( House _( Golden located Bakers )_ )_ )_ )_
+break
+shop _( Taste Cambridge friendly non-family Chinese coffee located _( centre city Hotel _( Plaza Crowne )_ )_ )_
+break
+shop _( Taste Cambridge friendly family Chinese coffee Hotel _( Plaza Crowne centre city )_ )_
+break
+shop _( Taste Cambridge Chinese coffee located _( riverside Hotel _( Plaza Crowne )_ )_ )_
+friendly _( It not family )_
+break
+shop _( Taste Cambridge friendly family Chinese coffee located _( riverside _( Hotel _( Plaza Crowne )_ )_ )_ )_
+break
+shop _( Taste Cambridge coffee located _( centre _( city Hotel _( Plaza Crowne )_ )_ )_ )_
+serves _( It food English friendly _( and not family )_ )_
+break
+shop _( Taste Cambridge friendly family coffee Hotel _( Plaza Crowne centre city )_ )_
+break
+shop _( Taste Cambridge coffee located _( Hotel _( Plaza Crowne )_ )_ )_
+break
+shop _( Taste Cambridge child friendly coffee located _( Hotel _( Plaza Crowne )_ )_ )_
+break
+shop _( King _( Near Burger riverside )_ coffee called _( Cambridge Browns )_ )_
+has _( It rating _( customer 1 5 )_ friendly _( and child )_ )_
+break
+shop _( King _( Near Burger riverside )_ coffee called _( Cambridge Browns )_ )_
+friendly _( It children has _( and rating _( customer 3 5 )_ )_ )_
+break
+shop _( centre _( city King Burger )_ coffee called _( Cambridge Browns )_ )_
+has _( It out _( 5 rating _( 5 customer )_ )_ friendly _( and not family )_ )_
+break
+Located _( centre _( city King Burger )_ shop _( coffee called _( Cambridge Browns )_ )_ )_
+friendly _( It family has _( and out _( 5 rating _( 5 customer )_ )_ )_ )_
+break
+shop _( King _( Near Burger riverside )_ coffee called _( Cambridge Browns )_ )_
+has _( It out _( 5 rating _( 5 customer )_ )_ friendly _( and not family )_ )_
+break
+shop _( King _( Near Burger riverside )_ coffee called _( Cambridge _( Browns serves _( food _( quality high )_ friendly family )_ )_ )_ )_
+break
+shop _( centre _( city King Burger )_ coffee called _( Cambridge Browns )_ )_
+has _( It rating _( average customer )_ friendly _( and not family )_ )_
+break
+Located _( centre _( city King Burger )_ shop _( coffee called _( Cambridge Browns )_ )_ )_
+has _( It rating _( average customer )_ friendly _( and children )_ )_
+break
+shop _( King _( Near Burger riverside )_ coffee called _( Cambridge Browns )_ )_
+has _( It rating _( average customer )_ friendly _( and not family )_ )_
+break
+shop _( King _( Near Burger riverside )_ coffee called _( Cambridge Browns )_ )_
+has _( It rating _( average customer )_ friendly _( and child )_ )_
+break
+shop _( King _( Near Burger riverside )_ coffee called _( Cambridge Browns )_ )_
+has _( It rating _( high customer )_ friendly _( and child )_ )_
+break
+shop _( centre _( city King Burger )_ coffee called _( Eagle _( serves _( food _( priced low )_ )_ )_ )_ )_
+break
+shop _( centre _( city King Burger )_ friendly family coffee called _( serves _( Eagle food _( low rated French )_ )_ )_ )_
+break
+shop _( King _( Near Burger riverside )_ coffee called _( Cambridge Browns )_ )_
+has _( It rating _( low customer )_ friendly _( and not family )_ )_
+break
+shop _( King _( Near Burger riverside )_ coffee called _( Cambridge Browns )_ )_
+has _( It rating _( low customer )_ friendly _( and family )_ )_
+break
+shop _( Cricketers coffee providing _( food Chinese )_ )_
+Arms _( It Portland )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Cricketers coffee providing _( food Chinese )_ )_
+Arms _( It Portland )_
+3 _( rating _( Its customer )_ 5 )_
+break
+shop _( Cricketers coffee providing _( food Chinese )_ )_
+Arms _( It Portland )_
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Cricketers coffee providing _( food Chinese )_ )_
+located _( It Arms Portland )_
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Cricketers coffee providing _( food Chinese )_ )_
+Arms _( It Portland )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Cricketers coffee providing _( food Chinese )_ )_
+Arms _( It Portland )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Cricketers rated highly child friendly coffee serves _( food Chinese )_ )_
+located _( It Arms Portland )_
+break
+shop _( Cricketers coffee providing _( food Chinese )_ )_
+Arms _( It Portland )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Cricketers friendly family Chinese coffee rating _( low customer Arms Portland )_ )_
+break
+shop _( Cricketers friendly family coffee serves _( food English )_ )_
+located _( It Arms Portland has _( and rating _( customer 1 5 )_ )_ )_
+break
+shop _( Cricketers friendly family coffee serves _( food English )_ )_
+located _( It Arms Portland has _( and rating _( customer 3 5 )_ )_ )_
+break
+shop _( Cricketers English coffee Arms _( Portland friendly _( not family has _( and rating _( customer 5 5 )_ )_ )_ )_ )_
+break
+shop _( Cricketers friendly family coffee )_
+located _( It Arms Portland )_
+break
+shop _( Cricketers English coffee Arms _( Portland friendly _( not family has _( and rating _( average customer )_ )_ )_ )_ )_
+break
+shop _( Cricketers friendly family coffee serves _( food English )_ )_
+located _( It Arms Portland has _( and rating _( average customer )_ )_ )_
+break
+shop _( Cricketers friendly family coffee serves _( food English )_ )_
+located _( It Arms Portland has _( and rating _( high customer )_ )_ )_
+break
+shop _( Cricketers coffee Arms Portland )_
+friendly _( It not family has _( and rating _( low customer )_ )_ )_
+break
+shop _( Cricketers friendly family coffee serves _( food English )_ )_
+located _( It Arms Portland has _( and rating _( low customer )_ )_ )_
+break
+is _( riverside _( Brazil Café )_ restaurant _( child friendly called _( Eagle _( has _( rating _( customer 1 5 )_ )_ )_ )_ )_ )_
+break
+Located _( riverside _( Brazil Café )_ restaurant _( Waterman child friendly rating _( customer 3 5 )_ )_ )_
+break
+restaurant _( Eagle located _( centre city Brazil Café )_ )_
+has _( It out _( 5 rating _( 5 customer )_ )_ friendly _( and not family )_ )_
+break
+restaurant _( centre _( city Brazil Café )_ Eagle friendly family rating _( customer 5 5 )_ )_
+break
+is _( restaurant _( rated highly called _( Vaults _( located _( Brazil Café )_ )_ )_ )_ )_
+break
+is _( riverside _( Brazil Café )_ restaurant _( rated highly called Eagle )_ )_
+break
+located _( restaurant _( Eagle centre city )_ Brazil Café )_
+has _( It rating _( average customer )_ friendly _( and not family )_ )_
+break
+restaurant _( Vaults friendly family centre _( city Brazil Café )_ )_
+has _( It rating _( average customer )_ )_
+break
+is _( riverside _( Brazil Café )_ )_
+has _( Eagle rating _( average customer )_ friendly _( and not family )_ )_
+break
+is _( riverside _( Brazil Café )_ restaurant _( child friendly called _( Vaults _( has _( rating _( average customer )_ )_ )_ )_ )_ )_
+break
+is _( riverside _( Brazil Café )_ restaurant _( child friendly rating _( high customer called Eagle )_ )_ )_
+break
+is _( restaurant _( centre _( city Brazil Café )_ )_ called _( it Eagle )_ )_
+has _( It rating _( low customer )_ friendly _( and not family )_ )_
+break
+restaurant _( centre _( city Brazil Café )_ Eagle friendly family rating _( low customer )_ )_
+break
+is _( restaurant _( called _( Vaults _( located _( Brazil Café )_ )_ )_ )_ )_
+break
+is _( restaurant _( family friendly called _( Vaults _( located _( Brazil Café )_ )_ )_ )_ )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( £ _( 25 20 )_ price )_ )_
+located _( It centre city )_
+King _( It Burger )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( £ _( 25 20 )_ price )_ )_
+located _( It centre city )_
+King _( It Burger )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( £ _( 25 20 )_ price )_ )_
+located _( It riverside )_
+King _( It Burger )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( £ _( 25 20 )_ price )_ )_
+located _( It riverside )_
+King _( It Burger )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( cheap price )_ )_
+located _( It centre city )_
+King _( It Burger )_
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( cheap price )_ )_
+located _( It centre city )_
+King _( It Burger )_
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( cheap price )_ )_
+located _( It riverside )_
+King _( It Burger )_
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( cheap price )_ )_
+located _( It riverside )_
+King _( It Burger )_
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( cheap price )_ )_
+located _( It centre city )_
+King _( It Burger )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( cheap price )_ )_
+located _( It centre city )_
+King _( It Burger )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( cheap price )_ )_
+located _( It riverside )_
+King _( It Burger )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( cheap price )_ )_
+located _( It riverside )_
+King _( It Burger )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( high price )_ )_
+located _( It centre city )_
+King _( It Burger )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( high price )_ )_
+located _( It centre city )_
+King _( It Burger )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( high price )_ )_
+located _( It riverside )_
+King _( It Burger )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( high price )_ )_
+located _( It riverside )_
+King _( It Burger )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( high price )_ )_
+located _( It centre city )_
+King _( It Burger )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( high price )_ )_
+located _( It centre city )_
+King _( It Burger )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( high price )_ )_
+located _( It riverside )_
+King _( It Burger )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( high price )_ )_
+located _( It riverside )_
+King _( It Burger )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( £ less price 20 )_ )_
+located _( It centre city )_
+King _( It Burger )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( £ less price 20 )_ )_
+located _( It centre city )_
+King _( It Burger )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( £ less price 20 )_ )_
+located _( It riverside )_
+King _( It Burger )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( £ less price 20 )_ )_
+located _( It riverside )_
+King _( It Burger )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( moderate price )_ )_
+located _( It centre city )_
+King _( It Burger )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( moderate price )_ )_
+located _( It centre city )_
+King _( It Burger )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( moderate price )_ )_
+located _( It riverside )_
+King _( It Burger )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( moderate price )_ )_
+located _( It riverside )_
+King _( It Burger )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( moderate price )_ )_
+located _( It centre city )_
+King _( It Burger )_
+3 _( rating _( Its customer )_ 5 )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( moderate price )_ )_
+located _( It centre city )_
+King _( It Burger )_
+3 _( rating _( Its customer )_ 5 )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( moderate price )_ )_
+located _( It riverside )_
+King _( It Burger )_
+3 _( rating _( Its customer )_ 5 )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( moderate price )_ )_
+located _( It riverside )_
+King _( It Burger )_
+3 _( rating _( Its customer )_ 5 )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( more £ 30 price )_ )_
+located _( It centre city )_
+King _( It Burger )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( more £ 30 price )_ )_
+located _( It centre city )_
+King _( It Burger )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( more £ 30 price )_ )_
+located _( It riverside )_
+King _( It Burger )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Eagle coffee providing _( food Chinese )_ range _( more £ 30 price )_ )_
+located _( It riverside )_
+King _( It Burger )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Eagle coffee providing _( food English )_ range _( £ _( 25 20 )_ price )_ )_
+located _( It centre city )_
+King _( It Burger )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Eagle coffee providing _( food English )_ range _( £ _( 25 20 )_ price )_ )_
+located _( It centre city )_
+King _( It Burger )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Eagle coffee serves _( food English )_ )_
+located _( It riverside _( King Burger )_ )_
+kid _( It not friendly has _( and rating _( high customer )_ )_ )_
+break
+shop _( Eagle coffee serves _( food English )_ )_
+located _( It riverside _( King Burger )_ )_
+kid _( It friendly has _( and rating _( high customer )_ )_ )_
+break
+shop _( Eagle coffee providing _( food English )_ range _( cheap price )_ )_
+located _( It centre city )_
+King _( It Burger )_
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Eagle coffee serves _( food English )_ )_
+located _( It King _( Burger centre city )_ )_
+break
+shop _( Eagle coffee providing _( food English )_ range _( cheap price )_ )_
+located _( It riverside )_
+King _( It Burger )_
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Eagle coffee serves _( food English )_ )_
+located _( It riverside _( King Burger )_ )_
+break
+shop _( Eagle coffee providing _( food English )_ range _( cheap price )_ )_
+located _( It centre city )_
+King _( It Burger )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Eagle coffee serves _( food English )_ )_
+located _( It centre _( city King Burger )_ )_
+break
+shop _( Eagle coffee serves _( food English )_ )_
+located _( It riverside _( King Burger )_ )_
+break
+is _( shop _( cheap coffee King Burger )_ called Eagle )_
+break
+shop _( Eagle coffee providing _( food English )_ range _( high price )_ )_
+located _( It centre city )_
+King _( It Burger )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Eagle coffee serves _( food English )_ )_
+located _( It centre _( city King Burger )_ )_
+break
+shop _( Eagle coffee serves _( food English )_ )_
+located _( It riverside _( King Burger )_ )_
+break
+shop _( Eagle coffee serves _( food English )_ )_
+located _( It riverside _( King Burger )_ )_
+break
+shop _( Eagle coffee serves _( food English range _( high price )_ )_ )_
+located _( It centre _( city King Burger )_ )_
+break
+shop _( Eagle coffee serves _( food English )_ )_
+located _( It centre _( city King Burger )_ )_
+break
+shop _( Eagle coffee serves _( food English )_ )_
+located _( It riverside _( King Burger )_ )_
+break
+is _( shop _( coffee called _( Eagle _( located _( King Burger )_ )_ )_ )_ )_
+break
+shop _( Eagle coffee providing _( food English )_ range _( £ less price 20 )_ )_
+located _( It centre city )_
+King _( It Burger )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Eagle friendly family coffee serves _( food English )_ )_
+located _( It King _( Burger centre city )_ has _( and rating _( low customer )_ )_ )_
+break
+shop _( Eagle coffee providing _( food English )_ range _( £ less price 20 )_ )_
+located _( It riverside )_
+King _( It Burger )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Eagle friendly family coffee serves _( food English )_ )_
+located _( It King _( Burger riverside )_ has _( and rating _( low customer )_ )_ )_
+break
+shop _( Eagle coffee providing _( food English )_ range _( moderate price )_ )_
+located _( It centre city )_
+King _( It Burger )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Eagle coffee providing _( food English )_ range _( moderate price )_ )_
+located _( It centre city )_
+King _( It Burger )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Eagle coffee serves _( food English )_ )_
+located _( It riverside _( King Burger )_ )_
+break
+shop _( Eagle coffee providing _( food English )_ range _( moderate price )_ )_
+located _( It riverside )_
+King _( It Burger )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Eagle coffee providing _( food English )_ range _( moderate price )_ )_
+located _( It centre city )_
+King _( It Burger )_
+3 _( rating _( Its customer )_ 5 )_
+break
+shop _( Eagle coffee providing _( food English )_ range _( moderate price )_ )_
+located _( It centre city )_
+King _( It Burger )_
+3 _( rating _( Its customer )_ 5 )_
+break
+shop _( Eagle coffee serves _( food English range _( moderate price )_ )_ )_
+located _( It riverside _( King Burger )_ )_
+break
+shop _( Eagle priced moderately coffee located _( King Burger )_ )_
+break
+shop _( Eagle coffee serves _( food English )_ )_
+located _( It King _( Burger centre city )_ )_
+break
+shop _( Eagle coffee serves _( food English )_ )_
+located _( It centre _( city King Burger )_ )_
+friendly _( It children has _( and rating _( high customer )_ )_ )_
+break
+shop _( Eagle coffee serves _( food English )_ )_
+located _( It riverside _( King Burger )_ )_
+break
+shop _( Palace Golden coffee providing _( food Chinese range _( £ _( 25 20 )_ price )_ )_ )_
+located _( It centre city )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Palace Golden coffee providing _( food Chinese )_ range _( £ _( 25 20 )_ price )_ )_
+located _( It riverside )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Palace Golden coffee providing _( food Chinese )_ range _( cheap price )_ )_
+located _( It centre city )_
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Palace Golden coffee providing _( food Chinese )_ range _( cheap price )_ )_
+located _( It riverside )_
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Palace Golden coffee providing _( food Chinese )_ range _( cheap price )_ )_
+located _( It centre city )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Palace Golden coffee providing _( food Chinese )_ range _( cheap price )_ )_
+located _( It riverside )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Palace Golden coffee provides _( food Chinese range _( high price )_ )_ )_
+located _( It centre city )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Palace Golden coffee providing _( food Chinese )_ range _( high price )_ )_
+located _( It riverside )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Palace Golden coffee providing _( food Chinese range _( high price )_ )_ )_
+located _( It centre city )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Palace Golden coffee providing _( food Chinese )_ range _( high price )_ )_
+located _( It riverside )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Palace Golden coffee providing _( food Chinese )_ range _( £ less price 20 )_ )_
+located _( It centre city )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Palace Golden coffee providing _( food Chinese )_ range _( £ less price 20 )_ )_
+located _( It riverside )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Palace Golden coffee providing _( food Chinese )_ range _( moderate price )_ )_
+located _( It centre city )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Palace Golden coffee providing _( food Chinese )_ range _( moderate price )_ )_
+located _( It riverside )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Palace Golden coffee providing _( food Chinese range _( moderate price )_ )_ )_
+located _( It centre city )_
+3 _( rating _( Its customer )_ 5 )_
+break
+shop _( Palace Golden coffee providing _( food Chinese range _( moderate price )_ )_ )_
+located _( It riverside )_
+3 _( rating _( Its customer )_ 5 )_
+break
+shop _( Palace Golden coffee providing _( food Chinese )_ range _( more £ 30 price )_ )_
+located _( It centre city )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Palace Golden coffee providing _( food Chinese )_ range _( more £ 30 price )_ )_
+located _( It riverside )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Palace Golden coffee centre _( city serves _( food English range _( price 20 _( £ 25 )_ )_ )_ )_ )_
+break
+shop _( Palace Golden coffee providing _( food English )_ range _( £ _( 25 20 )_ price )_ )_
+located _( It riverside )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Palace Golden cheap coffee located _( centre city )_ )_
+has _( It rating _( customer 5 5 )_ )_
+break
+shop _( Palace Golden coffee providing _( food English )_ range _( cheap price )_ )_
+located _( It riverside )_
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Palace Golden cheap coffee centre city )_
+has _( It rating _( average customer )_ )_
+break
+shop _( Palace Golden coffee providing _( food English )_ range _( cheap price )_ )_
+located _( It riverside )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Palace Golden English coffee centre city )_
+has _( It range _( high price rating _( and customer 1 5 )_ )_ )_
+break
+shop _( Palace Golden coffee providing _( food English )_ range _( high price )_ )_
+located _( It riverside )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Palace Golden coffee centre _( city serves _( food English )_ )_ )_
+has _( It range _( high price rating _( and average customer )_ )_ )_
+break
+shop _( Palace Golden coffee providing _( food English )_ range _( high price )_ )_
+located _( It riverside )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Palace Golden coffee serves _( food _( English located _( centre city rating _( low customer )_ )_ )_ )_ )_
+break
+shop _( Palace Golden coffee providing _( food English )_ range _( £ less price 20 )_ )_
+located _( It riverside )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Palace Golden priced moderately English coffee centre city )_
+has _( It rating _( customer 1 5 )_ )_
+break
+shop _( Palace Golden coffee providing _( food English )_ range _( moderate price )_ )_
+located _( It riverside )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Palace Golden priced moderately English coffee centre city )_
+has _( It rating _( customer 3 5 )_ )_
+break
+shop _( Palace Golden priced moderately coffee located river )_
+break
+shop _( Palace Golden coffee serves _( food English )_ )_
+located _( It centre city has _( and rating _( high customer )_ )_ )_
+break
+shop _( Palace Golden coffee providing _( deliveries _( away take )_ range _( low price )_ )_ )_
+located _( It centre city )_
+break
+shop _( Mill coffee providing _( food Chinese range _( £ _( 25 20 )_ price )_ )_ )_
+located _( It riverside )_
+Sorrento It
+break
+shop _( Mill coffee providing _( food Chinese )_ range _( cheap price )_ )_
+located _( It riverside )_
+Sorrento It
+break
+shop _( Mill coffee providing _( food Chinese )_ range _( high price )_ )_
+located _( It centre city )_
+Sorrento It
+break
+shop _( Mill coffee providing _( food Chinese )_ range _( high price )_ )_
+located _( It riverside )_
+Sorrento It
+break
+shop _( Mill coffee providing _( food Chinese )_ range _( £ less price 20 )_ )_
+located _( It centre city )_
+Sorrento It
+break
+shop _( Mill coffee providing _( food Chinese )_ range _( £ less price 20 )_ )_
+located _( It riverside )_
+Sorrento It
+break
+shop _( Mill coffee providing _( food Chinese )_ range _( moderate price )_ )_
+located _( It centre city )_
+Sorrento It
+break
+shop _( Mill coffee providing _( food Chinese )_ range _( moderate price )_ )_
+located _( It riverside )_
+Sorrento It
+break
+shop _( Mill coffee providing _( food Chinese )_ range _( more £ 30 price )_ )_
+located _( It riverside )_
+Sorrento It
+break
+shop _( Mill coffee Sorrento riverside )_
+serves _( It food English range _( price 20 _( £ 25 )_ )_ )_
+break
+shop _( Mill coffee Sorrento riverside )_
+serves _( It food English has _( and range _( cheap price )_ )_ )_
+break
+shop _( Mill coffee centre _( city Sorrento )_ )_
+serves _( It food English range _( high price )_ )_
+break
+shop _( Mill coffee Sorrento riverside )_
+serves _( It food English range _( high price )_ )_
+break
+located _( Mill centre _( city Sorrento )_ )_
+shop _( It coffee serves _( food English £ _( less 20 )_ )_ )_
+break
+shop _( Mill coffee serves _( food English £ _( less 20 )_ )_ Sorrento riverside )_
+break
+located _( Mill centre _( city Sorrento )_ )_
+shop _( It priced moderately English coffee )_
+break
+shop _( Mill priced moderately coffee located Sorrento )_
+break
+shop _( Mill coffee Sorrento riverside )_
+serves _( It food English range _( price £ _( more 30 )_ )_ )_
+break
+has _( restaurant _( Phoenix riverside )_ rating _( customer 1 5 )_ )_
+break
+restaurant _( Phoenix priced moderately located river )_
+break
+restaurant _( Phoenix rated highly located _( centre city )_ )_
+break
+restaurant _( Phoenix star five located river )_
+break
+located _( Phoenix centre city has _( and rating _( average customer )_ )_ )_
+break
+restaurant _( Phoenix average located riverside )_
+break
+restaurant _( Phoenix rated highly located riverside )_
+break
+located _( Phoenix centre city has _( and rating _( low customer )_ )_ )_
+break
+restaurant _( Phoenix star one located _( centre City )_ )_
+break
+restaurant _( Waterman child friendly riverside )_
+has _( It rating _( customer 1 5 )_ )_
+break
+restaurant _( Waterman child friendly riverside )_
+has _( It rating _( customer 3 5 )_ )_
+break
+located _( Waterman centre city has _( and rating _( customer 5 5 )_ )_ )_
+break
+located _( Waterman centre city has _( and rating _( customer 5 5 )_ )_ )_
+break
+restaurant _( area riverside called _( Waterman _( has _( rating _( customer 5 5 )_ )_ )_ )_ )_
+break
+restaurant _( Waterman child friendly located _( riverside _( 5 _( rating _( 5 customer )_ )_ )_ )_ )_
+break
+located _( Waterman centre city has _( and rating _( average customer )_ )_ )_
+break
+located _( Waterman centre city has _( and rating _( average customer )_ )_ )_
+break
+located _( Waterman riverside )_
+friendly _( It not family has _( and rating _( average customer )_ )_ )_
+break
+located _( Waterman riverside )_
+friendly _( It family has _( and rating _( average customer )_ )_ )_
+break
+is _( restaurant _( rated highly child friendly riverside _( called Waterman )_ )_ )_
+break
+located _( Waterman centre city has _( and rating _( low customer )_ )_ )_
+break
+restaurant _( Waterman friendly family located _( centre city rating _( low customer )_ )_ )_
+break
+restaurant _( Waterman low rated riverside )_
+break
+restaurant _( Waterman friendly family located riverside )_
+has _( It rating _( low customer )_ )_
+break
+shop _( Punter coffee providing _( food Chinese )_ range _( £ _( 25 20 )_ price )_ )_
+Sicilia _( It near Café )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Punter coffee providing _( food Chinese )_ range _( £ _( 25 20 )_ price )_ )_
+Sicilia _( It near Café )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Punter coffee providing _( food Chinese )_ range _( cheap price )_ )_
+Sicilia _( It near Café )_
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Punter coffee providing _( food Chinese )_ range _( cheap price )_ )_
+located _( It Sicilia Café )_
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Punter coffee providing _( food Chinese )_ range _( cheap price )_ )_
+Sicilia _( It near Café )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Punter coffee providing _( food Chinese )_ range _( cheap price )_ )_
+Sicilia _( It near Café )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Punter coffee providing _( food Chinese )_ range _( high price )_ )_
+located _( It Sicilia Café )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Punter coffee providing _( food Chinese )_ range _( high price )_ )_
+located _( It Sicilia Café )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Punter coffee providing _( food Chinese )_ range _( high price )_ )_
+Sicilia _( It near Café )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Punter coffee providing _( food Chinese )_ range _( high price )_ )_
+Sicilia _( It near Café )_
+average _( rating _( Its customer )_ )_
+break
+shop _( Punter coffee providing _( food Chinese )_ range _( £ less price 20 )_ )_
+located _( It Sicilia Café )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Punter coffee providing _( food Chinese )_ range _( £ less price 20 )_ )_
+Sicilia _( It near Café )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Punter coffee providing _( food Chinese )_ range _( moderate price )_ )_
+Sicilia _( It near Café )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Punter coffee providing _( food Chinese )_ range _( moderate price )_ )_
+Sicilia _( It near Café )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Punter coffee providing _( food Chinese )_ range _( moderate price )_ )_
+Sicilia _( It near Café )_
+3 _( rating _( Its customer )_ 5 )_
+break
+shop _( Punter coffee providing _( food Chinese )_ range _( moderate price )_ )_
+Sicilia _( It near Café )_
+3 _( rating _( Its customer )_ 5 )_
+break
+shop _( Punter coffee providing _( food Chinese )_ range _( more £ 30 price )_ )_
+Sicilia _( It near Café )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Punter coffee providing _( food Chinese )_ range _( more £ 30 price )_ )_
+Sicilia _( It near Café )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Punter coffee providing _( food English )_ range _( £ _( 25 20 )_ price )_ )_
+Sicilia _( It near Café )_
+high _( rating _( Its customer )_ )_
+break
+shop _( Punter kid friendly coffee serves _( food English )_ )_
+located _( It Sicilia Café has _( and rating _( high customer )_ )_ )_
+break
+shop _( Punter English coffee Sicilia Café )_
+has _( It rating _( customer 5 5 )_ friendly _( and not family )_ )_
+break
+shop _( Punter friendly family coffee serves _( food English )_ )_
+located _( It Sicilia Café has _( and rating _( customer 5 5 )_ )_ )_
+break
+shop _( Punter English coffee Sicilia Café )_
+has _( It rating _( average customer )_ friendly _( and not family )_ )_
+break
+shop _( Punter friendly family coffee serves _( food English )_ )_
+located _( It Sicilia Café has _( and rating _( average customer )_ )_ )_
+break
+shop _( Punter English coffee Sicilia Café )_
+has _( It range _( high price rating _( customer 1 5 )_ )_ friendly _( and not child )_ )_
+break
+shop _( Punter coffee providing _( food English )_ range _( high price )_ )_
+located _( It Sicilia Café )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Punter English coffee Sicilia Café )_
+has _( It range _( high price rating _( average customer )_ )_ children _( and not friendly )_ )_
+break
+shop _( Punter friendly family coffee serves _( food English )_ )_
+located _( It Sicilia Café )_
+break
+shop _( Punter coffee providing _( food English )_ range _( £ less price 20 )_ )_
+Sicilia _( It near Café )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Punter coffee providing _( food English )_ range _( £ less price 20 )_ )_
+Sicilia _( It near Café )_
+low _( rating _( Its customer )_ )_
+break
+shop _( Punter coffee providing _( food English )_ range _( moderate price )_ )_
+Sicilia _( It near Café )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Punter coffee providing _( food English )_ range _( moderate price )_ )_
+Sicilia _( It near Café )_
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Punter priced moderately English coffee Sicilia Café )_
+kid _( It not friendly has _( and rating _( customer 3 5 )_ )_ )_
+break
+shop _( Punter priced moderately coffee located _( Sicilia Café )_ )_
+break
+restaurant _( Wrestlers friendly family rating _( customer 1 5 )_ )_
+break
+located _( restaurant _( child friendly called Phoenix )_ Sorrento )_
+has _( It rating _( customer 1 5 )_ )_
+break
+restaurant _( Wrestlers friendly family rating _( customer 3 5 )_ )_
+break
+located _( restaurant _( kid friendly called Phoenix )_ Sorrento )_
+has _( It rating _( customer 3 5 )_ )_
+break
+restaurant _( Wrestlers friendly non-family rating _( customer 5 5 )_ )_
+break
+is _( restaurant _( rated highly located Sorrento )_ )_
+called _( It Wrestlers _( friendly _( and not family )_ )_ )_
+break
+restaurant _( Wrestlers family _( star five )_ friendly )_
+break
+located _( restaurant _( family friendly called Phoenix )_ Sorrento )_
+break
+friendly _( Wrestlers not family has _( and rating _( average customer )_ )_ )_
+break
+is _( restaurant _( average called _( Wrestlers _( located Sorrento )_ )_ )_ )_
+break
+restaurant _( Wrestlers friendly family rating _( average customer )_ )_
+break
+located _( restaurant _( family friendly called Phoenix )_ Sorrento )_
+break
+restaurant _( Wrestlers friendly family rating _( high customer )_ )_
+break
+located _( restaurant _( child friendly called Phoenix )_ Sorrento )_
+break
+restaurant _( Wrestlers star one friendly _( not family )_ )_
+break
+is _( restaurant _( star one called _( Cambridge _( located Sorrento )_ )_ )_ )_
+break
+restaurant _( Wrestlers family friendly rating _( low customer )_ )_
+break
+located _( restaurant _( family friendly called Phoenix )_ Sorrento )_
+break
+shop _( Wrestlers coffee providing _( food Chinese )_ range _( £ _( 25 20 )_ price )_ )_
+located _( It riverside )_
+Cuisine _( It Indian Raja )_
+break
+shop _( Wrestlers coffee providing _( food Chinese )_ range _( cheap price )_ )_
+located _( It riverside )_
+Cuisine _( It Indian Raja )_
+break
+shop _( Wrestlers coffee providing _( food Chinese )_ range _( high price )_ )_
+located _( It centre city )_
+Cuisine _( It Indian Raja )_
+break
+shop _( Wrestlers coffee providing _( food Chinese )_ range _( high price )_ )_
+located _( It centre city )_
+Cuisine _( It Indian Raja )_
+break
+shop _( Wrestlers coffee providing _( food Chinese )_ range _( high price )_ )_
+located _( It riverside )_
+Cuisine _( It Indian Raja )_
+break
+shop _( Wrestlers coffee providing _( food Chinese )_ range _( high price )_ )_
+located _( It riverside )_
+Cuisine _( It Indian Raja )_
+break
+shop _( Wrestlers coffee providing _( food Chinese )_ range _( £ less price 20 )_ )_
+located _( It centre city )_
+Cuisine _( It Indian Raja )_
+break
+shop _( Wrestlers coffee providing _( food Chinese )_ range _( £ less price 20 )_ )_
+located _( It centre city )_
+Cuisine _( It Indian Raja )_
+break
+shop _( Wrestlers coffee providing _( food Chinese )_ range _( £ less price 20 )_ )_
+located _( It riverside )_
+Cuisine _( It Indian Raja )_
+break
+shop _( Wrestlers coffee providing _( food Chinese )_ range _( £ less price 20 )_ )_
+located _( It riverside )_
+Cuisine _( It Indian Raja )_
+break
+shop _( Wrestlers coffee providing _( food Chinese )_ range _( moderate price )_ )_
+located _( It centre city )_
+Cuisine _( It Indian Raja )_
+break
+shop _( Wrestlers coffee providing _( food Chinese )_ range _( moderate price )_ )_
+located _( It centre city )_
+Cuisine _( It Indian Raja )_
+break
+shop _( Wrestlers coffee providing _( food Chinese )_ range _( moderate price )_ )_
+located _( It riverside )_
+Cuisine _( It Indian Raja )_
+break
+shop _( Wrestlers coffee providing _( food Chinese )_ range _( moderate price )_ )_
+located _( It riverside )_
+Cuisine _( It Indian Raja )_
+break
+shop _( Wrestlers coffee providing _( food Chinese )_ range _( more £ 30 price )_ )_
+located _( It riverside )_
+Cuisine _( It Indian Raja )_
+break
+shop _( Wrestlers kid friendly coffee serves _( food English )_ )_
+located _( It Cuisine _( Raja Indian riverside )_ )_
+break
+shop _( Wrestlers coffee providing _( food English )_ range _( cheap price )_ )_
+located _( It riverside )_
+Cuisine _( It Indian Raja )_
+break
+located _( shop _( Wrestlers coffee )_ centre _( city Cuisine _( Indian Raja )_ )_ )_
+serves _( It food English range _( high price )_ children _( and not friendly )_ )_
+break
+shop _( Wrestlers children friendly coffee serves _( food English )_ )_
+located _( It centre _( city Cuisine _( Raja Indian )_ )_ )_
+break
+shop _( Wrestlers coffee Cuisine _( Raja Indian riverside )_ )_
+serves _( It food English range _( high price )_ friendly _( and not child )_ )_
+break
+shop _( Wrestlers children friendly coffee serves _( food English )_ )_
+located _( It riverside _( Cuisine _( Indian Raja )_ )_ )_
+break
+shop _( Wrestlers coffee providing _( food English )_ range _( £ less price 20 )_ )_
+located _( It centre city )_
+Cuisine _( It Indian Raja )_
+break
+shop _( Wrestlers coffee providing _( food English )_ range _( £ less price 20 )_ )_
+located _( It centre _( city Cuisine _( Raja Indian )_ )_ )_
+break
+shop _( Wrestlers coffee providing _( food English )_ range _( £ less price 20 )_ )_
+located _( It riverside )_
+Cuisine _( It Indian Raja )_
+break
+shop _( Wrestlers friendly family coffee serves _( food English £ _( less 20 )_ )_ )_
+located _( It riverside _( Cuisine _( Raja Indian )_ )_ )_
+break
+shop _( Wrestlers coffee providing _( food English )_ range _( moderate price )_ )_
+located _( It centre city )_
+Cuisine _( It Indian Raja )_
+break
+shop _( Wrestlers priced moderately coffee centre _( city Cuisine _( Indian Raja )_ )_ )_
+kid _( It friendly serves _( and food English )_ )_
+break
+shop _( Wrestlers priced moderately coffee located _( Cuisine _( Raja Indian )_ )_ )_
+break
+shop _( Wrestlers priced moderately coffee located _( Cuisine _( Raja Indian )_ )_ )_
+break
+shop _( Wrestlers children friendly coffee serves _( food English )_ )_
+located _( It riverside _( Cuisine _( Indian Raja )_ )_ )_
+break
+is _( restaurant _( priced low star 1 called _( Wrestlers _( located _( Cuisine _( Indian Raja )_ )_ )_ )_ )_ )_
+break
+is _( restaurant _( riverside _( Cuisine _( Indian Raja )_ )_ )_ )_
+called _( It Wrestlers has _( and rating _( customer 3 5 )_ )_ )_
+break
+Located _( centre city restaurant _( Indian called _( Cuisine _( Indian Raja )_ )_ )_ )_
+has _( It out _( 5 rating _( 5 customer )_ )_ range _( and price £ _( less 20 )_ )_ )_
+break
+is _( restaurant _( called _( Wrestlers _( located _( Cuisine _( Indian Raja )_ )_ )_ )_ )_ )_
+break
+restaurant _( centre _( city Cuisine _( Raja Indian )_ )_ priced moderately called _( Wrestlers _( rating _( average customer )_ )_ )_ )_
+break
+is _( restaurant _( riverside Indian called _( Wrestlers _( located _( Cuisine _( Raja Indian )_ )_ )_ )_ )_ )_
+break
+restaurant _( Cuisine _( Raja Near Indian riverside )_ high priced called _( Spice Blue )_ )_
+break
+is _( restaurant _( centre _( city Cuisine _( Indian Raja )_ )_ )_ )_
+called _( It Wrestlers has _( and rating _( low customer )_ )_ )_
+break
+is _( restaurant _( riverside _( Cuisine _( Indian Raja )_ )_ )_ )_
+called _( It Wrestlers has _( and rating _( low customer )_ )_ )_
+break
+shop _( Wildwood coffee providing _( food Chinese )_ range _( £ _( 25 20 )_ price )_ )_
+Ranch It
+high _( rating _( Its customer )_ )_
+break
+shop _( Wildwood coffee providing _( food Chinese )_ range _( cheap price )_ )_
+Ranch It
+5 _( rating _( Its customer )_ 5 )_
+break
+shop _( Wildwood coffee providing _( food Chinese )_ range _( cheap price )_ )_
+Ranch It
+average _( rating _( Its customer )_ )_
+break
+shop _( Wildwood coffee providing _( food Chinese )_ range _( high price )_ )_
+Ranch It
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Wildwood coffee providing _( food Chinese )_ range _( high price )_ )_
+Ranch It
+average _( rating _( Its customer )_ )_
+break
+shop _( Wildwood coffee providing _( food Chinese )_ range _( £ less price 20 )_ )_
+Ranch It
+low _( rating _( Its customer )_ )_
+break
+shop _( Wildwood coffee providing _( food Chinese )_ range _( moderate price )_ )_
+Ranch It
+1 _( rating _( Its customer )_ 5 )_
+break
+shop _( Wildwood coffee providing _( food Chinese )_ range _( moderate price )_ )_
+Ranch It
+3 _( rating _( Its customer )_ 5 )_
+break
+shop _( Wildwood coffee providing _( food Chinese )_ range _( more £ 30 price )_ )_
+Ranch It
+high _( rating _( Its customer )_ )_
+break
+shop _( Wildwood coffee Ranch )_
+has _( It rating _( high customer range _( and price 20 _( £ 25 )_ )_ )_ )_
+break
+shop _( Wildwood coffee Ranch )_
+serves _( It food _( cheap English )_ has _( and rating _( customer 5 5 )_ )_ )_
+break
+shop _( Wildwood coffee Ranch )_
+serves _( It food _( cheap English )_ has _( and rating _( average customer )_ )_ )_
+break
+shop _( Wildwood expensive coffee Ranch )_
+has _( It rating _( customer 1 5 )_ )_
+break
+shop _( Wildwood expensive coffee Ranch )_
+break
+shop _( Wildwood coffee Ranch )_
+serves _( It food English £ _( less 20 )_ has _( and rating _( low customer )_ )_ )_
+break
+shop _( Wildwood priced moderately coffee Ranch )_
+has _( It rating _( customer 1 5 )_ )_
+break
+shop _( Wildwood priced moderately coffee located Ranch )_
+break

@@ -1,6 +1,7 @@
 import argparse
 import os
 import re
+import csv
 from collections import deque
 import pyconll
 from pyconll.tree import SentenceTree
@@ -102,122 +103,91 @@ def  get_ud_sent_tokens(sentence, vocab=None):
         if vocab and this_form in vocab:
             tokens.append(this_form)
         elif vocab:
-            if token.xpos:
-                tokens.append('unk_' + token.xpos)
+            # We've decided to add deprel as well just to make the unk more
+            # informative, maybe this will mess with things too much and we'll
+            # have to switch back
+            if token.xpos and token.deprel:
+                tokens.append('_'.join(['unk', token.xpos]))
             else:
                 tokens.append('unk')
         else:
             tokens.append(this_form)
     return tokens
 
+def get_mr_source_tokens(e2e_mr):
+    mr_tokens = []
+    for act in e2e_mr:
+        act_type = act[0:act.find('[')].replace(' ', '')
+        mr_tokens.append(act_type + '_(')
+        value = act[act.find('[')+1:act.find(']')]
+        value = re.sub(r'£',r'£ ', value)
+        value = re.sub(r'-',r' - ', value)
+        mr_tokens.append(value)
+        mr_tokens.append(')_' + act_type)
+    return mr_tokens
 
 def main():
-    parser = argparse.ArgumentParser(description='create source and target')
-    parser.add_argument('-f', '--filtered_udpipe_file_name', help='filtered udpipe output')
-    parser.add_argument('-d', '--deep_parser_file_name', help='deep parser output')
+    parser = argparse.ArgumentParser(description='''process lots of input files
+                                     to produce the source and target files for
+                                     the different models we will train''')
+    # inputs
+    parser.add_argument('-e', '--e2e_data_file_name', help='original e2e file')
+    parser.add_argument('-u', '--udpipe_file_name', help='udpipe output')
+    parser.add_argument('-d', '--deep_parser_file_name',
+                        help='''deep parser output, expected to end in .dev or .train''')
+    parser.add_argument('--vocab_file', default='',
+                        help='vocab file with one word per line, optional')
+    # outputs
     parser.add_argument('-c', '--content_selection_dir_name', help='output directory')
-    # parser.add_argument('-s', '--surface_realization_dir_name', help='output dir')
+    parser.add_argument('-s', '--surface_realization_dir_name', help='output dir')
+    # processing options
     parser.add_argument('--add_scope_markers', action='store_true',
                         help='add parentheses around linearized nodes')
     parser.add_argument('--original_sentence_order', action='store_true',
                         help='order tokens based on the original sentence')
-    parser.add_argument('--vocab_file', default='',
-                        help='vocab file with one word per line')
     args = parser.parse_args()
 
-    # with open(args.filtered_udpipe_file_name) as in_file:
-    #     udpipe_input = in_file.read().replace('# newdoc\n', '')
-    # sections = udpipe_input.split('# new_par')
-    ud_sents = pyconll.load.iter_from_file(args.filtered_udpipe_file_name)
+    e2e_lines = csv.reader(open(args.e2e_data_file_name))
+    # skip the header
+    next(e2e_lines)
     deep_sents = pyconll.load.iter_from_file(args.deep_parser_file_name)
-
-    # TODO
-    # load file containing tokens in vocab into a set
+    ud_sents = pyconll.load.iter_from_file(args.udpipe_file_name)
     vocab = set()
     if args.vocab_file:
         vocab = set(line.strip() for line in open(args.vocab_file))
 
     content_selection_src = []
-    # content_selection_tgt = []
-    # surface_realization_src = []
-    # surface_realization_tgt = []
+    content_selection_tgt = []
+    surface_realization_src = []
+    surface_realization_tgt = []
 
-    # we read it's much quicker to join a list of strings than keep a
-    # continuously updating string https://waymoot.org/home/python_string/
-
-    # TODO We realize now it would be quicker to load an iter of both files.
-    # and figure out how to check the comments above each conllu for special
-    # markers to indicate that it's a new paragraph
-    # for section in tqdm(sections):
-        # this_section = pyconll.load.iter_from_string(section)
-        # keeping a rolling context with max length of src + tgt of 200
-    context_sents = deque()
-    num_context_sents_toks = 0
+    # We're keeping a rolling list in case an utterance is more than one
+    # sentence
+    deep_utterance = []
     for sent in tqdm(ud_sents):
-        # TODO
-        # Get a better paragraph / delimiter scheme that's more in line with
-        # what pyconll expects
-        # Reset the values each new paragraph / section
-        if sent.meta_present("new_par"):
-            if context_sents:
-                content_selection_src.append(' '.join(context_sents))
-            context_sents = deque()
-            num_context_sents_toks = 0
+        if sent.meta_present("newpar"):
+            if deep_utterance:
+                e2e_mr = next(e2e_lines)[0].split(', ')
+                e2e_mr_tokens = get_mr_source_tokens(e2e_mr)
+                content_selection_src.append(' '.join(e2e_mr_tokens))
+                content_selection_tgt.append(' '.join(deep_utterance))
+            deep_utterance = []
         deep_sent_conll = next(deep_sents)
         deep_sent_tokens = process_deep_ud(deep_sent_conll, args, vocab)
-        # ud_sent_tokens = get_ud_sent_tokens(sent, vocab)
-        num_deep_sent_toks = len(deep_sent_tokens)
-        # Not interested right now in keeping a specific context
-        # if num_context_sents_toks > 150:
-        #     # remove sentences until total tokens is under 150
-        #     while True:
-        #         if 'new_sent' not in context_sents:
-        #             # this techincally speaking shouldn't happen because we
-        #             # have already filtered out all sentences with more
-        #             # than 100 tokens
-        #             context_sents = deque()
-        #             num_context_sents_toks = 0
-        #             print(num_context_sents_toks, num_deep_sent_toks)
-        #             break
-        #         cur_token = context_sents.popleft()
-        #         num_context_sents_toks -= 1
-        #         if cur_token == 'new_sent' and \
-        #              num_context_sents_toks <= 150:
-        #             break
-        # We've decided to avoid deep representations with greater than 35
-        # tokens. The percentage this accounts for varies based on dataset
-        # num_ud_sent_tokens = len(ud_sent_tokens)
-        # TODO change from 35 to allow for longer when scoping
-        if num_deep_sent_toks <= 35:
-            # Append to context sents when deep tokens is short enough
-            if context_sents:
-                context_sents.extend(['new_sent'] + deep_sent_tokens)
-                num_context_sents_toks += 1 + num_deep_sent_toks
-            else:
-                context_sents.extend(deep_sent_tokens)
-                num_context_sents_toks += num_deep_sent_toks
-            # needs at least 1 sentence context
-            # if context_sents:
-            #     content_selection_src.append(' '.join(context_sents))
-            #     content_selection_tgt.append(' '.join(deep_sent_tokens))
-            # we limit target surfacer realization sents to 50 tokens
-            # if num_ud_sent_tokens <= 50:
-            #     surface_realization_src.append(' '.join(deep_sent_tokens))
-            #     surface_realization_tgt.append(' '.join(ud_sent_tokens))
+        ud_sent_tokens = get_ud_sent_tokens(sent, vocab)
+        surface_realization_src.append(' '.join(deep_sent_tokens))
+        surface_realization_tgt.append(' '.join(ud_sent_tokens))
+        if deep_utterance:
+            deep_utterance.extend(['new_sent'] + deep_sent_tokens)
         else:
-            # If the sentence deep num tokens too long then skip it and append
-            # to the content selectin list
-            if context_sents:
-                content_selection_src.append(' '.join(context_sents))
-            context_sents = deque()
-            num_context_sents_toks = 0
-
-
+            deep_utterance.extend(deep_sent_tokens)
 
     input_file_root = \
         os.path.basename(os.path.splitext(args.deep_parser_file_name)[0])
     # whether it's .train, .dev or .test
     input_file_data_split = os.path.splitext(args.deep_parser_file_name)[1]
+    print("expect the end of the deep file to indicate what data split this is: ",
+          input_file_data_split)
 
     content_selection_src_file_name = \
         os.path.join(args.content_selection_dir_name,
@@ -225,25 +195,25 @@ def main():
                      + input_file_data_split + '.src')
     with open(content_selection_src_file_name, 'w') as out_file:
         out_file.write('\n'.join(content_selection_src))
-    # content_selection_tgt_file_name = \
-    #     os.path.join(args.content_selection_dir_name,
-    #                  input_file_root + '.content_selection'
-    #                  + input_file_data_split + '.tgt')
-    # with open(content_selection_tgt_file_name, 'w') as out_file:
-    #     out_file.write('\n'.join(content_selection_tgt))
+    content_selection_tgt_file_name = \
+        os.path.join(args.content_selection_dir_name,
+                     input_file_root + '.content_selection'
+                     + input_file_data_split + '.tgt')
+    with open(content_selection_tgt_file_name, 'w') as out_file:
+        out_file.write('\n'.join(content_selection_tgt))
 
-    # surface_realization_src_file_name = \
-    #     os.path.join(args.surface_realization_dir_name,
-    #                  input_file_root + '.surface_realization'
-    #                  + input_file_data_split + '.src')
-    # with open(surface_realization_src_file_name, 'w') as out_file:
-    #     out_file.write('\n'.join(surface_realization_src))
-    # surface_realization_tgt_file_name = \
-    #     os.path.join(args.surface_realization_dir_name,
-    #                  input_file_root + '.surface_realization'
-    #                  + input_file_data_split + '.tgt')
-    # with open(surface_realization_tgt_file_name, 'w') as out_file:
-    #     out_file.write('\n'.join(surface_realization_tgt))
+    surface_realization_src_file_name = \
+        os.path.join(args.surface_realization_dir_name,
+                     input_file_root + '.surface_realization'
+                     + input_file_data_split + '.src')
+    with open(surface_realization_src_file_name, 'w') as out_file:
+        out_file.write('\n'.join(surface_realization_src))
+    surface_realization_tgt_file_name = \
+        os.path.join(args.surface_realization_dir_name,
+                     input_file_root + '.surface_realization'
+                     + input_file_data_split + '.tgt')
+    with open(surface_realization_tgt_file_name, 'w') as out_file:
+        out_file.write('\n'.join(surface_realization_tgt))
 
 
 if __name__ == '__main__':

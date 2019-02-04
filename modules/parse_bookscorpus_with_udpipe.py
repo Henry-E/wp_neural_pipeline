@@ -26,12 +26,21 @@ def main():
     args = parser.parse_args()
     # num_stories_per_chunk = 300
     shard_size = 4000
-    num_shards = 7300
+    # num_shards = 7300
+    # this is roughly how many there are for e2e
+    num_shards = 11
     model = 'model={}'.format(args.model_name)
     # in this case, the data is already tokenized, with sents on separate lines
+    # udpipe_api_template = ['curl', '-F', 'data=@{upload_file_name}',
+    #                        '-F', model,
+    #                        '-F', 'input=horizontal',
+    #                        '-F', 'tagger=', '-F', 'parser=',
+    #            'http://lindat.mff.cuni.cz/services/udpipe/api/process']
+    # This one is for when the tagging and sentence tokenization needs to be
+    # done by udpipe
     udpipe_api_template = ['curl', '-F', 'data=@{upload_file_name}',
                            '-F', model,
-                           '-F', 'input=horizontal',
+                           '-F', 'tokenizer=',
                            '-F', 'tagger=', '-F', 'parser=',
                'http://lindat.mff.cuni.cz/services/udpipe/api/process']
     for input_file_name in args.input_file_names:
