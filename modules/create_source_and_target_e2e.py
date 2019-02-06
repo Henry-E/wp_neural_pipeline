@@ -114,16 +114,42 @@ def  get_ud_sent_tokens(sentence, vocab=None):
             tokens.append(this_form)
     return tokens
 
-def get_mr_source_tokens(e2e_mr):
+def get_mr_source_tokens(e2e_mr, tokenize_mr=False):
     mr_tokens = []
-    for act in e2e_mr:
-        act_type = act[0:act.find('[')].replace(' ', '')
-        mr_tokens.append(act_type + '_(')
-        value = act[act.find('[')+1:act.find(']')]
-        value = re.sub(r'£',r'£ ', value)
-        value = re.sub(r'-',r' - ', value)
-        mr_tokens.append(value)
-        mr_tokens.append(')_' + act_type)
+    if tokenize_mr:
+        pass
+        for act in e2e_mr:
+            # maybe replace the replace with a strip instead?
+            act_type = act[0:act.find('[')].strip()
+            # we're tokenizing the two word act types
+            act_type = re.sub(r'(family|eat|price)', r'\1 ', act_type)
+            mr_tokens.extend(act_type.split())
+            if act_type == 'name' or act_type == 'near':
+                # the delexicalized act types
+                mr_tokens.append('x' + act_type)
+            else:
+                value = act[act.find('[')+1:act.find(']')]
+                value = re.sub(r'£', r'£ ', value)
+                value = re.sub(r'-', r' - ', value)
+                mr_tokens.append(value)
+            mr_tokens.append(',')
+    else:
+        # if we don't tokenize we turn everything into a single token, just
+        # acttype_actvalue
+        # we are testing getting rid of the comma delimiter as well
+        for act in e2e_mr:
+            act_type = act[0:act.find('[')].replace(' ', '')
+            if act_type == 'name' or act_type == 'near':
+                # the delexicalized act types
+                mr_tokens.append('x' + act_type)
+            else:
+                # mr_tokens.append(act_type + ':')
+                value = act[act.find('[')+1:act.find(']')].replace(' ', '')
+                mr_tokens.append(act_type + '_' + value)
+            # mr_tokens.append(',')
+    if tokenize_mr:
+        # We remove the final , comma at the end of the list
+        mr_tokens.pop()
     return mr_tokens
 
 def main():
@@ -145,6 +171,8 @@ def main():
                         help='add parentheses around linearized nodes')
     parser.add_argument('--original_sentence_order', action='store_true',
                         help='order tokens based on the original sentence')
+    parser.add_argument('--tokenize_mr', action='store_true',
+                        help='split apart the MR acts in small tokens')
     args = parser.parse_args()
 
     e2e_lines = csv.reader(open(args.e2e_data_file_name))
@@ -168,7 +196,7 @@ def main():
         if sent.meta_present("newpar"):
             if deep_utterance:
                 e2e_mr = next(e2e_lines)[0].split(', ')
-                e2e_mr_tokens = get_mr_source_tokens(e2e_mr)
+                e2e_mr_tokens = get_mr_source_tokens(e2e_mr, args.tokenize_mr)
                 content_selection_src.append(' '.join(e2e_mr_tokens))
                 content_selection_tgt.append(' '.join(deep_utterance))
             deep_utterance = []

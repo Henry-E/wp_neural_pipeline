@@ -28,7 +28,7 @@ def main():
     shard_size = 4000
     # num_shards = 7300
     # this is roughly how many there are for e2e
-    num_shards = 11
+    num_shards = 22
     model = 'model={}'.format(args.model_name)
     # in this case, the data is already tokenized, with sents on separate lines
     # udpipe_api_template = ['curl', '-F', 'data=@{upload_file_name}',

@@ -10,3 +10,5 @@ bookscorpus_data_processing/
 udpipe/
 deep_parse/
 utterances/
+tgen_processed_data/
+*_data_processing/
