@@ -1,0 +1,547 @@
+centre _( xname city )_ new_sent friendly _( it not family )_
+located _( xname centre _( city xnear )_ )_ new_sent friendly _( it not family )_
+restaurant _( xname friendly family centre city )_
+restaurant _( xname friendly family centre _( city xnear )_ )_
+friendly _( xname not family located _( and area riverside )_ )_
+located _( xname riverside xnear )_ new_sent friendly _( it not family )_
+restaurant _( xname child friendly area riverside )_
+located _( xname riverside xnear friendly _( and child )_ )_
+shop _( xname coffee providing _( food chinese )_ located _( it riverside )_ )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname kid friendly coffee located _( riverside _( serves _( food chinese )_ )_ )_ )_
+shop _( xname coffee providing _( food chinese )_ located _( it centre city )_ )_ new_sent 5 _( rating _( its customer )_ 5 )_
+shop _( xname friendly family coffee centre _( city serves _( food chinese )_ )_ )_ new_sent has _( it rating _( customer 5 5 )_ )_
+shop _( xname coffee providing _( food chinese )_ located _( it riverside )_ )_ new_sent 5 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ located _( it riverside )_ )_ new_sent 5 _( rating _( its customer )_ 5 )_
+shop _( xname coffee centre _( city serves _( food chinese )_ )_ )_ new_sent has _( it rating _( average customer )_ friendly _( and not family )_ )_
+shop _( xname friendly family coffee centre _( city serves _( food chinese )_ )_ )_ new_sent has _( it rating _( average customer )_ )_
+shop _( xname coffee providing _( food chinese )_ located _( it riverside )_ )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ located _( it riverside )_ )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ located _( it riverside )_ )_ new_sent high _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ located _( it centre city )_ )_ new_sent low _( rating _( its customer )_ )_
+shop _( xname friendly family coffee centre _( city serves _( food chinese )_ )_ )_ new_sent has _( it rating _( low customer )_ )_
+shop _( xname coffee providing _( food chinese )_ located _( it riverside )_ )_ new_sent low _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ located _( it riverside )_ )_ new_sent low _( rating _( its customer )_ )_
+shop _( xname kid friendly coffee serves _( food english )_ )_ new_sent located _( it riverside has _( and rating _( customer 1 5 )_ )_ )_
+shop _( xname kid friendly coffee area riverside )_ new_sent serves _( it food english has _( and rating _( customer 3 5 )_ )_ )_
+shop _( xname friendly _( family non )_ english coffee located _( centre city rating _( customer 5 5 )_ )_ )_
+shop _( xname friendly family coffee centre _( city serves _( food english )_ )_ )_ new_sent has _( it rating _( customer 5 5 )_ )_
+shop _( xname coffee located _( riverside _( serves _( food english )_ )_ )_ )_ new_sent has _( it rating _( customer 5 5 )_ friendly _( and not family )_ )_
+shop _( xname friendly family coffee serves _( food english )_ )_ new_sent located _( it riverside has _( and rating _( customer 5 5 )_ )_ )_
+shop _( xname coffee centre _( city serves _( food english )_ )_ )_ new_sent friendly _( it not family has _( and rating _( average customer )_ )_ )_
+shop _( xname friendly family coffee centre _( city serves _( food english )_ )_ )_ new_sent has _( it rating _( average customer )_ )_
+shop _( xname coffee serving _( food english )_ )_ new_sent has _( it rating _( average customer )_ friendly _( and not family )_ )_ new_sent located _( it riverside )_
+shop _( xname friendly family coffee rating _( star three )_ )_
+shop _( xname rated highly child friendly coffee serves _( food english )_ )_ new_sent located _( it riverside )_
+shop _( xname friendly _( family non )_ coffee located _( centre city rating _( low customer )_ )_ )_
+shop _( xname friendly family coffee centre _( city serves _( food english )_ )_ )_ new_sent has _( it rating _( low customer )_ )_
+shop _( xname coffee providing _( food english )_ )_ new_sent located _( it riverside )_
+shop _( xname friendly family coffee serves _( food english )_ )_ new_sent located _( it riverside has _( and rating _( low customer )_ )_ )_
+restaurant _( xname located _( centre _( city xnear )_ )_ )_
+xnear _( xname riverside near )_
+shop _( xname coffee providing _( food chinese )_ located _( it riverside )_ )_ new_sent xnear _( it near )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname kid friendly coffee located _( riverside xnear )_ )_ new_sent serves _( it food chinese has _( and rating _( customer 3 5 )_ )_ )_
+shop _( xname coffee providing _( food chinese )_ located _( it centre city )_ )_ new_sent xnear _( it near )_ new_sent 5 _( rating _( its customer )_ 5 )_
+shop _( xname friendly family coffee centre _( city xnear )_ )_ new_sent serves _( it food chinese has _( and rating _( customer 5 5 )_ )_ )_
+shop _( xname coffee providing _( food chinese )_ located _( it riverside )_ )_ new_sent xnear _( it near )_ new_sent 5 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ )_ new_sent located _( it riverside xnear )_ new_sent 5 _( rating _( its customer )_ 5 )_
+shop _( xname friendly _( family non )_ coffee centre _( city xnear )_ )_ new_sent serves _( it food chinese has _( and rating _( average customer )_ )_ )_
+shop _( xname friendly family coffee centre _( city xnear )_ )_ new_sent serves _( it food chinese has _( and rating _( average customer )_ )_ )_
+shop _( xname coffee providing _( food chinese )_ located _( it riverside )_ )_ new_sent xnear _( it near )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ located _( it riverside )_ )_ new_sent xnear _( it near )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ located _( it riverside )_ )_ new_sent xnear _( it near )_ new_sent high _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ located _( it centre city )_ )_ new_sent xnear _( it near )_ new_sent low _( rating _( its customer )_ )_
+shop _( xname friendly family coffee centre _( city xnear )_ )_ new_sent serves _( it food chinese has _( and rating _( low customer )_ )_ )_
+shop _( xname coffee providing _( food chinese )_ located _( it riverside )_ )_ new_sent xnear _( it near )_ new_sent low _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ located _( it riverside )_ )_ new_sent xnear _( it near )_ new_sent low _( rating _( its customer )_ )_
+shop _( xname kid friendly coffee located _( riverside xnear )_ )_ new_sent serves _( it food english has _( and rating _( customer 1 5 )_ )_ )_
+shop _( xname kid friendly coffee located _( riverside xnear )_ )_ new_sent serves _( it food english has _( and rating _( customer 3 5 )_ )_ )_
+shop _( xname friendly _( family non )_ english coffee located _( centre city xnear )_ )_ new_sent has _( it rating _( customer 5 5 )_ )_
+shop _( xname friendly family coffee centre _( city xnear )_ )_ new_sent serves _( it food english has _( and rating _( customer 5 5 )_ )_ )_
+shop _( xname coffee serving _( food _( english located _( riverside xnear )_ )_ )_ )_ new_sent has _( it rating _( customer 5 5 )_ friendly _( and not family )_ )_
+shop _( xname friendly family coffee serving _( food english )_ )_ new_sent located _( it riverside xnear has _( and rating _( customer 5 5 )_ )_ )_
+shop _( xname friendly _( family non )_ coffee centre _( city xnear )_ )_ new_sent serves _( it food english has _( and rating _( average customer )_ )_ )_
+shop _( xname friendly family coffee centre _( city xnear )_ )_ new_sent serves _( it food english has _( and rating _( average customer )_ )_ )_
+shop _( xname coffee serving _( food _( english located _( riverside xnear )_ )_ )_ )_ new_sent friendly _( it not family has _( and rating _( average customer )_ )_ )_
+shop _( xname friendly family coffee serves _( food english )_ )_ new_sent located _( it riverside xnear has _( and rating _( average customer )_ )_ )_
+shop _( xname child friendly coffee serves _( food english )_ )_ new_sent located _( it riverside xnear has _( and rating _( high customer )_ )_ )_
+shop _( xname friendly _( family non )_ coffee centre _( city xnear )_ )_ new_sent serves _( it food english has _( and rating _( low customer )_ )_ )_
+shop _( xname friendly family coffee centre _( city xnear )_ )_ new_sent serves _( it food english has _( and rating _( low customer )_ )_ )_
+shop _( xname coffee serving _( food _( english located _( riverside xnear )_ )_ )_ )_ new_sent friendly _( it not family has _( and rating _( low customer )_ )_ )_
+shop _( xname friendly family coffee serving _( food english )_ )_ new_sent located _( it riverside xnear has _( and rating _( low customer )_ )_ )_
+shop _( xname coffee providing _( food chinese )_ located _( it riverside )_ )_ new_sent xnear _( it near )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ located _( it riverside )_ )_ new_sent xnear _( it near )_ new_sent 3 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ located _( it centre city )_ )_ new_sent xnear _( it near )_ new_sent 5 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ located _( it riverside )_ )_ new_sent xnear _( it near )_ new_sent 5 _( rating _( its customer )_ 5 )_
+shop _( xname coffee centre _( city xnear )_ )_ new_sent serves _( it food chinese has _( and rating _( average customer )_ )_ )_
+shop _( xname coffee providing _( food chinese )_ located _( it riverside )_ )_ new_sent xnear _( it near )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ located _( it riverside )_ )_ new_sent xnear _( it near )_ new_sent high _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ located _( it centre city )_ )_ new_sent xnear _( it near )_ new_sent low _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ located _( it riverside )_ )_ new_sent xnear _( it near )_ new_sent low _( rating _( its customer )_ )_
+shop _( xname coffee located _( riverside xnear )_ )_ new_sent serves _( it food english has _( and rating _( customer 1 5 )_ )_ )_
+shop _( xname coffee located _( riverside xnear )_ )_ new_sent serves _( it food english has _( and rating _( customer 3 5 )_ )_ )_
+shop _( xname english coffee located _( centre city xnear )_ )_ new_sent has _( it rating _( customer 5 5 )_ )_
+shop _( xname rated highly coffee serving _( food _( english xnear )_ )_ )_
+shop _( xname english coffee located _( centre city xnear )_ )_ new_sent has _( it rating _( average customer )_ )_
+shop _( xname coffee serves _( food english )_ )_ new_sent located _( it riverside xnear has _( and rating _( average customer )_ )_ )_
+shop _( xname rated highly coffee serving _( food _( english located _( riverside xnear )_ )_ )_ )_
+shop _( xname coffee serves _( food english )_ )_ new_sent located _( it centre _( city xnear )_ has _( and rating _( low customer )_ )_ )_
+shop _( xname coffee serves _( food english )_ )_ new_sent located _( it riverside xnear has _( and rating _( low customer )_ )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( £ _( 25 20 )_ price )_ high _( rating _( its customer )_ )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( £ _( 25 20 )_ price )_ high _( rating _( its customer )_ )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( cheap price )_ )_ new_sent 5 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( cheap price )_ )_ new_sent 5 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( cheap price )_ )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname cheap family friendly chinese coffee rating _( average customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( £ less price 20 )_ )_ new_sent low _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( £ less price 20 )_ )_ new_sent low _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent 3 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent 3 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( more £ 30 price )_ high _( rating _( its customer )_ )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( more £ 30 price )_ high _( rating _( its customer )_ )_ )_
+shop _( xname coffee providing _( food english )_ range _( £ _( 25 20 )_ price )_ )_ new_sent high _( rating _( its customer )_ )_
+shop _( xname rated highly kid friendly coffee serves _( food english range _( price 20 _( £ 25 )_ )_ )_ )_
+shop _( xname cheap coffee serves _( food english )_ )_ new_sent has _( it rating _( customer 5 5 )_ friendly _( and not family )_ )_
+shop _( xname cheap family friendly coffee serves _( food english )_ )_ new_sent has _( it rating _( customer 5 5 )_ )_
+shop _( xname cheap english coffee rating _( average customer )_ )_ new_sent family _( it not friendly )_
+shop _( xname cheap family friendly coffee serves _( food english )_ )_ new_sent has _( it rating _( average customer )_ )_
+shop _( xname coffee providing _( food english )_ range _( high price )_ )_ new_sent has _( it rating _( customer 1 5 )_ friendly _( and not child )_ )_
+shop _( xname priced high child friendly coffee serves _( food english )_ )_ new_sent has _( it rating _( customer 1 5 )_ )_
+shop _( xname high priced coffee serves _( food english )_ )_ new_sent friendly _( it not child has _( and rating _( average customer )_ )_ )_
+shop _( xname child friendly coffee serving _( food english )_ range _( high price rating _( and average customer )_ )_ )_
+shop _( xname coffee providing _( food english )_ range _( low price )_ )_ new_sent located _( it centre city )_
+shop _( xname friendly family coffee serving _( food _( english rating _( low customer )_ )_ )_ range _( and price £ _( less 20 )_ )_ )_
+shop _( xname priced moderately coffee serving _( food english )_ )_ new_sent kid _( it not friendly has _( and rating _( customer 1 5 )_ )_ )_
+shop _( xname priced moderately kid friendly coffee serves _( food english )_ )_ new_sent has _( it rating _( customer 1 5 )_ )_
+shop _( xname priced moderately coffee serving _( food english )_ )_ new_sent kid _( it not friendly has _( and rating _( customer 3 5 )_ )_ )_
+shop _( xname priced moderately kid friendly coffee serves _( food english )_ )_ new_sent has _( it rating _( customer 3 5 )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( £ _( 25 20 )_ price )_ )_ new_sent located _( it centre city )_ new_sent xnear _( it near )_ new_sent high _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( £ _( 25 20 )_ price )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_ new_sent high _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( cheap price )_ )_ new_sent located _( it centre city )_ new_sent xnear _( it near )_ new_sent 5 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( cheap price )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_ new_sent 5 _( rating _( its customer )_ 5 )_
+shop _( xname cheap chinese coffee centre _( city xnear )_ rating _( average customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( cheap price )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent located _( it centre city )_ new_sent xnear _( it near )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent located _( it centre city )_ new_sent xnear _( it near )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( £ less price 20 )_ )_ new_sent located _( it centre city )_ new_sent xnear _( it near )_ new_sent low _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( £ less price 20 )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_ new_sent low _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent located _( it centre city )_ new_sent xnear _( it near )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname priced moderately coffee centre _( city xnear )_ )_ new_sent serves _( it food chinese has _( and rating _( customer 3 5 )_ )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_ new_sent 3 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( more £ 30 price )_ )_ new_sent located _( it centre city )_ new_sent xnear _( it near )_ new_sent high _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( more £ 30 price )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_ new_sent high _( rating _( its customer )_ )_
+shop _( xname rated highly coffee xnear _( centre city )_ )_ new_sent serves _( it food english range _( price 20 _( £ 25 )_ )_ )_
+shop _( xname rated highly coffee serves _( food english )_ )_ new_sent located _( it riverside xnear )_ new_sent 20 _( range price £ 25 )_
+shop _( xname cheap english coffee centre _( city xnear )_ rating _( customer 5 5 )_ )_
+shop _( xname cheap coffee located xnear )_
+shop _( xname cheap coffee centre _( city xnear )_ )_ new_sent serves _( it food english has _( and rating _( average customer )_ )_ )_
+is _( shop _( cheap coffee called _( xname _( located xnear )_ )_ )_ )_
+shop _( xname priced high coffee centre _( city xnear )_ )_ new_sent serves _( it food english has _( and rating _( customer 1 5 )_ )_ )_
+shop _( xname priced high coffee serves _( food english )_ )_ new_sent located _( it riverside xnear has _( and rating _( customer 1 5 )_ )_ )_
+shop _( xname english coffee located _( centre city xnear )_ )_ new_sent has _( it range _( high price rating _( and average customer )_ )_ )_
+shop _( xname priced high coffee serving _( food _( english located _( riverside xnear )_ )_ )_ )_
+shop _( xname coffee serves _( food english )_ )_ new_sent located _( it centre _( city xnear )_ has _( and rating _( low customer )_ )_ )_
+shop _( xname coffee providing _( food english )_ range _( low price )_ )_ new_sent located _( it xnear )_
+shop _( xname priced moderately english coffee xnear centre city )_ new_sent has _( it rating _( customer 1 5 )_ )_
+shop _( xname priced moderately coffee serving _( food english )_ )_ new_sent located _( it riverside xnear has _( and rating _( customer 1 5 )_ )_ )_
+shop _( xname priced moderately coffee centre _( city xnear )_ )_ new_sent serves _( it food english has _( and rating _( customer 3 5 )_ )_ )_
+shop _( xname priced moderately coffee serving _( food _( english located _( riverside xnear )_ )_ )_ )_
+shop _( xname rated highly coffee serving _( food english )_ )_ new_sent located _( it centre _( city xnear )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( £ _( 25 20 )_ price )_ )_ new_sent located _( it centre city )_ new_sent high _( rating _( its customer )_ )_
+shop _( xname kid friendly coffee located _( centre city )_ )_ new_sent serves _( it food chinese range _( price 20 _( £ 25 )_ )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( £ _( 25 20 )_ price )_ )_ new_sent located _( it riverside )_ new_sent high _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( £ _( 25 20 )_ price )_ )_ new_sent located _( it riverside )_ new_sent high _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( cheap price )_ )_ new_sent located _( it centre city )_ new_sent 5 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( cheap price )_ )_ new_sent located _( it centre city )_ new_sent 5 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( cheap price )_ )_ new_sent located _( it riverside )_ new_sent 5 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( cheap price )_ )_ new_sent located _( it riverside )_ new_sent 5 _( rating _( its customer )_ 5 )_
+shop _( xname cheap chinese coffee centre city )_ new_sent has _( it rating _( average customer )_ friendly _( and not family )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( cheap price )_ )_ new_sent located _( it centre city )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( cheap price )_ )_ new_sent located _( it riverside )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( cheap price )_ )_ new_sent located _( it riverside )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent located _( it centre city )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent located _( it centre city )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent located _( it riverside )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent located _( it riverside )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent located _( it centre city )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent located _( it centre city )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent located _( it riverside )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent located _( it riverside )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( £ less price 20 )_ )_ new_sent located _( it centre city )_ new_sent low _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( £ less price 20 )_ )_ new_sent located _( it centre city )_ new_sent low _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( £ less price 20 )_ )_ new_sent located _( it riverside )_ new_sent low _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( £ less price 20 )_ )_ new_sent located _( it riverside )_ new_sent low _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent located _( it centre city )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent located _( it centre city )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent located _( it riverside )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent located _( it riverside )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent located _( it centre city )_ new_sent 3 _( rating _( its customer )_ 5 )_
+shop _( xname priced moderately coffee centre _( city serves _( food chinese )_ )_ )_ new_sent has _( it rating _( customer 3 5 )_ friendly _( and kid )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent located _( it riverside )_ new_sent 3 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent located _( it riverside )_ new_sent 3 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( more £ 30 price )_ )_ new_sent located _( it centre city )_ new_sent high _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( more £ 30 price )_ )_ new_sent located _( it centre city )_ new_sent high _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( more £ 30 price )_ )_ new_sent located _( it riverside )_ new_sent high _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( more £ 30 price )_ )_ new_sent located _( it riverside )_ new_sent high _( rating _( its customer )_ )_
+shop _( xname rated highly coffee centre _( city serves _( food english )_ )_ )_ new_sent has _( it range _( price £ _( 20 25 )_ )_ friendly _( and not child )_ )_
+shop _( xname kid friendly coffee located _( centre city )_ )_ new_sent serves _( it food english range _( price 20 _( £ 25 )_ )_ )_
+shop _( xname coffee providing _( food english )_ range _( £ _( 25 20 )_ price )_ )_ new_sent located _( it riverside )_
+shop _( xname kid friendly coffee located _( area riverside )_ )_ new_sent serves _( it food english range _( price 20 _( £ 25 )_ )_ )_
+shop _( xname cheap english coffee centre city )_ new_sent friendly _( it not family has _( and rating _( customer 5 5 )_ )_ )_
+shop _( xname friendly family coffee serving _( food _( cheap english )_ )_ )_ new_sent located _( it centre _( city rating _( customer 5 5 )_ )_ )_
+shop _( xname coffee providing _( food english )_ range _( low price )_ )_ new_sent located _( it centre city )_
+shop _( xname cheap family friendly coffee located _( centre city )_ )_
+shop _( xname friendly _( family non )_ english coffee located _( centre city rating _( average customer )_ )_ )_
+shop _( xname friendly family coffee serves _( food english )_ )_ new_sent located _( it centre _( city rating _( average customer )_ )_ )_
+shop _( xname coffee serving _( food _( cheap english )_ )_ )_ new_sent has _( it rating _( average customer )_ friendly _( and not family )_ )_ new_sent located _( it riverside )_
+shop _( xname cheap family friendly coffee serves _( food english )_ )_ new_sent located _( it riverside has _( and rating _( average customer )_ )_ )_
+shop _( xname coffee providing _( food english )_ range _( high price )_ )_ new_sent located _( it centre city )_
+shop _( xname children friendly coffee serves _( food english )_ )_ new_sent located _( it centre city )_ new_sent has _( it range _( high price rating _( and customer 1 5 )_ )_ )_
+shop _( xname coffee providing _( food english )_ range _( high price )_ )_ new_sent located _( it riverside )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname expensive coffee located _( centre city )_ )_
+shop _( xname priced high coffee centre _( city delivers _( away take )_ )_ )_
+shop _( xname children friendly coffee located _( centre city )_ )_ new_sent serves _( it food english range _( high price rating _( and average customer )_ )_ )_
+shop _( xname high priced coffee serves _( food english )_ )_ new_sent has _( it rating _( average customer )_ friendly _( and not child )_ )_
+shop _( xname child friendly coffee serves _( food english )_ )_ new_sent located _( it riverside has _( and rating _( average customer )_ )_ )_
+shop _( xname coffee providing _( food english )_ range _( low price )_ )_ new_sent located _( it centre city )_
+shop _( xname friendly family coffee serving _( food _( english located _( centre city rating _( low customer )_ )_ )_ )_ )_
+shop _( xname coffee providing _( food english )_ range _( low price )_ )_ new_sent located _( it centre city )_
+shop _( xname coffee providing _( food english )_ range _( low price )_ )_ new_sent located _( it centre city )_
+shop _( xname priced moderately coffee centre _( city delivers _( away take )_ )_ )_
+shop _( xname priced moderately kid friendly coffee centre _( city serves _( food english )_ )_ )_ new_sent has _( it rating _( customer 1 5 )_ )_
+shop _( xname coffee providing _( food english )_ range _( moderate price )_ )_ new_sent located _( it riverside )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname priced moderately kid friendly coffee serves _( food english )_ )_ new_sent located _( it riverside has _( and rating _( customer 1 5 )_ )_ )_
+shop _( xname priced moderately coffee centre _( city delivers _( away take )_ )_ )_
+shop _( xname priced moderately kid friendly coffee centre _( city serves _( food english )_ )_ )_ new_sent has _( it rating _( customer 3 5 )_ )_
+shop _( xname priced moderately english coffee riverside )_ new_sent has _( it rating _( customer 3 5 )_ friendly _( and not kid )_ )_
+shop _( xname kid friendly coffee serves _( food english )_ )_ new_sent located _( it area riverside has _( and rating _( customer 3 5 )_ )_ )_
+shop _( xname rated highly coffee centre _( city serves _( food english )_ )_ )_ new_sent has _( it range _( price 30 more )_ friendly _( and not child )_ )_
+shop _( xname rated highly child friendly coffee serves _( food english )_ )_ new_sent located _( it centre city )_
+shop _( xname rated highly coffee riverside )_ new_sent serves _( it food english range _( price more _( £ 30 )_ )_ friendly _( and not child )_ )_
+has _( xname rating _( customer 1 5 )_ located _( it xnear )_ )_
+has _( xname rating _( customer 3 5 )_ located _( and xnear )_ )_
+has _( xname rating _( customer 5 5 )_ located _( it xnear )_ )_
+has _( xname rating _( average customer )_ located _( and xnear )_ )_
+has _( xname rating _( high customer )_ located _( and xnear )_ )_
+has _( xname rating _( low customer )_ located _( and xnear )_ )_
+shop _( xname coffee providing _( food chinese )_ )_ new_sent located _( it centre _( city xnear )_ friendly _( and not family )_ )_
+shop _( xname friendly family coffee centre _( city xnear )_ )_
+shop _( xname coffee providing _( food chinese )_ located _( it riverside )_ )_ new_sent xnear _( it near )_
+shop _( xname friendly family coffee serving _( food chinese )_ )_ new_sent located _( it riverside xnear )_
+shop _( xname friendly _( family non )_ english coffee centre _( city xnear )_ )_
+shop _( xname friendly family coffee centre _( city xnear )_ )_ new_sent serves _( it food english )_
+shop _( xname coffee serving _( food _( english located _( riverside xnear )_ )_ )_ )_ new_sent friendly _( it not family )_
+shop _( xname friendly family coffee serving _( food english )_ )_ new_sent located _( it riverside xnear )_
+shop _( xname kid friendly coffee area riverside xnear )_ new_sent has _( it rating _( customer 1 5 )_ )_
+shop _( xname kid friendly coffee located _( riverside xnear )_ )_ new_sent has _( it rating _( customer 3 5 )_ )_
+shop _( xname coffee located _( centre city xnear )_ )_ new_sent has _( it rating _( customer 5 5 )_ friendly _( and not family )_ )_
+shop _( xname friendly family coffee centre _( city xnear )_ )_ new_sent has _( it rating _( customer 5 5 )_ )_
+shop _( xname coffee riverside xnear )_ new_sent has _( it rating _( customer 5 5 )_ friendly _( and not family )_ )_
+shop _( xname friendly family coffee xnear riverside )_ new_sent has _( it rating _( customer 5 5 )_ )_
+shop _( xname coffee located _( centre city xnear )_ )_ new_sent friendly _( it not family has _( and rating _( average customer )_ )_ )_
+shop _( xname friendly family coffee centre _( city xnear )_ )_ new_sent has _( it rating _( average customer )_ )_
+shop _( xname coffee located _( riverside xnear )_ )_ new_sent friendly _( it not family has _( and rating _( average customer )_ )_ )_
+shop _( xname friendly family coffee xnear area riverside rating _( average customer )_ )_
+shop _( xname child friendly coffee located _( riverside xnear )_ )_ new_sent has _( it rating _( high customer )_ )_
+shop _( xname coffee located _( centre city xnear )_ )_ new_sent friendly _( it not family has _( and rating _( low customer )_ )_ )_
+shop _( xname friendly family coffee centre _( city xnear )_ rating _( low customer )_ )_
+shop _( xname coffee located _( riverside xnear )_ )_ new_sent friendly _( it not family has _( and rating _( low customer )_ )_ )_
+shop _( xname friendly family coffee xnear area riverside rating _( low customer )_ )_
+shop _( xname coffee providing _( food chinese )_ xnear it )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname coffee serving _( food _( chinese xnear )_ )_ )_ new_sent has _( it rating _( customer 3 5 )_ friendly _( and kid )_ )_
+shop _( xname coffee providing _( food chinese )_ xnear it )_ new_sent 5 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent xnear _( it near )_ new_sent 5 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ xnear it )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ xnear it )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ xnear it )_ new_sent high _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ xnear it )_ new_sent low _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ xnear it )_ new_sent low _( rating _( its customer )_ )_
+shop _( xname kid friendly coffee xnear )_ new_sent serves _( it food english has _( and rating _( customer 1 5 )_ )_ )_
+shop _( xname kid friendly coffee xnear )_ new_sent serves _( it food english has _( and rating _( customer 3 5 )_ )_ )_
+shop _( xname rated highly coffee serving _( food _( english xnear )_ )_ )_ new_sent friendly _( it not family )_
+shop _( xname friendly family coffee xnear )_ new_sent serves _( it food english has _( and rating _( customer 5 5 )_ )_ )_
+shop _( xname english coffee xnear )_ new_sent friendly _( it not family has _( and rating _( average customer )_ )_ )_
+shop _( xname friendly family coffee serves _( food english )_ )_ new_sent located _( it xnear has _( and rating _( average customer )_ )_ )_
+shop _( xname rated highly child friendly coffee serves _( food english )_ )_ new_sent located _( it xnear )_
+shop _( xname coffee serving _( food _( english xnear )_ )_ )_ new_sent friendly _( it not family has _( and rating _( low customer )_ )_ )_
+shop _( xname friendly family coffee serving _( food _( english xnear )_ )_ rating _( low customer )_ )_
+restaurant _( xname kid friendly located _( riverside xnear )_ )_ new_sent has _( it rating _( customer 1 5 )_ )_
+restaurant _( xname kid friendly located _( riverside xnear )_ )_ new_sent has _( it rating _( customer 3 5 )_ )_
+located _( xname centre _( city xnear )_ )_ new_sent has _( it rating _( customer 5 5 )_ friendly _( and not family )_ )_
+restaurant _( xname friendly family located _( centre city xnear )_ )_ new_sent has _( it rating _( customer 5 5 )_ )_
+located _( xname riverside xnear )_ new_sent has _( it rating _( customer 5 5 )_ friendly _( and not family )_ )_
+restaurant _( xname family friendly area riverside xnear )_ new_sent has _( it rating _( customer 5 5 )_ )_
+located _( xname centre _( city xnear )_ )_ new_sent friendly _( it not family has _( and rating _( average customer )_ )_ )_
+restaurant _( xname friendly family rating _( average customer )_ )_ new_sent located _( it centre _( city xnear )_ )_
+located _( xname riverside xnear )_ new_sent friendly _( it not family has _( and rating _( average customer )_ )_ )_
+restaurant _( xname family friendly area riverside xnear )_ new_sent has _( it rating _( average customer )_ )_
+has _( xname rating _( high customer )_ friendly _( and child )_ )_ new_sent located _( it riverside xnear )_
+located _( xname centre _( city xnear )_ )_ new_sent friendly _( it not family has _( and rating _( low customer )_ )_ )_
+restaurant _( xname friendly family rating _( low customer )_ )_ new_sent located _( it centre _( city xnear )_ )_
+located _( xname riverside xnear )_ new_sent friendly _( it not family has _( and rating _( low customer )_ )_ )_
+restaurant _( xname family friendly located _( riverside xnear )_ )_ new_sent has _( it rating _( low customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( £ _( 25 20 )_ price )_ )_ new_sent located _( it centre city )_ new_sent xnear _( it near )_ new_sent high _( rating _( its customer )_ )_
+shop _( xname kid friendly coffee centre _( city xnear )_ )_ new_sent serves _( it food chinese range _( price 20 _( £ 25 )_ )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( £ _( 25 20 )_ price )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_ new_sent high _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( £ _( 25 20 )_ price )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_ new_sent high _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( cheap price )_ )_ new_sent located _( it centre city )_ new_sent xnear _( it near )_ new_sent 5 _( rating _( its customer )_ 5 )_
+shop _( xname friendly family coffee centre _( city xnear )_ )_ new_sent serves _( it food _( cheap chinese )_ has _( and rating _( customer 5 5 )_ )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( cheap price )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_ new_sent 5 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( cheap price )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_ new_sent 5 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( cheap price )_ )_ new_sent located _( it centre city )_ new_sent xnear _( it near )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( cheap price )_ )_ new_sent located _( it centre city )_ new_sent xnear _( it near )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( cheap price )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( cheap price )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent located _( it centre city )_ new_sent xnear _( it near )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent located _( it centre city )_ new_sent xnear _( it near )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent located _( it centre city )_ new_sent xnear _( it near )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent located _( it centre city )_ new_sent xnear _( it near )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( £ less price 20 )_ )_ new_sent located _( it centre city )_ new_sent xnear _( it near )_ new_sent low _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( £ less price 20 )_ )_ new_sent located _( it centre city )_ new_sent xnear _( it near )_ new_sent low _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( £ less price 20 )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_ new_sent low _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( £ less price 20 )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_ new_sent low _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent located _( it centre city )_ new_sent xnear _( it near )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent located _( it centre city )_ new_sent xnear _( it near )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent located _( it centre city )_ new_sent xnear _( it near )_ new_sent 3 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent located _( it centre city )_ new_sent xnear _( it near )_ new_sent 3 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_ new_sent 3 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_ new_sent 3 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( more £ 30 price )_ )_ new_sent located _( it centre city )_ new_sent xnear _( it near )_ new_sent high _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( more £ 30 price )_ )_ new_sent located _( it centre city )_ new_sent xnear _( it near )_ new_sent high _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( more £ 30 price )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_ new_sent high _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( more £ 30 price )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_ new_sent high _( rating _( its customer )_ )_
+shop _( xname rated highly coffee centre _( city xnear )_ )_ new_sent serves _( it food english range _( price 20 _( £ 25 )_ )_ )_ new_sent kid _( it not friendly )_
+shop _( xname kid friendly coffee centre _( city xnear )_ )_ new_sent serves _( it food english range _( price 20 _( £ 25 )_ )_ )_
+shop _( xname rated highly coffee serving _( food _( english located _( riverside xnear )_ )_ )_ )_
+shop _( xname kid friendly coffee located _( riverside xnear )_ )_ new_sent serves _( it food english range _( price 20 _( £ 25 )_ )_ )_
+shop _( xname cheap coffee centre _( city xnear )_ )_ new_sent serves _( it food english has _( and rating _( customer 5 5 )_ )_ friendly _( it not family )_ )_
+shop _( xname friendly family coffee centre _( city xnear )_ )_ new_sent serves _( it food _( cheap english )_ has _( and rating _( customer 5 5 )_ )_ )_
+shop _( xname coffee providing _( food english )_ range _( low price )_ )_ new_sent located _( it xnear )_
+shop _( xname cheap family friendly coffee serving _( food _( english located _( riverside xnear )_ )_ )_ )_ new_sent has _( it rating _( customer 5 5 )_ )_
+shop _( xname friendly _( family non )_ english coffee located _( centre city xnear )_ )_ new_sent has _( it range _( cheap price rating _( and average customer )_ )_ )_
+shop _( xname friendly family coffee serves _( food _( english located _( centre city xnear )_ )_ )_ )_
+shop _( xname coffee serving _( food _( cheap english )_ )_ )_ new_sent has _( it rating _( average customer )_ friendly _( and not family )_ )_ new_sent located _( it riverside xnear )_
+shop _( xname cheap family friendly coffee serving _( food _( english located _( riverside xnear )_ )_ )_ )_
+shop _( xname coffee providing _( food english )_ range _( high price )_ )_ new_sent located _( it centre _( city xnear )_ )_
+shop _( xname children friendly coffee serves _( food english )_ )_ new_sent located _( it centre _( city xnear )_ has _( and rating _( customer 1 5 )_ )_ )_
+shop _( xname priced high coffee serving _( food _( english located _( riverside xnear )_ )_ )_ )_ new_sent has _( it rating _( customer 1 5 )_ friendly _( and not child )_ )_
+shop _( xname child friendly coffee located _( riverside xnear )_ )_ new_sent serves _( it food english range _( high price rating _( and customer 1 5 )_ )_ )_
+shop _( xname english coffee located _( centre city xnear )_ )_ new_sent has _( it rating _( average customer )_ friendly _( and not child )_ )_
+shop _( xname children friendly coffee centre _( city xnear )_ )_ new_sent serves _( it food english range _( high price rating _( and average customer )_ )_ )_
+shop _( xname priced high coffee serving _( food _( english located _( riverside xnear )_ )_ )_ )_
+shop _( xname child friendly coffee serves _( food english )_ )_ new_sent located _( it riverside xnear has _( and rating _( average customer )_ )_ )_
+shop _( xname coffee providing _( food english )_ range _( low price )_ )_ new_sent located _( it centre _( city xnear )_ )_
+shop _( xname friendly family coffee serves _( food english )_ )_ new_sent located _( it centre _( city xnear )_ has _( and rating _( low customer )_ )_ )_
+shop _( xname coffee providing _( food english )_ range _( low price )_ )_ new_sent located _( it xnear )_
+shop _( xname friendly family coffee serving _( food _( english xnear )_ )_ area riverside )_ new_sent has _( it rating _( low customer range _( and price £ _( less 20 )_ )_ )_ )_
+shop _( xname priced moderately english coffee centre _( city xnear )_ )_ new_sent has _( it rating _( customer 1 5 )_ friendly _( and not kid )_ )_
+shop _( xname kid friendly coffee located _( centre city xnear )_ )_ new_sent serves _( it food english range _( moderate price )_ has _( and rating _( customer 1 5 )_ )_ )_
+shop _( xname coffee providing _( food english )_ range _( moderate price )_ )_ new_sent located _( it riverside xnear )_
+shop _( xname kid friendly coffee serving _( food _( priced moderately english )_ )_ )_ new_sent located _( it riverside xnear has _( and rating _( customer 1 5 )_ )_ )_
+shop _( xname priced moderately coffee centre _( city xnear )_ )_ new_sent serves _( it food english friendly _( not child )_ has _( and rating _( customer 3 5 )_ )_ )_
+shop _( xname kid friendly coffee centre _( city xnear )_ )_ new_sent serves _( it food english range _( moderate price )_ has _( and rating _( customer 3 5 )_ )_ )_
+shop _( xname priced moderately coffee serving _( food _( english located _( riverside xnear )_ )_ )_ )_
+shop _( xname kid friendly coffee serving _( food _( priced moderately english )_ )_ )_ new_sent located _( it riverside xnear has _( and rating _( customer 3 5 )_ )_ )_
+shop _( xname rated highly coffee centre _( city xnear )_ )_ new_sent serves _( it food english range _( price more _( £ 30 )_ )_ friendly _( and not child )_ )_
+shop _( xname children friendly coffee centre _( city xnear )_ )_ new_sent serves _( it food english range _( price 30 more )_ has _( and rating _( high customer )_ )_ )_
+shop _( xname coffee serving _( food english )_ )_ new_sent located _( it riverside xnear )_ new_sent has _( it rating _( high customer )_ friendly _( and not child )_ )_ new_sent more _( range price £ 30 )_
+shop _( xname coffee providing _( food chinese )_ range _( £ _( 25 20 )_ price )_ )_ new_sent located _( it centre city )_ new_sent high _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( £ _( 25 20 )_ price )_ )_ new_sent located _( it riverside )_ new_sent high _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( cheap price )_ )_ new_sent located _( it centre city )_ new_sent 5 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( cheap price )_ )_ new_sent located _( it riverside )_ new_sent 5 _( rating _( its customer )_ 5 )_
+shop _( xname cheap chinese coffee centre _( city rating _( average customer )_ )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( cheap price )_ )_ new_sent located _( it riverside )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent located _( it centre city )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent located _( it riverside )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent located _( it centre city )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent located _( it riverside )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( £ less price 20 )_ )_ new_sent located _( it centre city )_ new_sent low _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( £ less price 20 )_ )_ new_sent located _( it riverside )_ new_sent low _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent located _( it centre city )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent located _( it riverside )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname priced moderately chinese coffee centre city rating _( customer 3 5 )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent located _( it riverside )_ new_sent 3 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( more £ 30 price )_ )_ new_sent located _( it centre city )_ new_sent high _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( more £ 30 price )_ )_ new_sent located _( it riverside )_ new_sent high _( rating _( its customer )_ )_
+shop _( xname rated highly coffee centre _( city serves _( food english )_ )_ )_ new_sent 20 _( range price £ 25 )_
+shop _( xname rated highly coffee riverside _( serves _( food english )_ )_ )_ new_sent 20 _( range price £ 25 )_
+shop _( xname cheap english coffee centre city rating _( customer 5 5 )_ )_
+shop _( xname cheap coffee located _( centre city )_ )_
+shop _( xname cheap coffee centre city )_ new_sent serves _( it food english has _( and rating _( average customer )_ )_ )_
+shop _( xname coffee providing _( food english )_ range _( low price )_ )_ new_sent located _( it riverside )_
+shop _( xname priced high coffee centre _( city delivers _( away take )_ )_ )_
+shop _( xname expensive coffee located _( centre city )_ )_
+shop _( xname english coffee located _( centre city rating _( average customer )_ )_ )_
+shop _( xname expensive coffee located _( centre city )_ )_
+shop _( xname coffee serving _( food _( english located _( centre city rating _( low customer )_ )_ )_ )_ )_
+shop _( xname coffee located _( centre city )_ )_
+shop _( xname priced moderately coffee centre _( city delivers _( away take )_ )_ )_
+shop _( xname coffee providing _( food english )_ range _( moderate price )_ )_ new_sent located _( it riverside )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname priced moderately english coffee centre city rating _( customer 3 5 )_ )_
+shop _( xname priced moderately coffee riverside _( serves _( food english )_ )_ )_
+shop _( xname rated highly coffee centre _( city serves _( food english )_ )_ )_ new_sent more _( range price £ 30 )_
+shop _( xname expensive coffee rating _( high customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( £ _( 25 20 )_ price )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_
+shop _( xname cheap chinese coffee riverside xnear )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent located _( it centre city )_ new_sent xnear _( it near )_
+shop _( xname coffee serves _( food chinese range _( high price )_ )_ )_ new_sent located _( it riverside xnear )_
+shop _( xname coffee providing _( food chinese )_ range _( £ less price 20 )_ )_ new_sent located _( it centre city )_ new_sent xnear _( it near )_
+shop _( xname coffee providing _( food chinese )_ range _( £ less price 20 )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_
+shop _( xname priced moderately chinese coffee centre _( city xnear )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_
+shop _( xname coffee providing _( food chinese )_ range _( more £ 30 price )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_
+shop _( xname coffee serves _( food _( english 20 _( £ 25 )_ )_ )_ )_ new_sent located _( it riverside xnear )_
+shop _( xname cheap coffee serves _( food _( english located _( riverside xnear )_ )_ )_ )_
+shop _( xname priced high coffee serving _( food _( english located _( centre city xnear )_ )_ )_ )_
+shop _( xname priced high coffee serving _( food _( english located _( riverside xnear )_ )_ )_ )_
+shop _( xname coffee located _( centre city xnear )_ )_ new_sent serves _( it food english £ _( less 20 )_ )_
+shop _( xname coffee serves _( food english £ _( less 20 )_ )_ )_ new_sent located _( it riverside xnear )_
+shop _( xname priced moderately coffee centre _( city xnear )_ )_ new_sent serves _( it food english )_
+shop _( xname priced moderately coffee located xnear )_
+shop _( xname coffee serves _( food english )_ )_ new_sent located _( it riverside xnear )_
+has _( xname riverside rating _( customer 1 5 )_ )_
+has _( xname riverside rating _( customer 3 5 )_ )_
+has _( xname rating _( customer 5 5 )_ located _( and centre city )_ )_
+has _( xname riverside rating _( customer 5 5 )_ )_
+centre _( xname city )_ new_sent has _( it rating _( average customer )_ )_
+has _( xname riverside rating _( average customer )_ )_
+has _( xname rating _( high customer )_ located _( and riverside )_ )_
+centre _( xname city )_ new_sent has _( it rating _( low customer )_ )_
+has _( xname riverside rating _( low customer )_ )_
+restaurant _( xname kid friendly area riverside rating _( customer 1 5 )_ )_
+restaurant _( xname kid friendly area riverside rating _( customer 3 5 )_ )_
+located _( xname centre city )_ new_sent friendly _( it not family has _( and rating _( customer 5 5 )_ )_ )_
+restaurant _( xname friendly family centre city rating _( customer 5 5 )_ )_
+friendly _( xname not family has _( and rating _( customer 5 5 )_ )_ located _( it riverside )_ )_
+restaurant _( xname family friendly area riverside rating _( customer 5 5 )_ )_
+located _( xname centre city )_ new_sent friendly _( it not family has _( and rating _( average customer )_ )_ )_
+restaurant _( xname friendly family centre city )_ new_sent has _( it rating _( average customer )_ )_
+has _( xname rating _( average customer )_ friendly _( and not family )_ )_ new_sent located _( it riverside )_
+restaurant _( xname family friendly area riverside rating _( average customer )_ )_
+restaurant _( xname child friendly area riverside rating _( high customer )_ )_
+located _( xname centre city )_ new_sent friendly _( it not family has _( and rating _( low customer )_ )_ )_
+restaurant _( xname friendly family centre city rating _( low customer )_ )_
+has _( xname rating _( low customer )_ friendly _( and not family )_ )_ new_sent located _( it riverside )_
+restaurant _( xname family friendly area riverside rating _( low customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( £ _( 25 20 )_ price )_ )_ new_sent xnear _( it near )_ new_sent high _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( £ _( 25 20 )_ price )_ )_ new_sent xnear _( it near )_ new_sent high _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( cheap price )_ )_ new_sent xnear _( it near )_ new_sent 5 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( cheap price )_ )_ new_sent xnear _( it near )_ new_sent 5 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( cheap price )_ )_ new_sent xnear _( it near )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( cheap price )_ )_ new_sent xnear _( it near )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent xnear _( it near )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent xnear _( it near )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent xnear _( it near )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent xnear _( it near )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( £ less price 20 )_ )_ new_sent xnear _( it near )_ new_sent low _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( £ less price 20 )_ )_ new_sent xnear _( it near )_ new_sent low _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent xnear _( it near )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent xnear _( it near )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent xnear _( it near )_ new_sent 3 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent xnear _( it near )_ new_sent 3 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( more £ 30 price )_ )_ new_sent xnear _( it near )_ new_sent high _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( more £ 30 price )_ )_ new_sent xnear _( it near )_ new_sent high _( rating _( its customer )_ )_
+shop _( xname rated highly coffee xnear )_ new_sent serves _( it food english range _( price 20 _( £ 25 )_ )_ )_ new_sent friendly _( it not child )_
+shop _( xname kid friendly coffee xnear )_ new_sent serves _( it food english range _( price 20 _( £ 25 )_ )_ )_
+shop _( xname cheap english coffee xnear )_ new_sent friendly _( it not family has _( and rating _( customer 5 5 )_ )_ )_
+shop _( xname cheap family friendly coffee located xnear )_
+shop _( xname cheap english coffee xnear )_ new_sent friendly _( it not family has _( and rating _( average customer )_ )_ )_
+shop _( xname cheap family friendly coffee located xnear )_
+shop _( xname priced high coffee serving _( food _( english xnear )_ )_ )_ new_sent has _( it rating _( customer 1 5 )_ friendly _( and not child )_ )_
+shop _( xname children friendly coffee serving _( food _( english xnear )_ )_ range _( high price rating _( and customer 1 5 )_ )_ )_
+shop _( xname priced high coffee serving _( food _( english xnear )_ )_ )_ new_sent friendly _( it not child has _( and rating _( average customer )_ )_ )_
+shop _( xname child friendly coffee serving _( food _( english xnear )_ )_ )_ new_sent has _( it range _( high price rating _( and average customer )_ )_ )_
+shop _( xname coffee providing _( food english )_ range _( low price )_ )_ new_sent located _( it xnear )_
+shop _( xname friendly family coffee serves _( food english £ _( less 20 )_ )_ )_ new_sent located _( it xnear has _( and rating _( low customer )_ )_ )_
+shop _( xname coffee providing _( food english )_ range _( moderate price )_ )_ new_sent located _( it xnear )_
+shop _( xname kid friendly coffee serving _( food _( english xnear )_ )_ range _( moderate price rating _( and customer 1 5 )_ )_ )_
+shop _( xname priced moderately coffee serving _( food _( english xnear )_ )_ )_ new_sent kid _( it not friendly has _( and rating _( customer 3 5 )_ )_ )_
+shop _( xname kid friendly coffee serving _( food _( priced moderately english )_ )_ )_ new_sent located _( it xnear has _( and rating _( customer 3 5 )_ )_ )_
+has _( xname rating _( customer 1 5 )_ friendly _( and kid )_ )_
+restaurant _( xname kid friendly xnear )_ new_sent has _( it rating _( customer 1 5 )_ )_
+restaurant _( xname kid friendly rating _( customer 3 5 )_ )_
+restaurant _( xname kid friendly located xnear )_ new_sent has _( it rating _( customer 3 5 )_ )_
+has _( xname rating _( customer 5 5 )_ friendly _( and not family )_ )_
+friendly _( xname not family located _( and xnear )_ )_ new_sent has _( it rating _( customer 5 5 )_ )_
+has _( xname rating _( customer 5 5 )_ friendly _( and family )_ )_
+restaurant _( xname family friendly xnear )_ new_sent has _( it rating _( customer 5 5 )_ )_
+has _( xname rating _( average customer )_ friendly _( and not family )_ )_
+located _( xname xnear )_ new_sent has _( it rating _( average customer )_ friendly _( and not family )_ )_
+has _( xname rating _( average customer )_ friendly _( and family )_ )_
+located _( xname xnear )_ new_sent friendly _( it family has _( and rating _( average customer )_ )_ )_
+has _( xname rating _( high customer )_ friendly _( and child )_ )_
+located _( xname xnear )_ new_sent has _( it rating _( high customer )_ friendly _( and child )_ )_
+has _( xname rating _( low customer )_ friendly _( and not family )_ )_
+has _( xname rating _( low customer )_ friendly _( and not family )_ )_ new_sent located _( it xnear )_
+has _( xname rating _( low customer )_ friendly _( and family )_ )_
+restaurant _( xname family friendly xnear )_ new_sent has _( it rating _( low customer )_ )_
+shop _( xname kid friendly coffee serves _( food chinese range _( price 20 _( £ 25 )_ )_ )_ )_ new_sent located _( it riverside xnear )_
+shop _( xname cheap family friendly chinese coffee located _( riverside xnear )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent located _( it centre city )_ new_sent xnear _( it near )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent located _( it centre city )_ new_sent xnear _( it near )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_
+shop _( xname coffee providing _( food chinese )_ range _( £ less price 20 )_ )_ new_sent located _( it centre city )_ new_sent xnear _( it near )_
+shop _( xname coffee providing _( food chinese )_ range _( £ less price 20 )_ )_ new_sent located _( it centre city )_ new_sent xnear _( it near )_
+shop _( xname coffee providing _( food chinese )_ range _( £ less price 20 )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_
+shop _( xname coffee providing _( food chinese )_ range _( £ less price 20 )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent located _( it centre city )_ new_sent xnear _( it near )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent located _( it centre city )_ new_sent xnear _( it near )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_
+shop _( xname coffee providing _( food chinese )_ range _( more £ 30 price )_ )_ new_sent located _( it riverside )_ new_sent xnear _( it near )_
+shop _( xname kid friendly coffee serving _( food _( english located _( riverside xnear )_ )_ )_ )_
+shop _( xname cheap family friendly coffee serving _( food _( english located _( riverside xnear )_ )_ )_ )_
+shop _( xname high priced coffee centre _( city xnear )_ )_ new_sent serves _( it food english friendly _( and not child )_ )_
+shop _( xname children friendly coffee serves _( food english )_ )_ new_sent located _( it centre _( city xnear )_ )_
+shop _( xname priced high coffee serving _( food _( english located _( riverside xnear )_ )_ )_ )_ new_sent friendly _( it not child )_
+shop _( xname priced high child friendly coffee serving _( food english )_ )_ new_sent located _( it riverside xnear )_
+shop _( xname friendly _( family non )_ english coffee located _( centre city xnear )_ )_ new_sent has _( it range _( price £ _( less 20 )_ )_ )_
+shop _( xname friendly family coffee centre _( city xnear )_ )_ new_sent serves _( it food english £ _( less 20 )_ )_
+shop _( xname coffee providing _( food english )_ range _( low price )_ )_ new_sent located _( it xnear )_
+shop _( xname friendly family coffee serving _( food _( english located _( riverside xnear )_ )_ )_ )_
+shop _( xname priced moderately english coffee centre _( city xnear )_ )_ new_sent kid _( it not friendly )_
+shop _( xname kid friendly coffee located _( centre city xnear )_ )_ new_sent serves _( it food english range _( moderate price )_ )_
+shop _( xname priced moderately coffee serving _( food _( english located _( riverside xnear )_ )_ )_ )_
+shop _( xname priced moderately kid friendly coffee serves _( food english )_ )_ new_sent located _( it xnear _( area riverside )_ )_
+shop _( xname children friendly coffee serves _( food english )_ )_ new_sent located _( it riverside xnear )_ new_sent more _( range price £ 30 )_
+has _( xname rating _( customer 1 5 )_ located _( it riverside xnear )_ )_
+has _( xname rating _( customer 3 5 )_ located _( and riverside xnear )_ )_
+located _( xname centre _( city xnear )_ )_ new_sent has _( it rating _( customer 5 5 )_ )_
+has _( xname rating _( customer 5 5 )_ located _( it riverside xnear )_ )_
+located _( xname centre _( city xnear )_ )_ new_sent has _( it rating _( average customer )_ )_
+has _( xname rating _( average customer )_ located _( and riverside xnear )_ )_
+has _( xname rating _( high customer )_ located _( and riverside xnear )_ )_
+has _( xname rating _( low customer )_ located _( and centre _( city xnear )_ )_ )_
+has _( xname rating _( low customer )_ located _( and riverside xnear )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( £ _( 25 20 )_ price )_ )_ new_sent xnear _( it near )_ new_sent high _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( cheap price )_ )_ new_sent xnear _( it near )_ new_sent 5 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( cheap price )_ )_ new_sent xnear _( it near )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent xnear _( it near )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( high price )_ )_ new_sent xnear _( it near )_ new_sent average _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( £ less price 20 )_ )_ new_sent xnear _( it near )_ new_sent low _( rating _( its customer )_ )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent xnear _( it near )_ new_sent 1 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( moderate price )_ )_ new_sent xnear _( it near )_ new_sent 3 _( rating _( its customer )_ 5 )_
+shop _( xname coffee providing _( food chinese )_ range _( more £ 30 price )_ )_ new_sent xnear _( it near )_ new_sent high _( rating _( its customer )_ )_
+shop _( xname rated highly coffee serving _( food _( english xnear )_ )_ )_
+shop _( xname coffee providing _( food english )_ range _( low price )_ )_ new_sent located _( it xnear )_
+shop _( xname coffee providing _( food english )_ range _( low price )_ )_ new_sent located _( it xnear )_
+shop _( xname expensive coffee located xnear )_
+shop _( xname expensive coffee located xnear )_
+shop _( xname coffee providing _( food english )_ range _( low price )_ )_ new_sent located _( it xnear )_
+shop _( xname priced moderately coffee serving _( food _( english xnear )_ )_ )_ new_sent has _( it rating _( customer 1 5 )_ )_
+shop _( xname priced moderately coffee serving _( food _( english xnear )_ )_ )_ new_sent has _( it rating _( customer 3 5 )_ )_
