@@ -19,9 +19,16 @@ def main():
     # in this case, the data is already tokenized, with sents on separate lines
     udpipe_api_template = ['curl', '-F', 'data=@{upload_file_name}',
                            '-F', model,
-                           '-F', 'tokenizer=',
+                           '-F', 'input=horizontal',
                            '-F', 'tagger=', '-F', 'parser=',
                'http://lindat.mff.cuni.cz/services/udpipe/api/process']
+    # This one is for when the tagging and sentence tokenization needs to be
+    # done by udpipe
+    # udpipe_api_template = ['curl', '-F', 'data=@{upload_file_name}',
+    #                        '-F', model,
+    #                        '-F', 'tokenizer=',
+    #                        '-F', 'tagger=', '-F', 'parser=',
+    #            'http://lindat.mff.cuni.cz/services/udpipe/api/process']
     for input_file_name in args.input_file_names:
         with open(input_file_name) as in_file:
             stories = in_file.read().split('\n\n')
