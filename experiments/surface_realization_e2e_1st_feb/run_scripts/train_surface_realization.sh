@@ -4,8 +4,8 @@
 
 python /home/henrye/downloads/Henry_OpenNMT-py/train.py \
 	-data preprocess/22nd_feb_tests/e2e_surface_realization \
-	-save_model train/25th_feb_tests/e2e_surface_realization \
-	--log_file train/25th_feb_tests/log.txt \
+	-save_model train/25th_feb_tests_2/e2e_surface_realization \
+	--log_file train/25th_feb_tests_2/log.txt \
 	--optim adam \
 	--learning_rate 0.001 \
 	--encoder_type brnn \
@@ -21,6 +21,6 @@ python /home/henrye/downloads/Henry_OpenNMT-py/train.py \
 	--save_checkpoint 500 \
 	--train_steps 12000 \
 	--start_decay_steps 6000 \
-	--decay_steps 2000 \
+	--decay_steps 1500 \
 	--gpu_ranks 0 1 \
 	--world_size 2
