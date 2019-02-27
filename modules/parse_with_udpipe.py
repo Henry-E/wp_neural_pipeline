@@ -3,6 +3,8 @@ import os
 import json
 import subprocess
 
+from tqdm import tqdm
+
 def main():
     parser = argparse.ArgumentParser(description='tag, filter and create '
                                      'source')
@@ -14,7 +16,7 @@ def main():
                         help='udpipe model name from: '
                         'http://lindat.mff.cuni.cz/services/udpipe/api/models')
     args = parser.parse_args()
-    num_stories_per_chunk = 300
+    num_stories_per_chunk = 1000
     model = 'model={}'.format(args.model_name)
     # in this case, the data is already tokenized, with sents on separate lines
     udpipe_api_template = ['curl', '-F', 'data=@{upload_file_name}',
@@ -33,9 +35,10 @@ def main():
         with open(input_file_name) as in_file:
             stories = in_file.read().split('\n\n')
             num_story_chunks = int(round(len(stories) / num_stories_per_chunk))
-            string_chunks = ['\n\n'.join(stories[i::num_story_chunks]) for i in
-                             range(num_story_chunks)]
-            for string_chunk in string_chunks:
+            # this way the order will be the same as the input
+            string_chunks = ['\n\n'.join(stories[i:i+num_story_chunks]) for i in
+                             range(0, len(stories), num_story_chunks)]
+            for string_chunk in tqdm(string_chunks):
                 udpipe_api_call = udpipe_api_template
                 upload_file_name = os.path.join(args.output_dir_name,
                                                 'temp_upload_file.txt')
