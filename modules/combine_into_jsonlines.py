@@ -30,7 +30,8 @@ def main():
 
     output_file_name = os.path.join(args.outputs_file_name + '.jsonl')
     with jsonlines.open(output_file_name, mode='w') as out_file:
-        out_file.write(out_dicts)
+        for this in out_dicts:
+            out_file.write(this)
 
 if __name__ == '__main__':
     main()

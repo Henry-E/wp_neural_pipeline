@@ -32,6 +32,9 @@ class Detokenizer(object):
         self._contract = Regex(r" (\p{Alpha}+) ' (ll|ve|re|[dsmt])(?= )", flags=UNICODE | IGNORECASE)
         self._dash_fixes = Regex(r" (\p{Alpha}+|£ [0-9]+) - (priced|star|friendly|(?:£ )?[0-9]+) ", flags=UNICODE | IGNORECASE)
         self._dash_fixes2 = Regex(r" (non) - ([\p{Alpha}-]+) ", flags=UNICODE | IGNORECASE)
+        self._international_things = {'chinese': 'Chinese', 'japanese':'Japanese',
+                                      'french':'French', 'indian':'Indian',
+                                      'english':'English', 'italian':'Italian'}
 
     def detokenize(self, text):
         """\
@@ -43,6 +46,8 @@ class Detokenizer(object):
         text = self._currency_or_init_punct.sub(r' \1', text)
         text = self._noprespace_punct.sub(r'\1 ', text)
         text = self._contract.sub(r" \1'\2", text)
+        for word, capitalised_word in self._international_things.items():
+            text = text.replace(word, capitalised_word)
         text = text.strip()
         # capitalize
         if not text:
