@@ -4,6 +4,7 @@ from collections import Counter
 
 import pyconll
 from tqdm import tqdm
+import numpy
 
 def accumulate_percentages(percent_in_vocab, min_percent):
     num_qualifying_sents = 0
@@ -47,9 +48,11 @@ def main():
         total_num_sents += 1
 
     print(total_num_sents)
-    for this_percent in range(1, 0.5, 0.05):
-        print(this_percent, accumulate_percentages(percent_in_vocab,
-                                                   this_percent))
+    print('min %', 'total', 'as a %')
+    for this_percent in numpy.arange(1, 0.5, -0.05):
+        this_many_sents = accumulate_percentages(percent_in_vocab, this_percent)
+        print(round(this_percent, 2), this_many_sents, 
+                round(this_many_sents / total_num_sents, 2))
 
 
 if __name__ == '__main__':

@@ -80,27 +80,33 @@ def main():
     # print("Num that contains unks", len(contains_unk_ids))
     # print(len(ids))
 
-    annotations = []
-    for this_id, this_input, this_output in zip(ids, model_inputs,
-                                                model_outputs):
-        if this_id in contains_unk_ids:
-            this_annotation = create_annotation(this_id, this_input,
-                                                this_output, 'contains_unk')
-        elif this_id in matching_sent_ids:
-            this_annotation = create_annotation(this_id, this_input,
-                                                this_output, 'matching_sent')
-        elif this_id in very_similar_sent_ids:
-            this_annotation = create_annotation(this_id, this_input,
-                                                this_output, 'very_similar')
-        else:
-            continue
-        annotations.append(this_annotation)
+    # annotations = []
+    # for this_id, this_input, this_output in zip(ids, model_inputs,
+    #                                             model_outputs):
+    #     if this_id in contains_unk_ids:
+    #         this_annotation = create_annotation(this_id, this_input,
+    #                                             this_output, 'contains_unk')
+    #     elif this_id in matching_sent_ids:
+    #         this_annotation = create_annotation(this_id, this_input,
+    #                                             this_output, 'matching_sent')
+    #     elif this_id in very_similar_sent_ids:
+    #         this_annotation = create_annotation(this_id, this_input,
+    #                                             this_output, 'very_similar')
+    #     else:
+    #         continue
+    #     annotations.append(this_annotation)
+
+    # output_file_name = os.path.join(args.outputs_file_name +
+    #                                 '.meanining_similarity_exclude.jsonl')
+    # with jsonlines.open(output_file_name, mode='w') as out_file:
+    #     for this in annotations:
+    #         out_file.write(this)
 
     output_file_name = os.path.join(args.outputs_file_name +
-                                    '.meanining_similarity_exclude.jsonl')
-    with jsonlines.open(output_file_name, mode='w') as out_file:
-        for this in annotations:
-            out_file.write(this)
+                                    '.meanining_similarity_exclude.ids')
+    with open(output_file_name, 'w') as out_file:
+        out_file.write('\n'.join(matching_sent_ids + very_similar_sent_ids +
+                                 contains_unk_ids))
 
 if __name__ == '__main__':
     main()

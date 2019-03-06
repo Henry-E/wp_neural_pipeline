@@ -24,13 +24,14 @@ def main():
         tok_sents = []
         # add header, will be output to csv
         mr_and_tok_utts = ['mr,ref']
-        for mr, utt in e2e_lines:
+        print(os.path.basename(input_file_name))
+        for mr, utt in tqdm(e2e_lines):
             parsed_utt = nlp(utt)
             this_conllu = parsed_utt.conll_file.conll_as_string()
             e2e_conllu.append(this_conllu)
             this_utt_sents = []
             for sent in parsed_utt.sentences:
-                tok_sent = [word.text for word in sent.words]
+                tok_sent = ' '.join([word.text for word in sent.words])
                 tok_sents.append(tok_sent)
                 this_utt_sents.append(tok_sent)
             tok_utt = '_sent_'.join(this_utt_sents)
