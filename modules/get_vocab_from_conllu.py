@@ -38,11 +38,13 @@ def main():
 
         # max vocab size
         vocab_out = vocab_out[:args.max_vocab_size]
+        vocab_size = len(vocab_out)
 
         input_file_root = \
             os.path.basename(os.path.splitext(input_file_name)[0])
         output_file_name = os.path.join(args.output_dir_name,
-                                        input_file_root + '.vocab.txt')
+                                        input_file_root +
+                                        '.{}_vocab_size.txt'.format(vocab_size))
         with open(output_file_name, 'w') as out_file:
             out_file.write('\n'.join(vocab_out))
 

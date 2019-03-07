@@ -25,18 +25,21 @@ def main():
     with open(args.vocab_file_name) as in_file:
         vocab = [line.rstrip() for line in in_file]
 
+    # get num sents for tqdm
+    with open(args.input_file_name) as in_file:
+        num_sents = sum(1 for line in in_file if len(line.strip()) == 0)
     trip_advisor_sents = pyconll.load.iter_from_file(args.input_file_name)
 
     total_num_sents = 0
     all_sents_percent_in_vocab = []
     percent_in_vocab = Counter()
-    for sent in trip_advisor_sents:
+    for sent in tqdm(trip_advisor_sents, total=num_sents):
         total_num_tokens = 0
         num_tokens_in_vocab = 0
         for token in sent:
             this_form = token.form
             if not this_form:
-                pass
+                continue
             # making sure to lower case form since vocab is all lower case
             if this_form.lower() in vocab:
                 num_tokens_in_vocab += 1
@@ -60,6 +63,7 @@ def main():
 
     # let's see how slow this is first before trying to optimize
     for min_percent in numpy.arange(1, 0.5, -0.05):
+        min_percent = round(min_percent, 2)
         trip_advisor_sents = pyconll.load.iter_from_file(args.input_file_name)
         out_conllu = []
         for this_percent, sent in tqdm(zip(all_sents_percent_in_vocab,
@@ -68,12 +72,12 @@ def main():
             if min_percent <= this_percent:
                 out_conllu.append(sent.conll())
         input_file_root = \
-            os.path.basename(os.path.splitext(args.input_file_name)[0])
+            os.path.basename(args.input_file_name).split('_')[0]
         output_file_name = os.path.join(args.output_dir_name,
                                         input_file_root +
                         '_min_{}_percent_overlap.conllu'.format(min_percent))
         with open(output_file_name, 'w') as out_file:
-            out_file.write('\n'.join(out_conllu))
+            out_file.write('\n\n'.join(out_conllu))
 
 if __name__ == '__main__':
     main()
