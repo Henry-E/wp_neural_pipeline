@@ -74,6 +74,8 @@ def process_deep_ud(deep_ud, args, vocab=None):
         this_form = deep_ud[tok_id].form
         if not this_form:
             pass
+        # making sure to lower case all tokens
+        this_form = this_form.lower()
         if vocab and this_form in vocab:
             linearized_deep_tokens.append(this_form)
         elif vocab:
@@ -100,6 +102,8 @@ def get_ud_sent_tokens(sentence, vocab=None):
         this_form = token.form
         if not this_form:
             pass
+        # lower casing all the tokens
+        this_form = this_form.lower()
         if vocab and this_form in vocab:
             tokens.append(this_form)
         elif vocab:
