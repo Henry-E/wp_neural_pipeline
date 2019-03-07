@@ -94,7 +94,7 @@ def process_deep_ud(deep_ud, args, vocab=None):
         #                                 '￨' + '_'
     return linearized_deep_tokens
 
-def  get_ud_sent_tokens(sentence, vocab=None):
+def get_ud_sent_tokens(sentence, vocab=None):
     tokens = []
     for token in sentence:
         this_form = token.form
@@ -152,34 +152,12 @@ def get_mr_source_tokens(e2e_mr, tokenize_mr=False):
         mr_tokens.pop()
     return mr_tokens
 
-def main():
-    parser = argparse.ArgumentParser(description='''process lots of input files
-                                     to produce the source and target files for
-                                     the different models we will train''')
-    # inputs
-    parser.add_argument('-e', '--e2e_data_file_name', help='original e2e file')
-    parser.add_argument('-u', '--udpipe_file_name', help='udpipe output')
-    parser.add_argument('-d', '--deep_parser_file_name',
-                        help='''deep parser output, expected to end in .dev or .train''')
-    parser.add_argument('--vocab_file', default='',
-                        help='vocab file with one word per line, optional')
-    # outputs
-    parser.add_argument('-c', '--content_selection_dir_name', help='output directory')
-    parser.add_argument('-s', '--surface_realization_dir_name', help='output dir')
-    # processing options
-    parser.add_argument('--add_scope_markers', action='store_true',
-                        help='add parentheses around linearized nodes')
-    parser.add_argument('--original_sentence_order', action='store_true',
-                        help='order tokens based on the original sentence')
-    parser.add_argument('--tokenize_mr', action='store_true',
-                        help='split apart the MR acts in small tokens')
-    args = parser.parse_args()
-
+def create_source_and_target_both(args):
     e2e_lines = csv.reader(open(args.e2e_data_file_name))
     # skip the header
     next(e2e_lines)
-    deep_sents = pyconll.load.iter_from_file(args.deep_parser_file_name)
-    ud_sents = pyconll.load.iter_from_file(args.udpipe_file_name)
+    deep_sents = pyconll.load.iter_from_file(args.deep_conllu_file_name)
+    ud_sents = pyconll.load.iter_from_file(args.ud_conllu_file_name)
     vocab = set()
     if args.vocab_file:
         vocab = set(line.strip() for line in open(args.vocab_file))
@@ -211,9 +189,9 @@ def main():
             deep_utterance.extend(deep_sent_tokens)
 
     input_file_root = \
-        os.path.basename(os.path.splitext(args.deep_parser_file_name)[0])
+        os.path.basename(os.path.splitext(args.deep_conllu_file_name)[0])
     # whether it's .train, .dev or .test
-    input_file_data_split = os.path.splitext(args.deep_parser_file_name)[1]
+    input_file_data_split = os.path.splitext(args.deep_conllu_file_name)[1]
     print("expect the end of the deep file to indicate what data split this is: ",
           input_file_data_split)
 
@@ -243,6 +221,75 @@ def main():
     with open(surface_realization_tgt_file_name, 'w') as out_file:
         out_file.write('\n'.join(surface_realization_tgt))
 
+
+def create_source_and_target_surface_realization_only(args):
+    # get num sents for tqdm
+    with open(args.deep_conllu_file_name) as in_file:
+        num_sents = sum(1 for line in in_file if len(line.strip()) == 0)
+    deep_sents = pyconll.load.iter_from_file(args.deep_conllu_file_name)
+    ud_sents = pyconll.load.iter_from_file(args.ud_conllu_file_name)
+    vocab = set()
+    if args.vocab_file:
+        vocab = set(line.strip() for line in open(args.vocab_file))
+
+    surface_realization_src = []
+    surface_realization_tgt = []
+    for ud_sent, deep_sent in tqdm(zip(ud_sents, deep_sents), total=num_sents):
+        # TODO get de-unk vocab
+        ud_sent_tokens = get_ud_sent_tokens(ud_sent, vocab)
+        deep_sent_tokens = process_deep_ud(deep_sent, args, vocab)
+        surface_realization_src.append(' '.join(deep_sent_tokens))
+        surface_realization_tgt.append(' '.join(ud_sent_tokens))
+
+    input_file_root = \
+        os.path.basename(os.path.splitext(args.deep_conllu_file_name)[0])
+    # whether it's .train, .dev or .test
+    input_file_data_split = os.path.splitext(args.deep_conllu_file_name)[1]
+    print("expect the end of the deep file to indicate what data split this is: ",
+          input_file_data_split)
+
+    surface_realization_src_file_name = \
+        os.path.join(args.surface_realization_dir_name,
+                     input_file_root + '.surface_realization'
+                     + input_file_data_split + '.src')
+    with open(surface_realization_src_file_name, 'w') as out_file:
+        out_file.write('\n'.join(surface_realization_src))
+    surface_realization_tgt_file_name = \
+        os.path.join(args.surface_realization_dir_name,
+                     input_file_root + '.surface_realization'
+                     + input_file_data_split + '.tgt')
+    with open(surface_realization_tgt_file_name, 'w') as out_file:
+        out_file.write('\n'.join(surface_realization_tgt))
+
+def main():
+    parser = argparse.ArgumentParser(description='''process lots of input files
+                                     to produce the source and target files for
+                                     the different models we will train''')
+    # inputs
+    parser.add_argument('-e', '--e2e_data_file_name', help='original e2e file')
+    parser.add_argument('-u', '--ud_conllu_file_name', help='ud_conllu output')
+    parser.add_argument('-d', '--deep_conllu_file_name',
+                        help='''deep parser output, expected to end in .dev or .train''')
+    parser.add_argument('--vocab_file', default='',
+                        help='vocab file with one word per line, optional')
+    # outputs
+    parser.add_argument('-c', '--content_selection_dir_name', help='output directory')
+    parser.add_argument('-s', '--surface_realization_dir_name', help='output dir')
+    # processing options
+    parser.add_argument('--add_scope_markers', action='store_true',
+                        help='add parentheses around linearized nodes')
+    parser.add_argument('--original_sentence_order', action='store_true',
+                        help='order tokens based on the original sentence')
+    parser.add_argument('--tokenize_mr', action='store_true',
+                        help='split apart the MR acts in small tokens')
+    parser.add_argument('--surface_realization_only', action='store_true',
+                        help='only process the src and tgt files for SR')
+    args = parser.parse_args()
+
+    if args.surface_realization_only:
+        create_source_and_target_surface_realization_only(args)
+    else:
+        print('not doing anything yet')
 
 if __name__ == '__main__':
     main()
