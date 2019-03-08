@@ -101,7 +101,7 @@ def get_ud_sent_tokens(sentence, vocab=None):
     for token in sentence:
         this_form = token.form
         if not this_form:
-            pass
+           continue 
         # lower casing all the tokens
         this_form = this_form.lower()
         if vocab and this_form in vocab:

@@ -33,6 +33,7 @@ def main():
     total_num_sents = 0
     all_sents_percent_in_vocab = []
     percent_in_vocab = Counter()
+    sent_lengths = Counter()
     for sent in tqdm(trip_advisor_sents, total=num_sents):
         total_num_tokens = 0
         num_tokens_in_vocab = 0
@@ -50,10 +51,20 @@ def main():
         except:
             this_percent_in_vocab = 0
         percent_in_vocab[this_percent_in_vocab] += 1
-        all_sents_percent_in_vocab.append(this_percent_in_vocab)
-        total_num_sents += 1
+        sent_lengths[total_num_tokens] += 1
+        # add an additional filter for sentence length
+        if 5 <= total_num_tokens and total_num_tokens <= 30:
+            all_sents_percent_in_vocab.append(this_percent_in_vocab)
+            total_num_sents += 1
+        else:
+            all_sents_percent_in_vocab.append(0)
 
-    print(total_num_sents)
+    # this is really just a quick and dirty way to check sent length freqs
+    # print('How many of each sentence length')
+    # for i in range(1, 30):
+    #     print('Sent length {} has : {}'.format(i, sent_lengths[i]))
+
+    print('remaining sents after filtering:', total_num_sents)
     print('\t'.join(['min %', 'total', 'as a %']))
     for min_percent in numpy.arange(1, 0.5, -0.05):
         this_many_sents = accumulate_percentages(percent_in_vocab, min_percent)

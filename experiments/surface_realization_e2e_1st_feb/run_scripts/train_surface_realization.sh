@@ -1,11 +1,11 @@
 #!/usr/bin/env sh
 
-# 14m_sents
+# trip advisor tests 7th march
 
 python /home/henrye/downloads/Henry_OpenNMT-py/train.py \
-	-data preprocess/22nd_feb_tests/e2e_surface_realization \
-	-save_model train/25th_feb_tests_2/e2e_surface_realization \
-	--log_file train/25th_feb_tests_2/log.txt \
+	-data preprocess/ta_100percent_7th_march/e2e_surf_rel \
+	-save_model train/ta_100percent_7th_march/e2e_surf_rel \
+	--log_file train/ta_100percent_7th_march/log.txt \
 	--optim adam \
 	--learning_rate 0.001 \
 	--encoder_type brnn \
@@ -18,9 +18,10 @@ python /home/henrye/downloads/Henry_OpenNMT-py/train.py \
 	--reuse_copy_attn \
 	--report_every 500 \
 	--valid_steps 500 \
-	--save_checkpoint 500 \
-	--train_steps 12000 \
-	--start_decay_steps 6000 \
-	--decay_steps 1500 \
+	--save_checkpoint 6000 \
+	--train_steps 120000 \
+	--start_decay_steps 600000 \
 	--gpu_ranks 0 1 \
 	--world_size 2
+
+#	--decay_steps 1500 \

@@ -2,7 +2,7 @@ import argparse
 import os
 import csv
 import re
-from collections import Counter()
+from collections import Counter
 
 import stanfordnlp
 from tqdm import tqdm
@@ -18,7 +18,9 @@ def get_name_and_near(mr):
             xname = value.strip().replace(' ', '\s+')
         elif act_type == 'near':
             xnear = value.strip().replace(' ', '\s+')
-
+            # this one specifically has a lot of misspellings
+            if value == 'Crowne Plaza Hotel':
+                xnear += '|Crown\\s+Plaza\\s+Hotel'
     return xname, xnear
 
 def delexicalize_utterance(mr, utt):
@@ -67,9 +69,9 @@ def main():
         mrs_for_relex = []
         sent_ids = []
         print(os.path.basename(input_file_name))
-        import ipdb; ipdb.set_trace()
         for mr, utt in tqdm(e2e_lines):
             multi_ref_count[mr] += 1
+            multi_ref_id = multi_ref_count[mr]
             # do delex on the utterances
             delex_utt = delexicalize_utterance(mr, utt)
             parsed_utt = nlp(delex_utt)
