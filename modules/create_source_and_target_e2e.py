@@ -2,9 +2,10 @@ import argparse
 import os
 import re
 import csv
-from collections import deque
+from collections import deque, Counter
 import pyconll
 from pyconll.tree import SentenceTree
+import jsonlines
 from tqdm import tqdm
 
 def linearize_tree(node, scopes_to_close=0):
@@ -43,7 +44,7 @@ def linearize_tree(node, scopes_to_close=0):
             linearization.extend(linearize_tree(child))
     return linearization
 
-def process_deep_ud(deep_ud, args, vocab=None):
+def process_deep_ud(deep_ud, args, unk_mapping=None):
     if args.original_sentence_order:
         tokens = [token for token in deep_ud if token.form]
         linearized_ids = \
@@ -64,59 +65,58 @@ def process_deep_ud(deep_ud, args, vocab=None):
 
     linearized_deep_tokens = []
     for tok_id in linearized_ids:
-        # TODO
-        # What to do with the scoping brackets
         if tok_id == '_(' or tok_id == ')_':
-            # linearized_deep_tokens.append(tok_id + '￨' + '_')
             linearized_deep_tokens.append(tok_id)
             continue
         # we index using a string, could also do tok_id-1 to index to 0
         this_form = deep_ud[tok_id].form
         if not this_form:
-            pass
+            continue
         # making sure to lower case all tokens
         this_form = this_form.lower()
-        if vocab and this_form in vocab:
-            linearized_deep_tokens.append(this_form)
-        elif vocab:
-            if deep_ud[tok_id].xpos:
-                # TODO
-                # add unk + xpos
-                linearized_deep_tokens.append('unk_' + deep_ud[tok_id].xpos)
-            else:
-                linearized_deep_tokens.append('unk')
+        if this_form in unk_mapping:
+            linearized_deep_tokens.append(unk_mapping[this_form])
+        # if vocab and this_form in vocab:
+        #     linearized_deep_tokens.append(this_form)
+        # elif vocab:
+        #     if deep_ud[tok_id].xpos:
+        #         linearized_deep_tokens.append('unk_' + deep_ud[tok_id].xpos)
+        #     else:
+        #         linearized_deep_tokens.append('unk')
         else:
             linearized_deep_tokens.append(this_form)
-        # this_deprel = deep_ud[tok_id].deprel
-        # if this_deprel:
-        #     linearized_deep_tokens[-1] = linearized_deep_tokens[-1] + \
-        #                                 '￨' + this_deprel
-        # else:
-        #     linearized_deep_tokens[-1] = linearized_deep_tokens[-1] + \
-        #                                 '￨' + '_'
     return linearized_deep_tokens
 
 def get_ud_sent_tokens(sentence, vocab=None):
     tokens = []
+    unk_freqs = Counter()
+    unk_mapping = {}
     for token in sentence:
         this_form = token.form
         if not this_form:
-           continue 
+           continue
         # lower casing all the tokens
         this_form = this_form.lower()
+        # check if we've already seen this unk before (very unlikely)
+        if this_form in unk_mapping:
+            tokens.append(unk_mapping[this_form])
         if vocab and this_form in vocab:
             tokens.append(this_form)
         elif vocab:
-            # We've decided to add deprel as well just to make the unk more
-            # informative, maybe this will mess with things too much and we'll
-            # have to switch back
-            if token.xpos and token.deprel:
-                tokens.append('_'.join(['unk', token.xpos]))
+            if token.xpos:
+                unk_token = 'unk_{}'.format(token.xpos)
+                # tokens.append('_'.join(['unk', token.xpos]))
             else:
-                tokens.append('unk')
+                unk_token = 'unk'
+                # tokens.append('unk')
+            unk_freqs[unk_token] += 1
+            unk_token_w_count = '{}_{}'.format(unk_token, unk_freqs[unk_token])
+            unk_mapping[unk_token_w_count] = this_form
+            unk_mapping[this_form] = unk_token_w_count
+            tokens.append(unk_token_w_count)
         else:
             tokens.append(this_form)
-    return tokens
+    return tokens, unk_mapping
 
 def get_mr_source_tokens(e2e_mr, tokenize_mr=False):
     mr_tokens = []
@@ -238,12 +238,14 @@ def create_source_and_target_surface_realization_only(args):
 
     surface_realization_src = []
     surface_realization_tgt = []
+    unk_mappings = []
     for ud_sent, deep_sent in tqdm(zip(ud_sents, deep_sents), total=num_sents):
         # TODO get de-unk vocab
-        ud_sent_tokens = get_ud_sent_tokens(ud_sent, vocab)
-        deep_sent_tokens = process_deep_ud(deep_sent, args, vocab)
+        ud_sent_tokens, unk_mapping = get_ud_sent_tokens(ud_sent, vocab)
+        deep_sent_tokens = process_deep_ud(deep_sent, args, unk_mapping)
         surface_realization_src.append(' '.join(deep_sent_tokens))
         surface_realization_tgt.append(' '.join(ud_sent_tokens))
+        unk_mappings.append(unk_mapping)
 
     input_file_root = \
         os.path.basename(os.path.splitext(args.deep_conllu_file_name)[0])
@@ -264,6 +266,14 @@ def create_source_and_target_surface_realization_only(args):
                      + input_file_data_split + '.tgt')
     with open(surface_realization_tgt_file_name, 'w') as out_file:
         out_file.write('\n'.join(surface_realization_tgt))
+    output_file_name = \
+        os.path.join(args.surface_realization_dir_name,
+                     input_file_root + input_file_data_split +
+                     '.unk_mapping.jsonl')
+    with jsonlines.open(output_file_name, mode='w') as out_file:
+        for this in unk_mappings:
+            out_file.write(this)
+
 
 def main():
     parser = argparse.ArgumentParser(description='''process lots of input files
