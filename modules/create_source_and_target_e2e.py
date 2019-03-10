@@ -170,6 +170,7 @@ def create_source_and_target_both(args):
     content_selection_tgt = []
     surface_realization_src = []
     surface_realization_tgt = []
+    unk_mappings = []
 
     # We're keeping a rolling list in case an utterance is more than one
     # sentence
@@ -182,11 +183,12 @@ def create_source_and_target_both(args):
                 content_selection_src.append(' '.join(e2e_mr_tokens))
                 content_selection_tgt.append(' '.join(deep_utterance))
             deep_utterance = []
+        ud_sent_tokens, unk_mapping = get_ud_sent_tokens(sent, vocab)
         deep_sent_conll = next(deep_sents)
-        deep_sent_tokens = process_deep_ud(deep_sent_conll, args, vocab)
-        ud_sent_tokens = get_ud_sent_tokens(sent, vocab)
+        deep_sent_tokens = process_deep_ud(deep_sent_conll, args, unk_mapping)
         surface_realization_src.append(' '.join(deep_sent_tokens))
         surface_realization_tgt.append(' '.join(ud_sent_tokens))
+        unk_mappings.append(unk_mapping)
         if deep_utterance:
             deep_utterance.extend(['new_sent'] + deep_sent_tokens)
         else:
@@ -225,6 +227,14 @@ def create_source_and_target_both(args):
     with open(surface_realization_tgt_file_name, 'w') as out_file:
         out_file.write('\n'.join(surface_realization_tgt))
 
+    output_file_name = \
+        os.path.join(args.surface_realization_dir_name,
+                     input_file_root + input_file_data_split +
+                     '.unk_mapping.jsonl')
+    with jsonlines.open(output_file_name, mode='w') as out_file:
+        for this in unk_mappings:
+            out_file.write(this)
+
 
 def create_source_and_target_surface_realization_only(args):
     # get num sents for tqdm
@@ -240,7 +250,6 @@ def create_source_and_target_surface_realization_only(args):
     surface_realization_tgt = []
     unk_mappings = []
     for ud_sent, deep_sent in tqdm(zip(ud_sents, deep_sents), total=num_sents):
-        # TODO get de-unk vocab
         ud_sent_tokens, unk_mapping = get_ud_sent_tokens(ud_sent, vocab)
         deep_sent_tokens = process_deep_ud(deep_sent, args, unk_mapping)
         surface_realization_src.append(' '.join(deep_sent_tokens))
