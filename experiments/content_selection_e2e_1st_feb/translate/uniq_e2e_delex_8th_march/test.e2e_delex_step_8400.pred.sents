@@ -1,0 +1,1814 @@
+shop _( xname coffee centre city )_
+break
+shop _( xname coffee riverside )_
+break
+shop _( xname rated highly coffee xnear )_
+break
+shop _( xname average rated coffee xnear )_
+break
+pub _( xname centre city )_
+break
+pub _( xname riverside )_
+break
+pub _( xname xnear rating _( customer 5 5 )_ )_
+break
+pub _( xname xnear rating _( average customer )_ )_
+break
+pub _( xname provides _( food chinese )_ )_
+located _( it centre city )_
+xnear it
+break
+pub _( xname provides _( food chinese )_ )_
+located _( it centre city )_
+xnear it
+break
+pub _( xname provides _( food chinese )_ )_
+located _( it riverside )_
+xnear it
+break
+pub _( xname provides _( food chinese )_ )_
+located _( it riverside )_
+xnear it
+break
+pub _( xname xnear centre city )_
+serves _( it food english friendly _( and not family )_ )_
+break
+pub _( xname friendly family serving _( food english xnear centre city )_ )_
+break
+pub _( xname english located _( riverside xnear )_ )_
+friendly _( it not family )_
+break
+pub _( xname friendly family serving _( food english )_ )_
+located _( it riverside xnear )_
+break
+restaurant _( xname providing _( food chinese )_ )_
+located _( it centre city )_
+xnear it
+break
+restaurant _( xname providing _( food chinese )_ )_
+located _( it centre city )_
+xnear it
+break
+restaurant _( xname providing _( food chinese )_ )_
+located _( it riverside )_
+xnear it
+break
+restaurant _( xname providing _( food chinese )_ )_
+located _( it riverside )_
+xnear it
+break
+restaurant _( xname english xnear centre city )_
+friendly _( it not family )_
+break
+restaurant _( located _( centre _( city xnear )_ )_ xname friendly family serving _( food english )_ )_
+break
+restaurant _( xname english located _( riverside xnear )_ )_
+friendly _( it not family )_
+break
+restaurant _( xname friendly family english xnear riverside )_
+break
+shop _( xname coffee xnear rating _( customer 3 5 )_ )_
+break
+shop _( xname rated highly coffee xnear )_
+break
+shop _( xname coffee xnear )_
+break
+pub _( xname xnear rating _( customer 3 5 )_ )_
+break
+pub _( xname xnear rating _( customer 5 5 )_ )_
+break
+pub _( xname xnear )_
+break
+shop _( xname rated highly coffee xnear )_
+break
+shop _( xname coffee xnear )_
+has _( it rating _( low customer )_ )_
+break
+shop _( xname coffee xnear )_
+break
+pub _( xname xnear rating _( high customer )_ )_
+break
+pub _( xname xnear rating _( low customer )_ )_
+break
+pub _( xname xnear )_
+break
+shop _( xname coffee xnear )_
+break
+pub _( xname xnear )_
+break
+shop _( xname coffee xnear )_
+break
+pub _( xname friendly family serving _( food english )_ )_
+located _( it riverside xnear )_
+break
+pub _( xname fast food located _( xnear centre city )_ )_
+friendly _( it not family )_
+break
+pub _( xname friendly family serving _( food fast centre _( city xnear )_ )_ )_
+break
+pub _( xname fast food located _( xnear riverside )_ )_
+friendly _( it not family )_
+break
+pub _( xname friendly family food fast xnear area riverside )_
+break
+pub _( xname located _( centre _( city xnear )_ )_ )_
+serves _( it food french friendly _( and not family )_ )_
+break
+pub _( xname friendly family serving _( food french )_ )_
+located _( it centre _( city xnear )_ )_
+break
+pub _( xname french located _( riverside xnear )_ )_
+friendly _( it not family )_
+break
+pub _( xname friendly family french riverside xnear )_
+break
+pub _( xname xnear )_
+break
+restaurant _( xname friendly family english xnear riverside )_
+break
+restaurant _( xname fast food located _( xnear centre city )_ )_
+friendly _( it not family )_
+break
+restaurant _( xname friendly family food fast xnear centre city )_
+break
+restaurant _( xname fast food located _( xnear riverside )_ )_
+friendly _( it not family )_
+break
+restaurant _( xname friendly family food fast xnear area riverside )_
+break
+restaurant _( xname french located _( centre city xnear )_ )_
+friendly _( it not family )_
+break
+restaurant _( xname friendly family french centre _( city xnear )_ )_
+break
+restaurant _( xname french located _( riverside xnear )_ )_
+friendly _( it not family )_
+break
+restaurant _( xname friendly family french riverside xnear )_
+break
+shop _( xname coffee xnear rating _( customer 1 5 )_ )_
+break
+shop _( xname coffee xnear rating _( customer 3 5 )_ )_
+break
+pub _( xname xnear rating _( customer 1 5 )_ )_
+break
+pub _( xname xnear rating _( customer 3 5 )_ )_
+break
+pub _( xname friendly family italian located _( riverside xnear )_ )_
+break
+pub _( xname located _( centre _( city xnear )_ )_ )_
+serves _( it food japanese friendly _( and not family )_ )_
+break
+pub _( xname friendly family serving _( food japanese )_ )_
+located _( it centre _( city xnear )_ )_
+break
+pub _( xname japanese located _( riverside xnear )_ )_
+friendly _( it not family )_
+break
+pub _( xname friendly family japanese riverside xnear )_
+break
+restaurant _( xname friendly family italian located _( riverside xnear )_ )_
+break
+restaurant _( xname japanese located _( centre city xnear )_ )_
+friendly _( it not family )_
+break
+restaurant _( xname friendly family serving _( food japanese )_ )_
+located _( it centre _( city xnear )_ )_
+break
+restaurant _( xname japanese located _( riverside xnear )_ )_
+friendly _( it not family )_
+break
+restaurant _( xname friendly family japanese riverside xnear )_
+break
+shop _( xname coffee riverside )_
+break
+pub _( xname riverside )_
+break
+shop _( xname coffee centre city )_
+break
+shop _( xname coffee xnear rating _( customer 1 5 )_ )_
+break
+shop _( xname coffee xnear )_
+has _( it rating _( low customer )_ )_
+break
+pub _( xname centre city )_
+break
+pub _( xname xnear rating _( customer 1 5 )_ )_
+break
+pub _( xname xnear rating _( low customer )_ )_
+break
+shop _( xname friendly kid coffee xnear )_
+has _( it rating _( customer 1 5 )_ )_
+break
+shop _( xname friendly kid coffee xnear rating _( customer 3 5 )_ )_
+break
+shop _( xname rated highly coffee xnear )_
+friendly _( it not family )_
+break
+shop _( xname friendly family coffee xnear )_
+has _( it rating _( customer 5 5 )_ )_
+break
+shop _( xname average rated coffee xnear )_
+friendly _( it not family )_
+break
+shop _( xname friendly family coffee xnear )_
+has _( it rating _( average customer )_ )_
+break
+shop _( xname children friendly coffee rating _( high customer xnear )_ )_
+break
+shop _( xname coffee xnear )_
+friendly _( it not family has _( and rating _( low customer )_ )_ )_
+break
+shop _( xname friendly family coffee xnear )_
+has _( it rating _( low customer )_ )_
+break
+restaurant _( xname children friendly xnear )_
+has _( it rating _( customer 1 5 )_ )_
+break
+restaurant _( xname friendly kid xnear rating _( customer 3 5 )_ )_
+break
+restaurant _( xname xnear rating _( customer 5 5 )_ )_
+friendly _( it not family )_
+break
+restaurant _( xname friendly family xnear rating _( customer 5 5 )_ )_
+break
+restaurant _( xname xnear rating _( average customer )_ )_
+friendly _( it not family )_
+break
+restaurant _( xname friendly family xnear )_
+has _( it rating _( average customer )_ )_
+break
+restaurant _( xname rated highly friendly kid xnear )_
+break
+restaurant _( xname xnear friendly _( not family has _( and rating _( low customer )_ )_ )_ )_
+break
+restaurant _( xname friendly family xnear rating _( low customer )_ )_
+break
+restaurant _( xname providing _( food chinese range _( £ _( 20 25 )_ price )_ )_ )_
+located _( it centre city )_
+xnear it
+high _( it rating customer )_
+break
+restaurant _( xname providing _( food chinese range _( £ _( 20 25 )_ price )_ )_ )_
+located _( it centre city )_
+xnear it
+high _( it rating customer )_
+break
+restaurant _( xname providing _( food chinese range _( £ _( 20 25 )_ price )_ )_ )_
+located _( it riverside )_
+xnear it
+high _( it rating customer )_
+break
+restaurant _( xname providing _( food chinese range _( £ _( 20 25 )_ price )_ )_ )_
+located _( it riverside )_
+xnear it
+high _( it rating customer )_
+break
+restaurant _( xname providing _( food chinese range _( cheap price )_ )_ )_
+located _( it centre city )_
+xnear it
+5 _( it rating customer 5 )_
+break
+restaurant _( xname providing _( food chinese range _( cheap price )_ )_ )_
+located _( it centre city )_
+xnear it
+5 _( it rating customer 5 )_
+break
+restaurant _( xname providing _( food chinese range _( cheap price )_ )_ )_
+located _( it riverside )_
+xnear it
+5 _( it rating customer 5 )_
+break
+restaurant _( xname providing _( food chinese range _( cheap price )_ )_ )_
+located _( it riverside )_
+xnear it
+5 _( it rating customer 5 )_
+break
+restaurant _( xname providing _( food chinese range _( cheap price )_ )_ )_
+located _( it centre city )_
+xnear it
+average _( rating _( its customer )_ )_
+break
+restaurant _( xname providing _( food chinese range _( cheap price )_ )_ )_
+located _( it centre city )_
+xnear it
+average _( rating _( its customer )_ )_
+break
+restaurant _( xname cheap chinese located _( riverside xnear )_ )_
+has _( it rating _( average customer )_ friendly _( and not family )_ )_
+break
+restaurant _( xname providing _( food chinese range _( cheap price )_ )_ )_
+located _( it riverside )_
+xnear it
+average _( rating _( its customer )_ )_
+break
+restaurant _( xname providing _( food chinese range _( price high )_ )_ )_
+located _( it centre city )_
+xnear it
+1 _( it 5 _( rating customer )_ )_
+break
+restaurant _( xname providing _( food chinese range _( price high )_ )_ )_
+located _( it centre city )_
+xnear it
+1 _( it 5 _( rating customer )_ )_
+break
+restaurant _( xname priced high chinese located _( riverside xnear )_ )_
+has _( it rating _( customer 1 5 )_ friendly _( and not child )_ )_
+break
+restaurant _( xname providing _( food chinese range _( price high )_ )_ )_
+located _( it riverside )_
+xnear it
+1 _( it 5 _( rating customer )_ )_
+break
+restaurant _( xname providing _( food chinese range _( price high )_ )_ )_
+located _( it centre city )_
+xnear it
+average _( rating _( its customer )_ )_
+break
+restaurant _( xname providing _( food chinese range _( price high )_ )_ )_
+located _( it centre city )_
+xnear it
+average _( rating _( its customer )_ )_
+break
+restaurant _( xname priced high chinese rating _( average customer )_ )_
+located _( it riverside xnear friendly _( and not children )_ )_
+break
+restaurant _( xname providing _( food chinese range _( price high )_ )_ )_
+located _( it riverside )_
+xnear it
+average _( rating _( its customer )_ )_
+break
+restaurant _( xname providing _( food chinese range _( £ _( less 20 )_ price )_ )_ )_
+located _( it centre city )_
+xnear it
+low _( it rating customer )_
+break
+restaurant _( xname providing _( food chinese range _( £ _( less 20 )_ price )_ )_ )_
+located _( it centre city )_
+xnear it
+low _( it rating customer )_
+break
+restaurant _( xname providing _( food chinese range _( £ _( less 20 )_ price )_ )_ )_
+located _( it riverside )_
+xnear it
+low _( it rating customer )_
+break
+restaurant _( xname providing _( food chinese range _( £ _( less 20 )_ price )_ )_ )_
+located _( it riverside )_
+xnear it
+low _( it rating customer )_
+break
+restaurant _( xname providing _( food chinese range _( moderate price )_ )_ )_
+located _( it centre city )_
+xnear it
+1 _( it 5 _( rating customer )_ )_
+break
+restaurant _( xname providing _( food chinese range _( moderate price )_ )_ )_
+located _( it centre city )_
+xnear it
+1 _( it 5 _( rating customer )_ )_
+break
+restaurant _( xname providing _( food chinese range _( moderate price )_ )_ )_
+located _( it riverside )_
+xnear it
+1 _( it 5 _( rating customer )_ )_
+break
+restaurant _( xname providing _( food chinese range _( moderate price )_ )_ )_
+located _( it riverside )_
+xnear it
+1 _( it 5 _( rating customer )_ )_
+break
+restaurant _( xname providing _( food chinese range _( moderate price )_ )_ )_
+located _( it centre city )_
+xnear it
+3 _( it rating customer 5 )_
+break
+restaurant _( xname providing _( food chinese range _( moderate price )_ )_ )_
+located _( it centre city )_
+xnear it
+3 _( it rating customer 5 )_
+break
+restaurant _( xname providing _( food chinese range _( moderate price )_ )_ )_
+located _( it riverside )_
+xnear it
+3 _( it rating customer 5 )_
+break
+restaurant _( xname providing _( food chinese range _( moderate price )_ )_ )_
+located _( it riverside )_
+xnear it
+3 _( it rating customer 5 )_
+break
+restaurant _( xname providing _( food chinese range _( £ _( more 30 )_ price )_ )_ )_
+located _( it centre city )_
+xnear it
+high _( it rating customer )_
+break
+restaurant _( xname providing _( food chinese range _( £ _( more 30 )_ price )_ )_ )_
+located _( it centre city )_
+xnear it
+high _( it rating customer )_
+break
+restaurant _( xname providing _( food chinese range _( £ _( more 30 )_ price )_ )_ )_
+located _( it riverside )_
+xnear it
+high _( it rating customer )_
+break
+restaurant _( xname providing _( food chinese range _( £ _( more 30 )_ price )_ )_ )_
+located _( it riverside )_
+xnear it
+high _( it rating customer )_
+break
+restaurant _( xname english located _( centre city xnear )_ )_
+has _( it rating _( high customer range _( price £ _( 20 25 )_ )_ )_ friendly _( and not kid )_ )_
+break
+restaurant _( xname english located _( centre city xnear )_ )_
+has _( it rating _( high customer range _( price £ _( 20 25 )_ )_ )_ friendly _( and kid )_ )_
+break
+restaurant _( xname english located _( riverside xnear )_ )_
+has _( it rating _( high customer range _( price £ _( 20 25 )_ )_ )_ friendly _( and not kid )_ )_
+break
+restaurant _( xname friendly family located xnear )_
+break
+restaurant _( xname cheap english located _( centre city xnear )_ )_
+has _( it rating _( customer 5 5 )_ friendly _( and not family )_ )_
+break
+restaurant _( xname cheap friendly family english located _( centre city xnear rating _( customer 5 5 )_ )_ )_
+break
+restaurant _( xname cheap english located _( riverside xnear )_ )_
+has _( it rating _( customer 5 5 )_ friendly _( and not family )_ )_
+break
+restaurant _( xname cheap friendly family located xnear )_
+break
+restaurant _( xname cheap english located _( centre city xnear )_ )_
+has _( it rating _( average customer )_ friendly _( and not family )_ )_
+break
+restaurant _( xname english located _( centre city xnear )_ )_
+has _( it rating _( average customer )_ friendly _( and family )_ )_
+break
+restaurant _( xname cheap english located _( riverside xnear )_ )_
+has _( it rating _( average customer )_ friendly _( and not family )_ )_
+break
+restaurant _( xname cheap friendly family located xnear )_
+break
+restaurant _( xname english located _( centre city xnear )_ )_
+has _( it range _( high price rating _( and customer 1 5 )_ )_ )_
+friendly _( it not child )_
+break
+restaurant _( xname english located _( centre city xnear )_ )_
+break
+restaurant _( xname priced high english located _( riverside xnear )_ )_
+friendly _( it not child has _( and rating _( customer 1 5 )_ )_ )_
+break
+restaurant _( xname priced high friendly family located xnear )_
+break
+restaurant _( xname english located _( centre city xnear )_ )_
+has _( it range _( high price rating _( and average customer )_ )_ friendly _( and not child )_ )_
+break
+restaurant _( xname english located _( centre _( city xnear )_ )_ )_
+friendly _( it children range _( high price rating _( and average customer )_ )_ )_
+break
+restaurant _( xname english located _( riverside xnear )_ )_
+has _( it range _( high price rating _( average customer )_ )_ friendly _( and not children )_ )_
+break
+pub _( xname friendly child located _( riverside xnear )_ )_
+serves _( it food english range _( price high )_ )_
+break
+pub _( xname xnear centre city )_
+serves _( it food english £ _( less 20 )_ friendly _( and not family )_ )_
+break
+pub _( xname friendly family serving _( food english £ _( less 20 )_ )_ )_
+located _( it centre _( city xnear )_ )_
+break
+pub _( xname priced low located _( next xnear )_ )_
+break
+pub _( xname friendly family located xnear )_
+break
+pub _( xname priced moderately english centre _( city xnear )_ )_
+friendly _( it not kid )_
+break
+pub _( xname friendly kid located _( centre _( city xnear )_ )_ )_
+serves _( it food english range _( moderate price )_ )_
+break
+pub _( xname priced moderately english located _( riverside xnear )_ )_
+friendly _( it not kid )_
+break
+pub _( xname priced moderately friendly family )_
+located _( it xnear )_
+break
+pub _( xname children friendly english riverside xnear range _( price £ _( more 30 )_ )_ )_
+break
+pub _( xname friendly kid serving _( food fast range _( price £ _( 20 25 )_ )_ )_ )_
+located _( it riverside xnear )_
+break
+pub _( xname fast food located _( centre _( city xnear )_ )_ )_
+has _( it rating _( high customer range _( price £ _( 20 25 )_ )_ )_ friendly _( and not kid )_ )_
+break
+pub _( xname fast food located _( centre _( city xnear )_ )_ )_
+friendly _( it kid has _( rating _( high customer range _( and price £ 20-25 )_ )_ )_ )_
+break
+pub _( xname fast food located _( riverside xnear )_ )_
+has _( it rating _( high customer range _( price £ _( 20 25 )_ )_ )_ friendly _( and not kid )_ )_
+break
+pub _( xname friendly kid food fast riverside xnear )_
+has _( it rating _( high customer range _( and price £ 20-25 )_ )_ )_
+break
+pub _( xname cheap friendly family food fast riverside xnear )_
+break
+pub _( xname cheap serving _( food _( fast located _( xnear centre city )_ )_ )_ )_
+has _( it rating _( customer 5 5 )_ friendly _( and not family )_ )_
+break
+pub _( xname cheap friendly family serving _( food fast centre _( city xnear )_ )_ )_
+has _( it rating _( customer 5 5 )_ )_
+break
+pub _( xname cheap located _( riverside xnear )_ )_
+friendly _( it not family has _( and rating _( customer 5 5 )_ )_ )_
+break
+pub _( xname cheap friendly family located xnear )_
+break
+pub _( xname fast food located _( xnear centre city )_ )_
+has _( it rating _( average customer )_ friendly _( and not family )_ )_
+break
+pub _( xname fast food located _( xnear centre city )_ )_
+has _( it rating _( average customer )_ friendly _( and family )_ )_
+break
+pub _( xname cheap located _( riverside xnear )_ )_
+friendly _( it not family has _( and rating _( average customer )_ )_ )_
+break
+pub _( xname cheap friendly family located xnear )_
+break
+pub _( xname priced high fast food located _( centre _( city xnear )_ )_ )_
+friendly _( it not child has _( and rating _( customer 1 5 )_ )_ )_
+break
+pub _( xname priced high friendly child fast food rating _( customer 1 5 )_ )_
+located _( it centre _( city xnear )_ )_
+break
+pub _( xname priced high fast food located _( riverside xnear )_ )_
+friendly _( it not child has _( and rating _( customer 1 5 )_ )_ )_
+break
+pub _( xname priced high fast food located xnear )_
+break
+pub _( xname priced high fast food located _( centre _( city xnear )_ )_ )_
+friendly _( it not children has _( and rating _( average customer )_ )_ )_
+break
+pub _( xname friendly children fast food range _( high price rating _( and average customer )_ )_ )_
+located _( it centre _( city xnear )_ )_
+break
+pub _( xname priced high fast food located _( riverside xnear )_ )_
+has _( it rating _( average customer )_ friendly _( and not children )_ )_
+break
+pub _( xname friendly family located _( xnear centre city )_ )_
+break
+pub _( xname fast food located _( xnear centre city )_ )_
+has _( it rating _( low customer )_ friendly _( and not family )_ )_
+break
+pub _( xname friendly family located _( centre _( city xnear )_ )_ )_
+serves _( it food fast has _( and rating _( low customer )_ )_ )_
+break
+pub _( xname priced low centre _( city xnear )_ )_
+break
+pub _( xname friendly family serves _( food fast £ _( less 20 )_ )_ )_
+located _( it riverside xnear has _( and rating _( low customer )_ )_ )_
+break
+pub _( xname priced moderately fast food located _( centre _( city xnear )_ )_ )_
+friendly _( it not kid has _( and rating _( customer 1 5 )_ )_ )_
+break
+pub _( xname priced moderately friendly kid fast food centre city xnear rating _( customer 1 5 )_ )_
+break
+pub _( xname priced moderately fast food xnear riverside )_
+friendly _( it not kid has _( and rating _( customer 1 5 )_ )_ )_
+break
+pub _( xname priced moderately friendly kid fast food rating _( customer 1 5 )_ )_
+located _( it riverside xnear )_
+break
+pub _( xname priced moderately fast food located _( centre _( city xnear )_ )_ )_
+friendly _( it not kid has _( and rating _( customer 3 5 )_ )_ )_
+break
+pub _( xname priced moderately friendly kid fast food centre city xnear rating _( customer 3 5 )_ )_
+break
+pub _( xname priced moderately fast food located _( riverside xnear )_ )_
+friendly _( it not kid has _( and rating _( customer 3 5 )_ )_ )_
+break
+pub _( xname priced moderately friendly kid fast food rating _( customer 3 5 )_ )_
+located _( it riverside xnear )_
+break
+restaurant _( xname priced high located _( riverside xnear )_ )_
+break
+restaurant _( xname priced high located _( centre city xnear )_ )_
+break
+restaurant _( xname priced low english located _( centre _( city xnear )_ )_ )_
+friendly _( it not family )_
+break
+restaurant _( located _( centre _( city xnear )_ )_ xname friendly family serving _( food english £ _( less 20 )_ )_ )_
+break
+restaurant _( xname priced low located xnear )_
+break
+restaurant _( xname friendly family located xnear )_
+break
+restaurant _( xname english located _( centre city xnear )_ )_
+has _( it rating _( low customer range _( and price £ _( less 20 )_ )_ )_ friendly _( and not family )_ )_
+break
+restaurant _( xname friendly family located _( centre _( city xnear )_ )_ )_
+serves _( it food english £ _( less 20 )_ has _( and rating _( low customer )_ )_ )_
+break
+restaurant _( xname priced low centre _( city xnear )_ )_
+break
+restaurant _( xname friendly family located xnear )_
+break
+restaurant _( xname priced moderately english located _( centre city xnear )_ )_
+friendly _( it not kid )_
+break
+restaurant _( xname priced moderately friendly kid english located _( centre city xnear )_ )_
+break
+restaurant _( xname priced moderately english located _( riverside xnear )_ )_
+friendly _( it not kid )_
+break
+restaurant _( xname priced moderately friendly kid english located _( riverside xnear )_ )_
+break
+restaurant _( xname priced moderately english xnear centre city )_
+friendly _( it not kid has _( and rating _( customer 1 5 )_ )_ )_
+break
+restaurant _( xname priced moderately friendly kid english located _( centre city xnear rating _( customer 1 5 )_ )_ )_
+break
+restaurant _( xname priced moderately english located _( riverside xnear )_ )_
+break
+restaurant _( xname providing _( food _( priced moderately )_ )_ )_
+located _( it xnear )_
+break
+restaurant _( xname priced moderately english located _( centre city xnear )_ )_
+friendly _( it not kid has _( and rating _( customer 3 5 )_ )_ )_
+break
+restaurant _( xname english located _( centre city xnear )_ )_
+friendly _( it kid has _( and rating _( customer 3 5 )_ )_ )_
+break
+restaurant _( xname priced moderately english located _( riverside xnear )_ )_
+friendly _( it not kid has _( and rating _( customer 3 5 )_ )_ )_
+break
+restaurant _( xname providing _( food _( priced moderately )_ )_ )_
+located _( it xnear )_
+break
+restaurant _( xname children friendly english riverside xnear range _( price £ _( more 30 )_ )_ )_
+break
+restaurant _( xname english located _( centre city xnear )_ )_
+has _( it rating _( high customer range _( price £ _( more 30 )_ )_ )_ friendly _( and not children )_ )_
+break
+restaurant _( xname english located _( centre city xnear )_ )_
+has _( it rating _( high customer range _( price £ _( more 30 )_ )_ )_ friendly _( and children )_ )_
+break
+restaurant _( xname english located _( riverside xnear )_ )_
+has _( it rating _( high customer range _( price £ _( more 30 )_ )_ )_ friendly _( and not children )_ )_
+break
+restaurant _( xname friendly child located _( riverside xnear )_ )_
+has _( it rating _( high customer range _( and price £ _( more 30 )_ )_ )_ )_
+break
+restaurant _( xname friendly kid fast food located _( riverside xnear range _( price £ 20-25 )_ )_ )_
+break
+restaurant _( xname cheap friendly family fast food located _( riverside xnear )_ )_
+break
+pub _( xname cheap friendly family food fast riverside xnear )_
+break
+pub _( xname priced high fast food located _( centre _( city xnear )_ )_ )_
+friendly _( it not child )_
+break
+pub _( xname priced high friendly child food fast xnear centre city )_
+break
+pub _( xname priced high fast food located _( riverside xnear )_ )_
+friendly _( it not child )_
+break
+pub _( xname priced high friendly child food fast riverside xnear )_
+break
+pub _( xname priced low centre _( city xnear )_ )_
+friendly _( it not family )_
+break
+pub _( xname friendly family centre _( city xnear )_ )_
+serves _( it food fast 20. _( less £ )_ )_
+break
+pub _( xname priced low centre _( city xnear )_ )_
+break
+pub _( xname friendly family located xnear )_
+break
+pub _( xname priced moderately fast food located _( centre _( city xnear )_ )_ )_
+friendly _( it not kid )_
+break
+pub _( xname priced moderately friendly kid fast food located _( centre _( city xnear )_ )_ )_
+break
+pub _( xname priced moderately fast food located _( riverside xnear )_ )_
+friendly _( it not kid )_
+break
+pub _( xname priced moderately friendly kid fast food located _( riverside xnear )_ )_
+break
+pub _( xname priced moderately friendly kid fast food rating _( customer 3 5 )_ )_
+located _( it riverside xnear )_
+break
+pub _( xname friendly child food fast range _( price £ _( more 30 )_ )_ )_
+located _( it riverside xnear )_
+break
+pub _( xname fast food located _( centre _( city xnear )_ )_ )_
+has _( it rating _( high customer range _( price £ _( more 30 )_ )_ )_ friendly _( and not children )_ )_
+break
+pub _( xname friendly children fast food range _( price £ _( more 30 rating _( and high customer )_ )_ )_ )_
+located _( it centre _( city xnear )_ )_
+break
+pub _( xname fast food located _( riverside xnear )_ )_
+has _( it rating _( high customer range _( price £ _( more 30 )_ )_ )_ friendly _( and not children )_ )_
+break
+pub _( xname friendly family located _( centre city xnear )_ )_
+break
+pub _( xname friendly kid serving _( food french range _( price £ _( 20 25 )_ )_ )_ )_
+located _( it riverside xnear )_
+break
+pub _( xname french located _( centre city xnear )_ )_
+has _( it rating _( customer 3 5 range _( and price £ _( 20 25 )_ )_ )_ friendly _( and not kid )_ )_
+break
+pub _( xname french located _( centre city xnear )_ )_
+has _( it rating _( customer 3 5 range _( and price £ _( 20 25 )_ )_ )_ friendly _( and kid )_ )_
+break
+pub _( xname french located _( riverside xnear )_ )_
+has _( it rating _( customer 3 5 )_ friendly _( and not kid )_ )_
+break
+pub _( xname friendly family located xnear )_
+break
+pub _( xname french located _( centre city xnear )_ )_
+has _( it rating _( high customer range _( price £ _( 20 25 )_ )_ )_ friendly _( and not kid )_ )_
+break
+pub _( xname french located _( centre city xnear )_ )_
+has _( it rating _( high customer range _( price £ _( 20 25 )_ )_ )_ friendly _( and kid )_ )_
+break
+pub _( xname french located _( riverside xnear )_ )_
+has _( it rating _( high customer range _( price £ _( 20 25 )_ )_ )_ friendly _( and not kid )_ )_
+break
+pub _( xname friendly family located xnear )_
+break
+pub _( xname cheap friendly family french riverside xnear )_
+break
+pub _( xname cheap french xnear centre city )_
+friendly _( it not family has _( and rating _( customer 5 5 )_ )_ )_
+break
+pub _( xname cheap friendly family serving _( food french )_ )_
+located _( it centre _( city xnear )_ )_
+has _( it rating _( customer 5 5 )_ )_
+break
+pub _( xname cheap french located _( riverside xnear )_ )_
+friendly _( it not family has _( and rating _( customer 5 5 )_ )_ )_
+break
+pub _( xname cheap friendly family located xnear )_
+break
+pub _( xname priced high friendly child french riverside xnear )_
+break
+pub _( xname french located _( centre city xnear )_ )_
+has _( it range _( high price rating _( and customer 3 5 )_ )_ friendly _( and not child )_ )_
+break
+pub _( xname french located _( centre _( city xnear )_ )_ )_
+friendly _( it children range _( high price rating _( and customer 3 5 )_ )_ )_
+break
+pub _( xname french located _( riverside xnear )_ )_
+friendly _( it not child has _( and rating _( customer 3 5 )_ )_ )_
+break
+pub _( xname friendly family located _( centre city xnear )_ )_
+break
+pub _( xname french located _( centre city xnear )_ )_
+has _( it rating _( average customer range _( and price £ _( less 20 )_ )_ )_ friendly _( and not family )_ )_
+break
+pub _( xname friendly family located _( centre _( city xnear )_ )_ )_
+serves _( it food french £ _( less 20 )_ has _( and rating _( average customer )_ )_ )_
+break
+pub _( xname french located _( riverside xnear )_ )_
+has _( it rating _( average customer range _( price £ _( less 20 )_ )_ )_ friendly _( and not family )_ )_
+break
+pub _( xname friendly family located xnear )_
+break
+pub _( xname french located _( centre city xnear )_ )_
+has _( it rating _( low customer range _( and price £ _( less 20 )_ )_ )_ friendly _( and not family )_ )_
+break
+pub _( xname friendly family located _( centre _( city xnear )_ )_ )_
+serves _( it food french £ _( less 20 )_ has _( and rating _( low customer )_ )_ )_
+break
+pub _( xname french located _( riverside xnear )_ )_
+has _( it rating _( low customer )_ friendly _( and not family )_ )_
+break
+pub _( xname friendly family serves _( food french £ _( less 20 )_ )_ )_
+located _( it riverside xnear has _( and rating _( low customer )_ )_ )_
+break
+pub _( xname priced moderately french located _( centre city xnear )_ )_
+friendly _( it not kid has _( and rating _( customer 1 5 )_ )_ )_
+break
+pub _( xname friendly kid located _( centre _( city xnear )_ )_ )_
+serves _( it food french range _( moderate price )_ has _( and rating _( customer 1 5 )_ )_ )_
+break
+pub _( xname priced moderately french located _( riverside xnear )_ )_
+friendly _( it not kid has _( and rating _( customer 1 5 )_ )_ )_
+break
+pub _( xname priced moderately friendly family located xnear )_
+break
+pub _( xname french located _( centre city xnear )_ )_
+has _( it rating _( customer 5 5 range _( price £ _( more 30 )_ )_ )_ friendly _( and not child )_ )_
+break
+pub _( xname french located _( centre city xnear )_ )_
+has _( it rating _( customer 5 5 range _( and price £ _( more 30 )_ )_ )_ friendly _( and children )_ )_
+break
+pub _( xname french located _( riverside xnear )_ )_
+has _( it rating _( customer 5 5 range _( price £ _( more 30 )_ )_ )_ friendly _( and not children )_ )_
+break
+pub _( xname friendly family located _( centre city xnear )_ )_
+break
+pub _( xname french located _( centre city xnear )_ )_
+has _( it rating _( low customer range _( and price £ _( more 30 )_ )_ )_ friendly _( and not child )_ )_
+break
+pub _( xname french located _( centre city xnear )_ )_
+friendly _( it children has _( and rating _( low customer range _( and price £ _( more 30 )_ )_ )_ )_ )_
+break
+pub _( xname french located _( riverside xnear )_ )_
+has _( it rating _( low customer range _( and price £ _( more 30 )_ )_ )_ friendly _( and not child )_ )_
+break
+pub _( xname friendly family located xnear )_
+break
+restaurant _( xname cheap friendly family fast food located _( riverside xnear )_ )_
+break
+restaurant _( xname priced high fast food located _( centre _( city xnear )_ )_ )_
+friendly _( it not child )_
+break
+restaurant _( xname priced high friendly child food fast xnear centre city )_
+break
+restaurant _( xname priced high fast food located _( riverside xnear )_ )_
+friendly _( it not child )_
+break
+restaurant _( xname priced high fast food located xnear )_
+break
+restaurant _( xname fast food located _( xnear centre city )_ )_
+friendly _( it not family £ _( and range price less 20 )_ )_
+break
+restaurant _( xname friendly family fast food range _( price £ _( less 20 )_ )_ )_
+located _( it centre _( city xnear )_ )_
+break
+restaurant _( xname priced low centre _( city xnear )_ )_
+break
+restaurant _( xname friendly family located xnear )_
+break
+restaurant _( xname priced moderately fast food located _( centre _( city xnear )_ )_ )_
+friendly _( it not kid )_
+break
+restaurant _( xname priced moderately friendly kid fast food located _( centre _( city xnear )_ )_ )_
+break
+restaurant _( xname priced moderately fast food located _( riverside xnear )_ )_
+break
+restaurant _( xname priced moderately friendly kid fast food located _( riverside xnear )_ )_
+break
+restaurant _( xname friendly child food fast range _( price £ _( more 30 )_ )_ )_
+located _( it riverside xnear )_
+break
+restaurant _( xname friendly kid french riverside xnear range _( price £ 20-25 )_ )_
+break
+restaurant _( xname cheap friendly family french riverside xnear )_
+break
+restaurant _( xname priced high friendly child french riverside xnear )_
+break
+restaurant _( xname providing _( food indian range _( £ _( 20 25 )_ price )_ )_ )_
+located _( it centre city )_
+xnear it
+high _( it rating customer )_
+break
+restaurant _( xname providing _( food indian range _( £ _( 20 25 )_ price )_ )_ )_
+located _( it centre city )_
+xnear it
+high _( it rating customer )_
+break
+restaurant _( xname indian range _( price £ _( 20 25 )_ )_ )_
+has _( it rating _( high customer )_ friendly _( and not kid )_ )_
+located _( it riverside xnear )_
+break
+restaurant _( xname providing _( food indian range _( £ _( 20 25 )_ price )_ )_ )_
+located _( it riverside )_
+xnear it
+high _( it rating customer )_
+break
+restaurant _( xname providing _( food indian range _( cheap price )_ )_ )_
+located _( it centre city )_
+xnear it
+5 _( it rating customer 5 )_
+break
+restaurant _( xname providing _( food indian range _( cheap price )_ )_ )_
+located _( it centre city )_
+xnear it
+5 _( it rating customer 5 )_
+break
+restaurant _( xname providing _( food indian range _( cheap price )_ )_ )_
+located _( it riverside )_
+xnear it
+5 _( it rating customer 5 )_
+break
+restaurant _( xname providing _( food indian range _( cheap price )_ )_ )_
+located _( it riverside )_
+xnear it
+5 _( it rating customer 5 )_
+break
+restaurant _( xname providing _( food indian range _( cheap price )_ )_ )_
+located _( it centre city )_
+xnear it
+average _( rating _( its customer )_ )_
+break
+pub _( xname provides _( food chinese range _( £ _( 20 25 )_ price )_ )_ )_
+located _( it riverside )_
+xnear it
+break
+pub _( xname provides _( food chinese range _( cheap price )_ )_ )_
+located _( it riverside )_
+xnear it
+break
+pub _( xname provides _( food chinese range _( price high )_ )_ )_
+located _( it centre city )_
+xnear it
+break
+pub _( xname provides _( food chinese range _( price high )_ )_ )_
+located _( it centre city )_
+xnear it
+break
+pub _( xname provides _( food chinese range _( price high )_ )_ )_
+located _( it riverside )_
+xnear it
+break
+pub _( xname provides _( food chinese range _( price high )_ )_ )_
+located _( it riverside )_
+xnear it
+break
+pub _( xname provides _( food chinese range _( £ _( less 20 )_ price )_ )_ )_
+located _( it centre city )_
+xnear it
+break
+restaurant _( xname providing _( food chinese range _( £ _( 20 25 )_ price )_ )_ )_
+located _( it riverside )_
+xnear it
+break
+restaurant _( xname cheap chinese located _( riverside xnear )_ )_
+friendly _( it family )_
+break
+restaurant _( xname providing _( food chinese range _( price high )_ )_ )_
+located _( it centre city )_
+xnear it
+break
+restaurant _( xname providing _( food chinese range _( price high )_ )_ )_
+located _( it centre city )_
+xnear it
+break
+restaurant _( xname providing _( food chinese range _( price high )_ )_ )_
+located _( it riverside )_
+xnear it
+break
+restaurant _( xname priced high chinese riverside xnear )_
+friendly _( it child )_
+break
+restaurant _( xname providing _( food chinese range _( £ _( less 20 )_ price )_ )_ )_
+located _( it centre city )_
+xnear it
+break
+pub _( xname provides _( food chinese range _( £ _( less 20 )_ price )_ )_ )_
+located _( it centre city )_
+xnear it
+break
+pub _( xname provides _( food chinese range _( £ _( less 20 )_ price )_ )_ )_
+located _( it riverside )_
+xnear it
+break
+pub _( xname provides _( food chinese range _( £ _( less 20 )_ price )_ )_ )_
+located _( it riverside )_
+xnear it
+break
+pub _( xname provides _( food chinese range _( moderate price )_ )_ )_
+located _( it centre city )_
+xnear it
+break
+pub _( xname provides _( food chinese range _( moderate price )_ )_ )_
+located _( it centre city )_
+xnear it
+break
+pub _( xname provides _( food chinese range _( moderate price )_ )_ )_
+located _( it riverside )_
+xnear it
+break
+pub _( xname provides _( food chinese range _( moderate price )_ )_ )_
+located _( it riverside )_
+xnear it
+break
+pub _( xname provides _( food chinese range _( £ _( more 30 )_ price )_ )_ )_
+located _( it riverside )_
+xnear it
+break
+pub _( xname friendly kid serving _( food english range _( price £ _( 20 25 )_ )_ )_ )_
+located _( it riverside xnear )_
+break
+pub _( xname cheap friendly family serves _( food english )_ )_
+located _( it riverside xnear )_
+break
+pub _( xname priced high english located _( centre city xnear )_ )_
+friendly _( it not child )_
+break
+pub _( xname friendly child serving _( food english range _( price high )_ )_ )_
+located _( it centre _( city xnear )_ )_
+break
+pub _( xname priced high english riverside xnear )_
+friendly _( it not child )_
+break
+pub _( xname friendly child located _( riverside xnear )_ )_
+serves _( it food english range _( price high )_ )_
+break
+pub _( xname italian located _( centre city xnear )_ )_
+has _( it range _( high price rating _( and average customer )_ )_ friendly _( and not child )_ )_
+break
+restaurant _( xname chinese range _( price £ _( less 20 )_ )_ )_
+friendly _( it family located _( and centre _( city xnear )_ )_ )_
+break
+restaurant _( xname providing _( food chinese range _( £ _( less 20 )_ price )_ )_ )_
+located _( it riverside )_
+xnear it
+break
+restaurant _( xname providing _( food chinese range _( £ _( less 20 )_ price )_ )_ )_
+located _( it riverside )_
+xnear it
+break
+restaurant _( xname providing _( food chinese range _( moderate price )_ )_ )_
+located _( it centre city )_
+xnear it
+break
+restaurant _( xname chinese range _( moderate price )_ )_
+located _( it centre _( city xnear )_ friendly _( and kid )_ )_
+break
+restaurant _( xname providing _( food chinese range _( moderate price )_ )_ )_
+located _( it riverside )_
+xnear it
+break
+restaurant _( xname providing _( food chinese range _( moderate price )_ )_ )_
+located _( it riverside )_
+xnear it
+break
+restaurant _( xname providing _( food chinese range _( £ _( more 30 )_ price )_ )_ )_
+located _( it riverside )_
+xnear it
+break
+restaurant _( xname friendly kid english riverside xnear range _( price £ 20-25 )_ )_
+break
+restaurant _( xname cheap friendly family english located _( riverside xnear )_ )_
+break
+restaurant _( xname priced high english located _( centre city xnear )_ )_
+friendly _( it not child )_
+break
+restaurant _( xname english located _( centre _( city xnear )_ )_ )_
+has _( it range _( high price )_ friendly _( and child )_ )_
+break
+restaurant _( xname priced high english located _( riverside xnear )_ )_
+friendly _( it not child )_
+break
+restaurant _( xname priced high located _( riverside xnear )_ )_
+break
+restaurant _( xname providing _( food indian range _( cheap price )_ )_ )_
+located _( it centre city )_
+xnear it
+average _( rating _( its customer )_ )_
+break
+restaurant _( xname providing _( food indian range _( cheap price )_ )_ )_
+located _( it riverside )_
+xnear it
+average _( rating _( its customer )_ )_
+break
+restaurant _( xname providing _( food indian range _( cheap price )_ )_ )_
+located _( it riverside )_
+xnear it
+average _( rating _( its customer )_ )_
+break
+restaurant _( xname providing _( food indian range _( price high )_ )_ )_
+located _( it centre city )_
+xnear it
+1 _( it 5 _( rating customer )_ )_
+break
+restaurant _( xname providing _( food indian range _( price high )_ )_ )_
+located _( it centre city )_
+xnear it
+1 _( it 5 _( rating customer )_ )_
+break
+restaurant _( xname providing _( food indian range _( price high )_ )_ )_
+located _( it riverside )_
+xnear it
+1 _( it 5 _( rating customer )_ )_
+break
+restaurant _( xname providing _( food indian range _( price high )_ )_ )_
+located _( it riverside )_
+xnear it
+1 _( it 5 _( rating customer )_ )_
+break
+restaurant _( xname providing _( food indian range _( price high )_ )_ )_
+located _( it centre city )_
+xnear it
+average _( rating _( its customer )_ )_
+break
+restaurant _( xname providing _( food indian range _( price high )_ )_ )_
+located _( it centre city )_
+xnear it
+average _( rating _( its customer )_ )_
+break
+restaurant _( xname priced high indian located _( riverside xnear )_ )_
+has _( it rating _( average customer )_ friendly _( and not children )_ )_
+break
+restaurant _( xname providing _( food indian range _( price high )_ )_ )_
+located _( it riverside )_
+xnear it
+average _( rating _( its customer )_ )_
+break
+restaurant _( xname providing _( food indian range _( £ _( less 20 )_ price )_ )_ )_
+located _( it centre city )_
+xnear it
+low _( it rating customer )_
+break
+restaurant _( xname providing _( food indian range _( £ _( less 20 )_ price )_ )_ )_
+located _( it centre city )_
+xnear it
+low _( it rating customer )_
+break
+restaurant _( xname providing _( food indian range _( £ _( less 20 )_ price )_ )_ )_
+located _( it riverside )_
+xnear it
+low _( it rating customer )_
+break
+restaurant _( xname providing _( food indian range _( £ _( less 20 )_ price )_ )_ )_
+located _( it riverside )_
+xnear it
+low _( it rating customer )_
+break
+restaurant _( xname providing _( food indian range _( moderate price )_ )_ )_
+located _( it centre city )_
+xnear it
+1 _( it 5 _( rating customer )_ )_
+break
+restaurant _( xname providing _( food indian range _( moderate price )_ )_ )_
+located _( it centre city )_
+xnear it
+1 _( it 5 _( rating customer )_ )_
+break
+restaurant _( xname providing _( food indian range _( moderate price )_ )_ )_
+located _( it riverside )_
+xnear it
+1 _( it 5 _( rating customer )_ )_
+break
+restaurant _( xname providing _( food indian range _( moderate price )_ )_ )_
+located _( it riverside )_
+xnear it
+1 _( it 5 _( rating customer )_ )_
+break
+restaurant _( xname providing _( food indian range _( moderate price )_ )_ )_
+located _( it centre city )_
+xnear it
+3 _( it rating customer 5 )_
+break
+restaurant _( xname providing _( food indian range _( moderate price )_ )_ )_
+located _( it centre city )_
+xnear it
+3 _( it rating customer 5 )_
+break
+restaurant _( xname priced moderately indian located _( riverside xnear )_ )_
+has _( it rating _( customer 3 5 )_ friendly _( and not kid )_ )_
+break
+restaurant _( xname providing _( food indian range _( moderate price )_ )_ )_
+located _( it riverside )_
+xnear it
+3 _( it rating customer 5 )_
+break
+restaurant _( xname providing _( food indian range _( £ _( more 30 )_ price )_ )_ )_
+located _( it centre city )_
+xnear it
+high _( it rating customer )_
+break
+restaurant _( xname providing _( food indian range _( £ _( more 30 )_ price )_ )_ )_
+located _( it centre city )_
+xnear it
+high _( it rating customer )_
+break
+restaurant _( xname providing _( food indian range _( £ _( more 30 )_ price )_ )_ )_
+located _( it riverside )_
+xnear it
+high _( it rating customer )_
+break
+restaurant _( xname providing _( food indian range _( £ _( more 30 )_ price )_ )_ )_
+located _( it riverside )_
+xnear it
+high _( it rating customer )_
+break
+restaurant _( xname italian located _( centre city xnear )_ )_
+has _( it rating _( high customer range _( price £ _( 20 25 )_ )_ )_ friendly _( and not kid )_ )_
+break
+restaurant _( xname italian located _( centre city xnear )_ )_
+has _( it rating _( high customer range _( price £ _( 20 25 )_ )_ )_ friendly _( and kid )_ )_
+break
+restaurant _( xname italian located _( riverside xnear )_ )_
+has _( it rating _( high customer range _( price £ _( 20 25 )_ )_ )_ friendly _( and not kid )_ )_
+break
+restaurant _( xname providing _( food italian )_ )_
+located _( it xnear )_
+break
+restaurant _( xname cheap italian located _( centre city xnear )_ )_
+has _( it rating _( customer 5 5 )_ friendly _( and not family )_ )_
+break
+restaurant _( xname cheap italian located _( centre city xnear )_ )_
+friendly _( it family has _( and rating _( customer 5 5 )_ )_ )_
+break
+restaurant _( xname cheap italian located _( riverside xnear )_ )_
+has _( it rating _( customer 5 5 )_ friendly _( but not family )_ )_
+break
+restaurant _( xname cheap friendly family italian located _( riverside xnear rating _( customer 5 5 )_ )_ )_
+break
+restaurant _( xname cheap italian xnear centre city )_
+has _( it rating _( average customer )_ friendly _( and not family )_ )_
+break
+restaurant _( xname cheap friendly family italian rating _( average customer )_ )_
+located _( it centre _( city xnear )_ )_
+break
+restaurant _( xname cheap italian located _( riverside xnear )_ )_
+has _( it rating _( average customer )_ friendly _( and not family )_ )_
+break
+restaurant _( xname cheap italian located _( riverside xnear )_ )_
+friendly _( it family has _( and rating _( average customer )_ )_ )_
+break
+restaurant _( xname italian located _( centre city xnear )_ )_
+has _( it range _( high price rating _( and customer 1 5 )_ )_ )_
+friendly _( it not child )_
+break
+restaurant _( xname italian located _( centre city xnear )_ )_
+friendly _( it children range _( high price rating _( and customer 1 5 )_ )_ )_
+break
+restaurant _( xname priced high italian located _( riverside xnear )_ )_
+break
+restaurant _( xname priced high italian located _( riverside xnear )_ )_
+break
+pub _( xname priced high friendly child french riverside xnear )_
+break
+pub _( xname french centre _( city xnear )_ )_
+friendly _( it not family £ _( and range price less 20 )_ )_
+break
+pub _( xname friendly family serving _( food french range price £ _( less 20 )_ )_ )_
+located _( it centre _( city xnear )_ )_
+break
+pub _( xname priced low located _( next xnear )_ )_
+break
+pub _( xname friendly family located xnear )_
+break
+pub _( xname priced moderately french located _( centre city xnear )_ )_
+friendly _( it not kid )_
+break
+pub _( xname priced moderately friendly kid serving _( food french )_ )_
+located _( it centre _( city xnear )_ )_
+break
+pub _( xname priced moderately french located _( riverside xnear )_ )_
+friendly _( it not kid )_
+break
+pub _( xname friendly family located xnear )_
+break
+pub _( xname french located _( centre city xnear )_ )_
+friendly _( it not children has _( and range _( price £ _( more 30 )_ )_ )_ )_
+break
+pub _( xname french located _( centre _( city xnear )_ )_ )_
+friendly _( it children has _( and range _( price £ _( more 30 )_ )_ )_ )_
+break
+pub _( xname french located _( riverside xnear )_ )_
+friendly _( it not children has _( and range _( price £ _( more 30 )_ )_ )_ )_
+break
+pub _( xname children friendly french riverside xnear range _( price £ _( more 30 )_ )_ )_
+break
+pub _( xname provides _( food indian range _( £ _( 20 25 )_ price )_ )_ )_
+located _( it riverside )_
+xnear it
+break
+pub _( xname provides _( food indian range _( cheap price )_ )_ )_
+located _( it riverside )_
+xnear it
+break
+pub _( xname provides _( food indian range _( price high )_ )_ )_
+located _( it centre city )_
+xnear it
+break
+pub _( xname provides _( food indian range _( price high )_ )_ )_
+located _( it centre city )_
+xnear it
+break
+pub _( xname italian located _( centre city xnear )_ )_
+has _( it range _( high price rating _( and average customer )_ )_ friendly _( and not child )_ )_
+break
+pub _( xname italian located _( centre _( city xnear )_ )_ )_
+friendly _( it children range _( high price rating _( and average customer )_ )_ )_
+break
+pub _( xname italian located _( riverside xnear )_ )_
+has _( it range _( high price rating _( and average customer )_ )_ )_
+friendly _( it not children )_
+break
+pub _( xname friendly family located _( centre city xnear )_ )_
+break
+pub _( xname serving _( food italian £ _( less 20 )_ )_ )_
+friendly _( it not family has _( and rating _( low customer )_ )_ )_
+located _( it centre _( city xnear )_ )_
+break
+pub _( xname friendly family serving _( food italian £ _( less 20 )_ )_ )_
+located _( it centre _( city xnear )_ has _( and rating _( low customer )_ )_ )_
+break
+pub _( xname italian located _( riverside xnear )_ )_
+has _( it rating _( low customer )_ friendly _( and not family )_ )_
+break
+pub _( xname cheap friendly family located xnear )_
+break
+pub _( xname italian located _( centre city xnear )_ )_
+has _( it range _( moderate price rating _( and customer 1 5 )_ )_ friendly _( and not kid )_ )_
+break
+pub _( xname friendly kid italian located _( centre city xnear )_ )_
+has _( it range _( moderate price rating _( and customer 1 5 )_ )_ )_
+break
+pub _( xname priced moderately italian located _( riverside xnear )_ )_
+friendly _( it not kid has _( and rating _( customer 1 5 )_ )_ )_
+break
+pub _( xname italian located _( riverside xnear )_ )_
+friendly _( it kid has _( range _( moderate price rating _( and customer 1 5 )_ )_ )_ )_
+break
+pub _( xname italian located _( centre _( city xnear )_ )_ )_
+friendly _( it not kid has _( and rating _( customer 3 5 )_ )_ )_
+break
+pub _( xname italian located _( centre city xnear )_ )_
+friendly _( it kid has _( and rating _( customer 3 5 )_ )_ )_
+break
+pub _( xname italian located _( riverside xnear )_ )_
+friendly _( it not kid has _( and rating _( customer 3 5 )_ )_ )_
+break
+pub _( xname italian located _( riverside xnear )_ )_
+friendly _( it kid has _( range _( moderate price rating _( and customer 3 5 )_ )_ )_ )_
+break
+pub _( xname italian located _( centre city xnear )_ )_
+has _( it rating _( high customer range _( price £ _( more 30 )_ )_ )_ friendly _( and not children )_ )_
+break
+pub _( xname italian located _( centre city xnear )_ )_
+has _( it rating _( high customer range _( price £ _( more 30 )_ )_ )_ friendly _( and children )_ )_
+break
+pub _( xname italian located _( riverside xnear )_ )_
+has _( it rating _( high customer range _( price £ _( more 30 )_ )_ )_ friendly _( and not children )_ )_
+break
+pub _( xname friendly family located xnear )_
+break
+pub _( xname japanese located _( centre city xnear )_ )_
+has _( it rating _( customer 3 5 range _( and price £ _( 20 25 )_ )_ )_ friendly _( and not kid )_ )_
+break
+pub _( xname japanese located _( centre _( city xnear )_ )_ )_
+friendly _( it kid range _( price £ _( 20 25 )_ rating _( and customer 3 5 )_ )_ )_
+break
+pub _( xname japanese located _( riverside xnear )_ )_
+has _( it rating _( customer 3 5 )_ friendly _( and not kid )_ )_
+break
+pub _( xname japanese located _( riverside xnear )_ )_
+has _( it rating _( customer 3 5 )_ friendly _( and kid )_ )_
+break
+pub _( xname japanese located _( centre city xnear )_ )_
+has _( it rating _( high customer range _( price £ _( 20 25 )_ )_ )_ friendly _( and not kid )_ )_
+break
+pub _( xname japanese located _( centre city xnear )_ )_
+has _( it rating _( high customer range _( and price £ _( 20 25 )_ )_ )_ friendly _( and kid )_ )_
+break
+pub _( xname japanese located _( riverside xnear )_ )_
+has _( it rating _( high customer range _( price £ _( 20 25 )_ )_ )_ friendly _( and not kid )_ )_
+break
+pub _( xname rated highly friendly kid japanese riverside xnear )_
+range _( prices £ 20-25 )_
+break
+pub _( xname cheap japanese located _( centre city xnear )_ )_
+has _( it rating _( customer 5 5 )_ friendly _( and not family )_ )_
+break
+pub _( xname cheap japanese located _( centre city xnear )_ )_
+friendly _( it family has _( and rating _( customer 5 5 )_ )_ )_
+break
+pub _( xname cheap japanese located _( riverside xnear )_ )_
+friendly _( it not family has _( and rating _( customer 5 5 )_ )_ )_
+break
+pub _( xname friendly family located _( riverside xnear )_ )_
+serves _( it food _( cheap japanese )_ has _( and rating _( customer 5 5 )_ )_ )_
+break
+pub _( xname japanese located _( centre city xnear )_ )_
+has _( it range _( high price rating _( and customer 3 5 )_ )_ friendly _( and not child )_ )_
+break
+pub _( xname japanese located _( centre _( city xnear )_ )_ )_
+friendly _( it children range _( high price rating _( and customer 3 5 )_ )_ )_
+break
+pub _( xname priced high japanese located _( riverside xnear )_ )_
+friendly _( it not child has _( and rating _( customer 3 5 )_ )_ )_
+break
+pub _( xname priced high friendly family sushi located xnear )_
+break
+pub _( xname japanese centre _( city xnear )_ )_
+has _( it rating _( average customer range _( and price £ _( less 20 )_ )_ )_ friendly _( and not family )_ )_
+break
+pub _( xname friendly family xnear centre city )_
+serves _( it food japanese £ _( less 20 )_ has _( and rating _( average customer )_ )_ )_
+break
+pub _( xname japanese located _( riverside xnear )_ )_
+has _( it rating _( average customer range _( price £ _( less 20 )_ )_ )_ friendly _( and not family )_ )_
+break
+pub _( xname friendly family located _( riverside xnear )_ )_
+serves _( it food japanese £ _( less 20 )_ has _( and rating _( average customer )_ )_ )_
+break
+pub _( xname cheap japanese located _( centre city xnear )_ )_
+friendly _( it not family has _( and rating _( low customer )_ )_ )_
+break
+pub _( xname friendly family xnear centre city )_
+serves _( it food japanese £ _( less 20 )_ has _( and rating _( low customer )_ )_ )_
+break
+pub _( xname japanese located _( riverside xnear )_ )_
+has _( it rating _( low customer )_ friendly _( and not family )_ )_
+break
+pub _( xname friendly family serves _( food japanese £ _( less 20 )_ )_ )_
+located _( it riverside xnear has _( and rating _( low customer )_ )_ )_
+break
+pub _( xname priced moderately japanese located _( centre _( city xnear )_ )_ )_
+friendly _( it not kid has _( and rating _( customer 1 5 )_ )_ )_
+break
+pub _( xname priced moderately friendly kid japanese located _( centre city xnear rating _( customer 1 5 )_ )_ )_
+break
+restaurant _( xname priced high friendly child french riverside xnear )_
+break
+restaurant _( xname french located _( centre city xnear )_ )_
+has _( it range _( price £ _( less 20 )_ )_ friendly _( and not family )_ )_
+break
+restaurant _( xname friendly family french located _( centre city xnear )_ )_
+20. _( range price less £ )_
+break
+restaurant _( xname priced low located xnear )_
+break
+restaurant _( xname priced low friendly family located xnear )_
+break
+restaurant _( xname priced moderately french located _( centre city xnear )_ )_
+friendly _( it not kid )_
+break
+restaurant _( xname french located _( centre city xnear )_ )_
+friendly _( it kid priced _( and moderately )_ )_
+break
+restaurant _( xname priced moderately french located _( riverside xnear )_ )_
+friendly _( it not kid )_
+break
+restaurant _( xname priced moderately friendly family located xnear )_
+break
+restaurant _( xname french located _( centre city xnear )_ )_
+has _( it range _( price £ _( more 30 )_ )_ friendly _( and not child )_ )_
+break
+restaurant _( xname french located _( centre _( city xnear )_ )_ )_
+friendly _( it children has _( and range _( price £ _( more 30 )_ )_ )_ )_
+break
+restaurant _( xname french located _( riverside xnear )_ )_
+friendly _( it not children has _( and range _( price £ _( more 30 )_ )_ )_ )_
+break
+restaurant _( xname children friendly french riverside xnear range _( price £ _( more 30 )_ )_ )_
+break
+restaurant _( xname indian range _( price £ _( 20 25 )_ )_ )_
+friendly _( it kid located _( and riverside xnear )_ )_
+break
+restaurant _( xname cheap friendly family indian riverside xnear )_
+break
+restaurant _( xname providing _( food indian range _( price high )_ )_ )_
+located _( it centre city )_
+xnear it
+break
+restaurant _( xname providing _( food indian range _( price high )_ )_ )_
+located _( it centre city )_
+xnear it
+break
+pub _( xname provides _( food indian range _( price high )_ )_ )_
+located _( it centre city )_
+xnear it
+break
+pub _( xname provides _( food indian range _( price high )_ )_ )_
+located _( it riverside )_
+xnear it
+break
+pub _( xname provides _( food indian range _( price high )_ )_ )_
+located _( it riverside )_
+xnear it
+break
+pub _( xname providing _( food indian range _( £ _( less 20 )_ price )_ )_ )_
+located _( it centre city )_
+xnear it
+break
+pub _( xname provides _( food indian range _( £ _( less 20 )_ price )_ )_ )_
+located _( it centre city )_
+xnear it
+break
+pub _( xname providing _( food indian range _( £ _( less 20 )_ price )_ )_ )_
+located _( it riverside )_
+xnear it
+break
+pub _( xname provides _( food indian range _( £ _( less 20 )_ price )_ )_ )_
+located _( it riverside )_
+xnear it
+break
+pub _( xname provides _( food indian range _( moderate price )_ )_ )_
+located _( it centre city )_
+xnear it
+break
+pub _( xname provides _( food indian range _( moderate price )_ )_ )_
+located _( it centre city )_
+xnear it
+break
+pub _( xname provides _( food indian range _( moderate price )_ )_ )_
+located _( it riverside )_
+xnear it
+break
+pub _( xname provides _( food indian range _( moderate price )_ )_ )_
+located _( it riverside )_
+xnear it
+break
+pub _( xname provides _( food indian range _( £ _( more 30 )_ price )_ )_ )_
+located _( it riverside )_
+xnear it
+break
+pub _( xname friendly kid italian located _( riverside xnear )_ )_
+range _( prices £ 20-25 )_
+break
+pub _( xname cheap friendly family italian riverside xnear )_
+break
+pub _( xname priced high italian located _( centre _( city xnear )_ )_ )_
+friendly _( it not child )_
+break
+pub _( xname priced high italian located _( centre _( city xnear )_ )_ )_
+friendly _( it child )_
+break
+pub _( xname priced high italian located _( riverside xnear )_ )_
+friendly _( it not child )_
+break
+pub _( xname priced high italian xnear riverside )_
+friendly _( it child )_
+break
+pub _( xname italian centre _( city xnear )_ )_
+friendly _( it not family £ _( and range price less 20 )_ )_
+break
+pub _( xname friendly family serves _( food italian £ _( less 20 )_ )_ )_
+located _( it centre _( city xnear )_ )_
+break
+pub _( xname friendly _( non family )_ priced low italian located _( riverside xnear )_ )_
+break
+restaurant _( xname providing _( food indian range _( price high )_ )_ )_
+located _( it centre city )_
+xnear it
+break
+restaurant _( xname priced high indian located _( riverside xnear )_ )_
+friendly _( it not children )_
+break
+restaurant _( xname providing _( food indian range _( price high )_ )_ )_
+located _( it riverside )_
+xnear it
+break
+restaurant _( xname providing _( food indian range _( £ _( less 20 )_ price )_ )_ )_
+located _( it centre city )_
+xnear it
+break
+restaurant _( xname providing _( food indian range _( £ _( less 20 )_ price )_ )_ )_
+located _( it centre city )_
+xnear it
+break
+restaurant _( xname providing _( food indian range _( £ _( less 20 )_ price )_ )_ )_
+located _( it riverside )_
+xnear it
+break
+restaurant _( xname providing _( food indian range _( £ _( less 20 )_ price )_ )_ )_
+located _( it riverside )_
+xnear it
+break
+restaurant _( xname priced moderately indian located _( centre city xnear )_ )_
+friendly _( it not kid )_
+break
+restaurant _( xname priced moderately indian centre _( city xnear )_ )_
+friendly _( it kid )_
+break
+restaurant _( xname priced moderately indian located _( riverside xnear )_ )_
+friendly _( it not kid )_
+break
+restaurant _( xname providing _( food indian range _( moderate price )_ )_ )_
+located _( it riverside )_
+xnear it
+break
+restaurant _( xname providing _( food indian range _( £ _( more 30 )_ price )_ )_ )_
+located _( it riverside )_
+xnear it
+break
+restaurant _( xname friendly kid italian located _( riverside xnear range _( price £ 20-25 )_ )_ )_
+break
+restaurant _( xname cheap friendly family italian located _( riverside xnear )_ )_
+break
+restaurant _( xname priced high italian located _( centre city xnear )_ )_
+friendly _( it not child )_
+break
+restaurant _( xname italian located _( centre city xnear )_ )_
+has _( it range _( high price )_ friendly _( and child )_ )_
+break
+restaurant _( xname priced high italian located _( riverside xnear )_ )_
+friendly _( it not child )_
+break
+restaurant _( xname priced high italian located _( riverside xnear )_ )_
+break
+restaurant _( xname cheap italian located _( centre city xnear )_ )_
+friendly _( it not family )_
+break
+restaurant _( xname friendly family italian centre _( city xnear )_ )_
+20. _( range price less £ )_
+break
+restaurant _( xname priced low centre _( city xnear )_ )_
+break
+pub _( xname friendly _( non family )_ priced low italian located _( riverside xnear )_ )_
+break
+pub _( xname friendly family located xnear )_
+break
+pub _( xname priced moderately italian located _( centre _( city xnear )_ )_ )_
+friendly _( it not kid )_
+break
+pub _( xname priced moderately friendly kid italian centre _( city xnear )_ )_
+break
+pub _( xname priced moderately italian located _( riverside xnear )_ )_
+friendly _( it not kid )_
+break
+pub _( xname priced moderately friendly kid italian located _( riverside xnear )_ )_
+break
+pub _( xname children friendly italian riverside xnear range _( price £ _( more 30 )_ )_ )_
+break
+pub _( xname friendly kid serving _( food japanese range _( price £ _( 20 25 )_ )_ )_ )_
+located _( it riverside xnear )_
+break
+pub _( xname cheap friendly family japanese riverside xnear )_
+break
+pub _( xname priced high friendly child japanese riverside xnear )_
+break
+pub _( xname friendly _( non family )_ serving _( food japanese £ _( less 20 centre _( city xnear )_ )_ )_ )_
+break
+pub _( xname friendly family serves _( food japanese £ _( less 20 )_ )_ )_
+located _( it centre _( city xnear )_ )_
+break
+pub _( xname priced low located _( next xnear )_ )_
+break
+pub _( xname friendly family located xnear )_
+break
+pub _( xname priced moderately japanese located _( centre _( city xnear )_ )_ )_
+friendly _( it not kid )_
+break
+pub _( xname friendly kid serving _( food japanese range _( moderate price )_ )_ )_
+located _( it centre _( city xnear )_ )_
+break
+pub _( xname priced moderately japanese located _( riverside xnear )_ )_
+friendly _( it not kid )_
+break
+pub _( xname friendly family sushi located xnear )_
+break
+pub _( xname priced moderately friendly kid japanese located _( centre city xnear rating _( customer 1 5 )_ )_ )_
+break
+pub _( xname priced moderately japanese located _( riverside xnear )_ )_
+friendly _( it not kid has _( and rating _( customer 1 5 )_ )_ )_
+break
+pub _( xname friendly family sushi located xnear )_
+break
+pub _( xname xnear centre city )_
+serves _( it food japanese £ _( more 30 )_ friendly _( and not child )_ )_
+break
+pub _( xname friendly child serving _( food japanese range _( price £ _( more 30 )_ )_ )_ )_
+located _( it centre _( city xnear )_ )_
+break
+pub _( xname riverside xnear )_
+serves _( it food japanese £ _( more 30 )_ friendly _( and not child )_ )_
+break
+pub _( xname children friendly japanese riverside xnear range _( price £ _( more 30 )_ )_ )_
+break
+pub _( xname japanese located _( centre city xnear )_ )_
+has _( it rating _( customer 5 5 range _( price £ _( more 30 )_ )_ )_ friendly _( and not child )_ )_
+break
+pub _( xname friendly child located _( centre _( city xnear )_ )_ )_
+serves _( it food japanese range _( price £ _( more 30 )_ )_ has _( and rating _( customer 5 5 )_ )_ )_
+break
+pub _( xname japanese located _( riverside xnear )_ )_
+has _( it rating _( customer 5 5 range _( and price £ _( more 30 )_ )_ )_ )_
+friendly _( it not child )_
+break
+pub _( xname japanese located _( riverside xnear )_ )_
+friendly _( it child has _( rating _( 5 5 customer )_ )_ has _( and range _( price £ _( more 30 )_ )_ )_ )_
+break
+pub _( xname japanese located _( centre city xnear )_ )_
+has _( it rating _( low customer range _( and price £ _( more 30 )_ )_ )_ friendly _( and not child )_ )_
+break
+pub _( xname friendly child located _( centre _( city xnear )_ )_ )_
+serves _( it food japanese range _( price £ _( more 30 )_ )_ has _( and rating _( low customer )_ )_ )_
+break
+pub _( xname japanese located _( riverside xnear )_ )_
+has _( it rating _( low customer range _( and price £ _( more 30 )_ )_ )_ friendly _( and not child )_ )_
+break
+pub _( xname priced high family located xnear )_
+break
+restaurant _( xname priced low centre _( city xnear )_ )_
+break
+restaurant _( xname friendly family located xnear )_
+break
+restaurant _( xname italian located _( centre city xnear )_ )_
+friendly _( it not kid priced _( and moderately )_ )_
+break
+restaurant _( xname priced moderately friendly kid italian centre _( city xnear )_ )_
+break
+restaurant _( xname priced moderately italian located _( riverside xnear )_ )_
+break
+restaurant _( xname priced moderately friendly kid italian located _( riverside xnear )_ )_
+break
+restaurant _( xname children friendly italian riverside xnear range _( price £ _( more 30 )_ )_ )_
+break
+restaurant _( xname friendly kid japanese riverside xnear range _( price £ 20-25 )_ )_
+break
+restaurant _( xname cheap friendly family japanese riverside xnear )_
+break
+restaurant _( xname priced high friendly child japanese located _( riverside xnear )_ )_
+break
+restaurant _( xname cheap japanese located _( centre city xnear )_ )_
+friendly _( it not family )_
+break
+restaurant _( xname friendly family xnear centre city )_
+serves _( it food japanese £ _( less 20 )_ )_
+break
+restaurant _( xname cheap sushi located xnear )_
+break
+restaurant _( xname friendly family japanese riverside xnear range _( price £ _( less 20 )_ )_ )_
+break
+restaurant _( xname priced moderately japanese located _( centre city xnear )_ )_
+friendly _( it not kid )_
+break
+restaurant _( xname priced moderately friendly kid japanese located _( centre city xnear )_ )_
+break
+restaurant _( xname priced moderately japanese located _( riverside xnear )_ )_
+break
+restaurant _( xname priced moderately japanese located _( riverside xnear )_ )_
+friendly _( it kid )_
+break
+restaurant _( xname japanese located _( centre city xnear )_ )_
+friendly _( it not child has _( and range _( price £ _( more 30 )_ )_ )_ )_
+break
+restaurant _( located _( centre _( city xnear )_ )_ xname friendly child serving _( food japanese range _( price £ _( more 30 )_ )_ )_ )_
+break
+restaurant _( xname japanese located _( riverside xnear )_ )_
+friendly _( it not children has _( and range _( price £ _( more 30 )_ )_ )_ )_
+break
+restaurant _( xname priced high friendly family sushi located xnear )_
+break
+shop _( xname coffee riverside )_
+break
+pub _( xname riverside )_
+break
+pub _( xname friendly family french riverside xnear )_
+break
+pub _( xname indian located _( centre city xnear )_ )_
+friendly _( it not family )_
+break
+pub _( xname provides _( food indian )_ )_
+located _( it centre city )_
+xnear it
+break
+pub _( xname provides _( food indian )_ )_
+located _( it riverside )_
+xnear it
+break
+pub _( xname provides _( food indian )_ )_
+located _( it riverside )_
+xnear it
+break
+pub _( xname italian located _( centre _( city xnear )_ )_ )_
+friendly _( it not family )_
+break
+pub _( xname friendly family serving _( food italian centre _( city xnear )_ )_ )_
+break
+pub _( xname italian located _( riverside xnear )_ )_
+friendly _( it not family )_
+break
+pub _( xname friendly family italian located _( riverside xnear )_ )_
+break
+restaurant _( xname friendly family french riverside xnear )_
+break
+restaurant _( xname indian located _( centre city xnear )_ )_
+friendly _( it not family )_
+break
+restaurant _( xname friendly family indian centre _( city xnear )_ )_
+break
+restaurant _( xname providing _( food indian )_ )_
+located _( it riverside )_
+xnear it
+break
+restaurant _( xname friendly family indian riverside xnear )_
+break
+restaurant _( xname italian located _( centre city xnear )_ )_
+friendly _( it not family )_
+break
+restaurant _( xname friendly family italian centre _( city xnear )_ )_
+break
+restaurant _( xname italian located _( riverside xnear )_ )_
+friendly _( it not family )_
+break
+restaurant _( xname friendly family italian located _( riverside xnear )_ )_
+break
+shop _( xname coffee riverside )_
+break
+shop _( xname average rated coffee xnear )_
+break
+shop _( xname rated highly coffee xnear )_
+break
+shop _( xname coffee xnear )_
+break
+pub _( xname riverside )_
+break
+pub _( xname xnear rating _( average customer )_ )_
+break
+pub _( xname xnear rating _( high customer )_ )_
+break
+pub _( xname xnear )_
+break

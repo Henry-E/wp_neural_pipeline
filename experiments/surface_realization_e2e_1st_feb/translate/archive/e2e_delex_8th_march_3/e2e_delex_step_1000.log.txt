@@ -1,0 +1,1470 @@
+[2019-03-10 10:46:49,262 INFO] 
+SENT 1: ['is', '_(', 'place', '_(', 'centre', '_(', 'city', 'xname', ')_', ')_', 'friendly', '_(', 'that', 'not', 'family', ')_', ')_']
+PRED 1: there is a place in the city centre , that is not family - friendly .
+PRED SCORE: -2.6378
+GOLD 1: there is a place in the city centre , xname , that is not family - friendly .
+GOLD SCORE: -61.7483
+
+[2019-03-10 10:46:49,263 INFO] 
+SENT 2: ['is', '_(', 'centre', 'city', 'xname', '_(', 'venue', 'name', ')_', 'venue', '_(', 'this', 'not', 'friendly', 'family', ')_', ')_']
+PRED 2: in the city centre there is the venue xname , this name is not a family friendly venue .
+PRED SCORE: -7.8040
+GOLD 2: in the city centre there is a venue name xname , this is not a family - friendly venue .
+GOLD SCORE: -126.1261
+
+[2019-03-10 10:46:49,263 INFO] 
+SENT 3: ['place', '_(', 'xname', 'not', 'friendly', 'family', 'located', '_(', 'centre', 'city', ')_', ')_']
+PRED 3: xname is not a family - friendly place located in the city centre .
+PRED SCORE: -1.2560
+GOLD 3: xname is not a family - friendly place , located in city centre .
+GOLD SCORE: -62.4267
+
+[2019-03-10 10:46:49,263 INFO] 
+SENT 4: ['unk_NN_1', '_(', 'xname', 'not', 'friendly', 'family', 'located', '_(', 'and', 'centre', 'city', ')_', ')_']
+PRED 4: xname is not a family friendly unk_NN_1 and located in the city centre .
+PRED SCORE: -1.5651
+GOLD 4: xname is not a family - friendly unk_NN_1 and is located in the city centre .
+GOLD SCORE: -95.0507
+
+[2019-03-10 10:46:49,263 INFO] 
+SENT 5: ['place', '_(', 'xname', 'not', 'friendly', 'family', 'centre', 'city', ')_']
+PRED 5: xname is not a family - friendly place in the city centre .
+PRED SCORE: -1.2615
+GOLD 5: xname is not a family - friendly place in the city centre .
+GOLD SCORE: -67.2032
+
+[2019-03-10 10:46:49,263 INFO] 
+SENT 6: ['place', '_(', 'xname', '_(', 'centre', 'city', ')_', 'not', 'friendly', 'family', ')_']
+PRED 6: xname in the city centre is not a family friendly place .
+PRED SCORE: -1.9053
+GOLD 6: xname in city centre is not a family - friendly place .
+GOLD SCORE: -74.5702
+
+[2019-03-10 10:46:49,264 INFO] 
+SENT 7: ['friendly', '_(', 'xname', 'not', 'family', 'xnear', '_(', 'and', 'centre', 'city', ')_', ')_']
+PRED 7: xname is not family - friendly and is near xnear in the city centre .
+PRED SCORE: -1.6345
+GOLD 7: xname is not family - friendly , and is near the xnear in the city centre .
+GOLD SCORE: -88.2226
+
+[2019-03-10 10:46:49,264 INFO] 
+SENT 8: ['xname', '_(', 'xnear', '_(', 'centre', 'city', ')_', 'adult', 'establishment', ')_']
+PRED 8: near xnear in the city centre is an adult establishment xname .
+PRED SCORE: -1.2291
+GOLD 8: near xnear in city centre is the adult establishment xname .
+GOLD SCORE: -83.3469
+
+[2019-03-10 10:46:49,264 INFO] 
+SENT 9: ['friendly', '_(', 'xname', 'not', 'family', ')_']
+PRED 9: xname is not family - friendly .
+PRED SCORE: -0.6575
+GOLD 9: xname is not family - friendly .
+GOLD SCORE: -63.3617
+
+[2019-03-10 10:46:49,264 INFO] 
+SENT 10: ['center', '_(', 'xname', 'city', 'xnear', '_(', 'and', 'it', ')_', ')_']
+PRED 10: xname is in the city center and it is near xnear .
+PRED SCORE: -0.9796
+GOLD 10: xname is in the city center and it is near xnear .
+GOLD SCORE: -59.1246
+
+[2019-03-10 10:46:49,264 INFO] 
+SENT 11: ['xnear', '_(', 'xname', 'center', 'city', ')_']
+PRED 11: xname is near xnear in the city center .
+PRED SCORE: -0.8125
+GOLD 11: xname is near xnear in the city center .
+GOLD SCORE: -46.1030
+
+[2019-03-10 10:46:49,264 INFO] 
+SENT 12: ['friendly', '_(', 'xname', 'not', 'family', ')_']
+PRED 12: xname is not family - friendly .
+PRED SCORE: -0.6575
+GOLD 12: xname is not family - friendly .
+GOLD SCORE: -63.3617
+
+[2019-03-10 10:46:49,264 INFO] 
+SENT 13: ['xname', '_(', 'xnear', '_(', 'centre', '_(', 'and', 'city', ')_', ')_', 'friendly', '_(', 'not', 'family', ')_', ')_']
+PRED 13: near xnear and is in the city centre is xname that is not family - friendly .
+PRED SCORE: -4.2813
+GOLD 13: near the xnear and in the city centre is xname , which is not family - friendly .
+GOLD SCORE: -82.6680
+
+[2019-03-10 10:46:49,265 INFO] 
+SENT 14: ['unk_NN_1', '_(', 'xname', 'adult', 'found', '_(', 'area', '_(', 'centre', 'city', 'xnear', ')_', ')_', ')_']
+PRED 14: xname is an adult unk_NN_1 , found in the city centre area near xnear .
+PRED SCORE: -2.6820
+GOLD 14: xname is an adult unk_NN_1 found in the city centre area near xnear .
+GOLD SCORE: -89.9532
+
+[2019-03-10 10:46:49,265 INFO] 
+SENT 15: ['place', '_(', 'xname', 'friendly', 'family', 'centre', 'city', ')_']
+PRED 15: xname is a family friendly place in the city centre .
+PRED SCORE: -0.8425
+GOLD 15: xname is a family - friendly place in the city centre .
+GOLD SCORE: -50.9080
+
+[2019-03-10 10:46:49,265 INFO] 
+SENT 16: ['is', '_(', 'centre', 'city', 'place', '_(', 'friendly', 'family', 'called', 'xname', ')_', ')_']
+PRED 16: in the city centre there is a family friendly place called xname .
+PRED SCORE: -1.1779
+GOLD 16: in the city centre there is a family - friendly place called xname .
+GOLD SCORE: -70.8017
+
+[2019-03-10 10:46:49,265 INFO] 
+SENT 17: ['has', '_(', 'centre', 'city', 'restaurant', '_(', 'friendly', 'family', 'named', 'xname', ')_', ')_']
+PRED 17: in the city centre has a family friendly restaurant named xname .
+PRED SCORE: -2.7168
+GOLD 17: the city centre has a family - friendly restaurant named xname .
+GOLD SCORE: -54.3900
+
+[2019-03-10 10:46:49,265 INFO] 
+SENT 18: ['family', '_(', 'centre', '_(', 'xname', 'city', ')_', 'friendly', ')_']
+PRED 18: xname in the city centre is family - friendly .
+PRED SCORE: -2.3940
+GOLD 18: xname city centre is family - friendly
+GOLD SCORE: -31.0028
+
+[2019-03-10 10:46:49,265 INFO] 
+SENT 19: ['centre', '_(', 'xname', 'friendly', 'family', 'city', ')_']
+PRED 19: xname is a family friendly city centre .
+PRED SCORE: -1.3434
+GOLD 19: xname is a family - friendly city centre .
+GOLD SCORE: -33.2735
+
+[2019-03-10 10:46:49,266 INFO] 
+SENT 20: ['is', '_(', 'restaurant', '_(', 'friendly', 'family', 'named', '_(', 'xname', 'centre', 'city', ')_', ')_', ')_']
+PRED 20: there is a family friendly restaurant named xname in the city centre .
+PRED SCORE: -1.1148
+GOLD 20: there is a family - friendly restaurant named xname in the city centre .
+GOLD SCORE: -55.3013
+
+[2019-03-10 10:46:49,266 INFO] 
+SENT 21: ['oriented', '_(', 'xname', 'family', 'located', '_(', 'and', 'xnear', 'centre', 'city', ')_', ')_']
+PRED 21: xname is family oriented and located near xnear in the city centre .
+PRED SCORE: -0.8655
+GOLD 21: xname is family oriented and located near xnear in the city centre .
+GOLD SCORE: -78.4825
+
+[2019-03-10 10:46:49,266 INFO] 
+SENT 22: ['restaurant', '_(', 'xname', 'friendly', 'family', 'located', '_(', 'centre', '_(', 'city', 'xnear', ')_', ')_', ')_']
+PRED 22: xname is a family friendly restaurant located in the city centre near xnear .
+PRED SCORE: -1.2862
+GOLD 22: the xname is a family - friendly restaurant located in the city centre near xnear .
+GOLD SCORE: -78.1183
+
+[2019-03-10 10:46:49,266 INFO] 
+SENT 23: ['restaurant', '_(', 'located', '_(', 'centre', '_(', 'city', 'xnear', ')_', ')_', 'xname', 'friendly', 'family', ')_']
+PRED 23: located in the city centre near xnear , xname is a family friendly restaurant .
+PRED SCORE: -1.9079
+GOLD 23: located in the city centre near xnear , the xname is a family - friendly restaurant .
+GOLD SCORE: -64.8365
+
+[2019-03-10 10:46:49,266 INFO] 
+SENT 24: ['friendly', '_(', 'xname', 'located', '_(', 'xnear', 'centre', 'city', ')_', 'family', ')_']
+PRED 24: xname is located near xnear in the city centre .
+PRED SCORE: -2.0770
+GOLD 24: xname , located near xnear in the city centre , is family - friendly .
+GOLD SCORE: -72.8002
+
+[2019-03-10 10:46:49,266 INFO] 
+SENT 25: ['friendly', '_(', 'located', '_(', 'xnear', 'centre', 'city', ')_', 'xname', 'family', ')_']
+PRED 25: located near xnear in the city centre , xname is family friendly .
+PRED SCORE: -1.5121
+GOLD 25: located xnear in the city centre , xname is family - friendly .
+GOLD SCORE: -64.3080
+
+[2019-03-10 10:46:49,267 INFO] 
+SENT 26: ['friendly', '_(', 'xname', 'family', 'located', '_(', 'and', 'centre', '_(', 'city', 'xnear', ')_', ')_', ')_']
+PRED 26: xname is family friendly and located in the city centre near xnear .
+PRED SCORE: -1.1203
+GOLD 26: xname is family - friendly and located in the city centre near xnear .
+GOLD SCORE: -72.5917
+
+[2019-03-10 10:46:49,267 INFO] 
+SENT 27: ['unk_VBZ_1', '_(', 'xname', 'location', '_(', 'allowed', '_(', 'where', 'people', '_(', 'families', 'or', ')_', "n't", ')_', ')_', ')_']
+PRED 27: xname unk_VBZ_1 location where people allowed or families .
+PRED SCORE: -3.5988
+GOLD 27: xname unk_VBZ_1 like a location where people or families are n't allowed
+GOLD SCORE: -139.3996
+
+[2019-03-10 10:46:49,267 INFO] 
+SENT 28: ['friendly', '_(', 'xname', "n't", 'family', 'riverside', '_(', 'but', 'it', ')_', ')_']
+PRED 28: xname is n't family - friendly , but it is riverside .
+PRED SCORE: -2.5564
+GOLD 28: xname is n't family - friendly but it is in riverside .
+GOLD SCORE: -109.5478
+
+[2019-03-10 10:46:49,267 INFO] 
+SENT 29: ['friendly', '_(', 'searching', '_(', 'if', 'you', 'place', '_(', 'go', 'to', ')_', ')_', 'that', 'not', 'family', 'place', '_(', 'and', 'riverside', 'xname', 'you', ')_', ')_']
+PRED 29: if you are searching for a place to go to go that is not family friendly and the riverside , you are place .
+PRED SCORE: -9.6917
+GOLD 29: if you are searching for a place to go that 's not family - friendly and near the riverside , xname is the place for you .
+GOLD SCORE: -169.9862
+
+[2019-03-10 10:46:49,267 INFO] 
+SENT 30: ['unk_NN_1', '_(', 'xname', 'friendly', 'family', 'riverside', ')_']
+PRED 30: xname is a family friendly unk_NN_1 in riverside .
+PRED SCORE: -1.7493
+GOLD 30: xname is a family - friendly unk_NN_1 in riverside .
+GOLD SCORE: -58.3483
+
+[2019-03-10 10:46:49,853 INFO] 
+SENT 31: ['unk_NN_1', '_(', 'xname', 'friendly', 'family', 'riverside', ')_']
+PRED 31: xname is a family friendly unk_NN_1 in riverside .
+PRED SCORE: -1.7493
+GOLD 31: xname is a family - friendly unk_NN_1 in riverside .
+GOLD SCORE: -62.2944
+
+[2019-03-10 10:46:49,854 INFO] 
+SENT 32: ['xname', '_(', 'located', 'river', ')_']
+PRED 32: located near the river is xname .
+PRED SCORE: -1.4936
+GOLD 32: xname , located on the river .
+GOLD SCORE: -35.5575
+
+[2019-03-10 10:46:49,854 INFO] 
+SENT 33: ['good', '_(', 'no', 'families', ')_']
+PRED 33: no good for families .
+PRED SCORE: -1.4910
+GOLD 33: no good for families .
+GOLD SCORE: -44.0121
+
+[2019-03-10 10:46:49,854 INFO] 
+SENT 34: ['has', '_(', 'riverside', 'xname', '_(', 'friendly', '_(', 'not', 'family', ')_', ')_', ')_']
+PRED 34: riverside has a not family friendly xname .
+PRED SCORE: -3.6445
+GOLD 34: riverside has xname , which is not family - friendly .
+GOLD SCORE: -50.3740
+
+[2019-03-10 10:46:49,854 INFO] 
+SENT 35: ['place', '_(', 'xname', 'friendly', '_(', 'not', 'family', ')_', 'riverside', ')_']
+PRED 35: xname is a not family friendly place in riverside .
+PRED SCORE: -2.9824
+GOLD 35: xname is a not family - friendly place near the riverside .
+GOLD SCORE: -60.2516
+
+[2019-03-10 10:46:49,854 INFO] 
+SENT 36: ['good', '_(', 'no', 'families', ')_']
+PRED 36: no good for families .
+PRED SCORE: -1.4910
+GOLD 36: no good for families .
+GOLD SCORE: -44.0121
+
+[2019-03-10 10:46:49,855 INFO] 
+SENT 37: ['xname', '_(', 'close', 'river', ')_']
+PRED 37: close to the river is xname .
+PRED SCORE: -0.8698
+GOLD 37: xname , close to the river .
+GOLD SCORE: -34.6644
+
+[2019-03-10 10:46:49,855 INFO] 
+SENT 38: ['xname', '_(', 'xnear', 'friendly', '_(', 'not', 'family', 'located', '_(', 'and', 'north', '_(', 'center', 'city', ')_', ')_', ')_', ')_']
+PRED 38: near xnear is xname , not family friendly and located north of the city center .
+PRED SCORE: -3.0591
+GOLD 38: xnear is near the xname which is not family friendly and located north of the city center .
+GOLD SCORE: -134.7928
+
+[2019-03-10 10:46:49,855 INFO] 
+SENT 39: ['restaurant', '_(', 'xname', 'located', '_(', 'riverside', 'xnear', ')_', 'restaurant', '_(', 'xname', 'not', 'friendly', 'family', ')_', ')_']
+PRED 39: xname is located in the riverside near xnear , xname is not a family friendly restaurant .
+PRED SCORE: -4.0737
+GOLD 39: xname is a restaurant located in riverside near xnear , xname is not a family - friendly restaurant .
+GOLD SCORE: -145.8050
+
+[2019-03-10 10:46:49,855 INFO] 
+SENT 40: ['allow', '_(', 'located', '_(', 'river', 'xnear', ')_', 'xname', 'not', 'families', ')_']
+PRED 40: located near the river near xnear , xname is not allow families .
+PRED SCORE: -2.4778
+GOLD 40: located off the river near xnear , xname does not allow families .
+GOLD SCORE: -76.6082
+
+[2019-03-10 10:46:49,855 INFO] 
+SENT 41: ['establishment', '_(', 'xname', 'friendly', 'non-family', 'xnear', 'riverside', ')_']
+PRED 41: xname is a non-family - friendly establishment near xnear in riverside .
+PRED SCORE: -1.3356
+GOLD 41: xname is a non-family - friendly establishment near xnear at the riverside .
+GOLD SCORE: -99.9897
+
+[2019-03-10 10:46:49,855 INFO] 
+SENT 42: ['venue', '_(', 'xname', 'great', 'located', '_(', 'riverside', 'xnear', ')_', 'restaurant', '_(', 'not', 'friendly', 'family', ')_', ')_']
+PRED 42: xname is a great venue located in riverside near xnear that is not family - friendly restaurant .
+PRED SCORE: -3.4251
+GOLD 42: xname is a great venue located in riverside near xnear , is not a family - friendly restaurant .
+GOLD SCORE: -115.3272
+
+[2019-03-10 10:46:49,855 INFO] 
+SENT 43: ['establishment', '_(', 'xname', '_(', 'riverside', 'xnear', ')_', 'friendly', 'non-family', ')_']
+PRED 43: xname in riverside near xnear is a non-family - friendly establishment .
+PRED SCORE: -2.6825
+GOLD 43: xname at the riverside near xnear is a non-family - friendly establishment .
+GOLD SCORE: -65.8996
+
+[2019-03-10 10:46:49,856 INFO] 
+SENT 44: ['xname', '_(', 'not', 'friendly', 'family', 'across', 'xnear', ')_']
+PRED 44: not a family friendly across xname , near xnear .
+PRED SCORE: -3.7835
+GOLD 44: not family friendly xname across from xnear
+GOLD SCORE: -72.1762
+
+[2019-03-10 10:46:49,856 INFO] 
+SENT 45: ['friendly', '_(', 'xname', '_(', 'located', 'xnear', ')_', 'not', 'family', ')_']
+PRED 45: xname , located near xnear , is not family - friendly .
+PRED SCORE: -2.1011
+GOLD 45: xname , located near xnear , is not family - friendly .
+GOLD SCORE: -52.4038
+
+[2019-03-10 10:46:49,856 INFO] 
+SENT 46: ['located', '_(', 'xname', 'xnear', 'riverside', ')_']
+PRED 46: xname is located near xnear in riverside .
+PRED SCORE: -1.3424
+GOLD 46: xname is located near xnear in riverside .
+GOLD SCORE: -57.0254
+
+[2019-03-10 10:46:49,856 INFO] 
+SENT 47: ['friendly', '_(', 'it', 'not', 'family', ')_']
+PRED 47: it is not family - friendly .
+PRED SCORE: -0.5595
+GOLD 47: it is not family - friendly .
+GOLD SCORE: -65.1927
+
+[2019-03-10 10:46:49,856 INFO] 
+SENT 48: ['friendly', '_(', 'xname', 'not', 'family', ')_']
+PRED 48: xname is not family - friendly .
+PRED SCORE: -0.6575
+GOLD 48: xname is not family - friendly .
+GOLD SCORE: -52.1972
+
+[2019-03-10 10:46:49,856 INFO] 
+SENT 49: ['located', '_(', 'it', 'xnear', 'riverside', ')_']
+PRED 49: it is located near xnear in riverside .
+PRED SCORE: -1.3412
+GOLD 49: it is located near xnear in riverside .
+GOLD SCORE: -57.9708
+
+[2019-03-10 10:46:49,857 INFO] 
+SENT 50: ['xname', '_(', 'across', 'xnear', 'kids', 'no', ')_']
+PRED 50: across to the xnear is xname for no kids .
+PRED SCORE: -4.0724
+GOLD 50: xname across from xnear no kids
+GOLD SCORE: -53.3955
+
+[2019-03-10 10:46:49,857 INFO] 
+SENT 51: ['located', '_(', 'venue', '_(', 'friendly', 'kid', 'named', 'xname', ')_', 'riverside', ')_']
+PRED 51: a kid friendly venue named xname is located in the riverside .
+PRED SCORE: -2.1400
+GOLD 51: a kid friendly venue named xname is located on the riverside .
+GOLD SCORE: -108.4685
+
+[2019-03-10 10:46:49,857 INFO] 
+SENT 52: ['friendly', '_(', 'xname', 'situated', 'river', 'child', ')_']
+PRED 52: xname is situated near the river .
+PRED SCORE: -2.4029
+GOLD 52: xname , situated by the river , is child friendly .
+GOLD SCORE: -76.2488
+
+[2019-03-10 10:46:49,857 INFO] 
+SENT 53: ['friendly', '_(', 'xname', 'child', 'located', '_(', 'and', 'river', ')_', ')_']
+PRED 53: xname is child friendly and located near the river .
+PRED SCORE: -0.8530
+GOLD 53: xname is child friendly and is located by the river .
+GOLD SCORE: -74.6454
+
+[2019-03-10 10:46:49,857 INFO] 
+SENT 54: ['place', '_(', 'xname', 'friendly', 'family', 'area', 'riverside', ')_']
+PRED 54: xname is a family friendly place in the riverside area .
+PRED SCORE: -0.7623
+GOLD 54: xname is a family friendly place in the riverside area .
+GOLD SCORE: -65.0833
+
+[2019-03-10 10:46:49,857 INFO] 
+SENT 55: ['is', '_(', 'area', 'riverside', 'restaurant', '_(', 'friendly', '_(', 'kid', 'named', 'xname', ')_', ')_', ')_']
+PRED 55: in the riverside area there is a restaurant that is kid friendly named xname .
+PRED SCORE: -1.5058
+GOLD 55: in the riverside area there is a restaurant that is kid friendly named xname
+GOLD SCORE: -74.2435
+
+[2019-03-10 10:46:49,858 INFO] 
+SENT 56: ['try', '_(', 'establishment', '_(', 'children', 'friendly', 'area', 'riverside', ')_', 'xname', ')_']
+PRED 56: for a children friendly establishment in the riverside area , try xname .
+PRED SCORE: -1.8370
+GOLD 56: for a children friendly establishment in the riverside area , try xname .
+GOLD SCORE: -94.2236
+
+[2019-03-10 10:46:49,858 INFO] 
+SENT 57: ['friendly', '_(', 'restaurant', '_(', 'riverside', 'xname', ')_', 'very', 'child', 'great', 'and', 'adults', 'as', 'well', ')_']
+PRED 57: in the riverside , xname is a very child friendly and great well as well .
+PRED SCORE: -4.8325
+GOLD 57: the riverside restaurant , xname is very child friendly and great for adults as well .
+GOLD SCORE: -121.1866
+
+[2019-03-10 10:46:49,858 INFO] 
+SENT 58: ['venue', '_(', 'xname', 'friendly', 'child', 'located', 'riverside', ')_']
+PRED 58: xname is a child friendly venue located in riverside .
+PRED SCORE: -1.6236
+GOLD 58: xname is a child - friendly venue located on the riverside .
+GOLD SCORE: -81.5762
+
+[2019-03-10 10:46:49,858 INFO] 
+SENT 59: ['is', '_(', 'venue', '_(', 'friendly', 'family', 'area', '_(', 'riverside', 'called', 'xname', ')_', ')_', ')_']
+PRED 59: there is a family friendly venue in the riverside area called xname .
+PRED SCORE: -0.9205
+GOLD 59: there is a family - friendly venue in the riverside area called xname .
+GOLD SCORE: -108.3654
+
+[2019-03-10 10:46:49,858 INFO] 
+SENT 60: ['is', '_(', 'riverside', 'place', '_(', 'friendly', 'family', 'called', 'xname', ')_', ')_']
+PRED 60: in riverside there is a family friendly place called xname .
+PRED SCORE: -1.8211
+GOLD 60: at the riverside there is a friendly family place called xname
+GOLD SCORE: -84.1983
+
+[2019-03-10 10:46:50,622 INFO] 
+SENT 61: ['located', '_(', 'area', 'riverside', ')_']
+PRED 61: located in the riverside area .
+PRED SCORE: -0.5533
+GOLD 61: located in riverside area ,
+GOLD SCORE: -44.3076
+
+[2019-03-10 10:46:50,623 INFO] 
+SENT 62: ['place', '_(', 'restaurant', 'xname', 'bring', '_(', 'to', 'family', 'whole', ')_', ')_']
+PRED 62: xname restaurant is a place to bring the whole family .
+PRED SCORE: -2.7488
+GOLD 62: xname restaurant is a place to bring the whole family .
+GOLD SCORE: -62.0325
+
+[2019-03-10 10:46:50,623 INFO] 
+SENT 63: ['is', '_(', 'restaurant', '_(', 'riverside', 'called', 'xname', 'friendly', 'child', ')_', ')_']
+PRED 63: there is a riverside restaurant called xname that is child friendly .
+PRED SCORE: -1.2205
+GOLD 63: there is a riverside restaurant called xname which is child friendly .
+GOLD SCORE: -31.6570
+
+[2019-03-10 10:46:50,623 INFO] 
+SENT 64: ['found', '_(', 'xname', 'riverside', 'friendly', '_(', 'and', 'family', ')_', ')_']
+PRED 64: xname can be found in the riverside and is family friendly .
+PRED SCORE: -2.1977
+GOLD 64: xname can be found in riverside and is family friendly .
+GOLD SCORE: -66.8574
+
+[2019-03-10 10:46:50,623 INFO] 
+SENT 65: ['place', '_(', 'river', 'xname', 'friendly', 'family', ')_']
+PRED 65: near the river , xname is a family friendly place .
+PRED SCORE: -2.2466
+GOLD 65: being beside the river , xname is a family friendly place .
+GOLD SCORE: -90.7623
+
+[2019-03-10 10:46:50,623 INFO] 
+SENT 66: ['called', '_(', 'place', '_(', 'friendly', 'family', 'riverside', ')_', 'xname', ')_']
+PRED 66: a family friendly place in riverside is called xname .
+PRED SCORE: -2.3587
+GOLD 66: a family friendly place near the riverside is called xname .
+GOLD SCORE: -63.4652
+
+[2019-03-10 10:46:50,623 INFO] 
+SENT 67: ['visit', '_(', 'xname', 'riverside', 'friendly', '_(', 'it', 'kids', ')_', ')_']
+PRED 67: visit xname in riverside , it is kids friendly .
+PRED SCORE: -2.9462
+GOLD 67: visit xname by the riverside , it is kids friendly .
+GOLD SCORE: -74.4799
+
+[2019-03-10 10:46:50,623 INFO] 
+SENT 68: ['visit', '_(', 'riverside', 'environment', '_(', 'child', 'friendly', ')_', 'xname', ')_']
+PRED 68: for riverside visit a child friendly environment , xname .
+PRED SCORE: -5.0181
+GOLD 68: for a riverside , child friendly environment visit the xname .
+GOLD SCORE: -62.2963
+
+[2019-03-10 10:46:50,624 INFO] 
+SENT 69: ['located', '_(', 'xname', 'riverside', ')_']
+PRED 69: xname is located in the riverside .
+PRED SCORE: -0.7582
+GOLD 69: xname is located near the riverside .
+GOLD SCORE: -45.0881
+
+[2019-03-10 10:46:50,624 INFO] 
+SENT 70: ['friendly', '_(', 'it', 'child', ')_']
+PRED 70: it is child friendly .
+PRED SCORE: -0.1797
+GOLD 70: it is child friendly .
+GOLD SCORE: -48.3309
+
+[2019-03-10 10:46:50,624 INFO] 
+SENT 71: ['friendly', '_(', 'xname', '_(', 'area', 'riverside', ')_', 'child', ')_']
+PRED 71: xname in the riverside area is child friendly .
+PRED SCORE: -0.7549
+GOLD 71: xname in the riverside area is child friendly .
+GOLD SCORE: -57.9829
+
+[2019-03-10 10:46:50,624 INFO] 
+SENT 72: ['friendly', '_(', 'xname', 'riverside', 'family', ')_']
+PRED 72: xname in riverside is family friendly .
+PRED SCORE: -3.1261
+GOLD 72: xname , on the riverside , is family - friendly .
+GOLD SCORE: -64.0561
+
+[2019-03-10 10:46:50,624 INFO] 
+SENT 73: ['place', '_(', 'xname', 'friendly', 'child', 'riverside', ')_']
+PRED 73: xname is a child friendly place in riverside .
+PRED SCORE: -1.4143
+GOLD 73: xname is a child friendly place on the riverside .
+GOLD SCORE: -60.5765
+
+[2019-03-10 10:46:50,624 INFO] 
+SENT 74: ['is', '_(', 'restaurant', '_(', 'child', 'friendly', 'area', '_(', 'riverside', 'named', 'xname', ')_', ')_', ')_']
+PRED 74: there is a child friendly restaurant in the riverside area named xname .
+PRED SCORE: -0.3791
+GOLD 74: there is child friendly restaurant in the riverside area named xname .
+GOLD SCORE: -74.5765
+
+[2019-03-10 10:46:50,625 INFO] 
+SENT 75: ['place', '_(', 'xname', 'friendly', 'child', 'riverside', ')_']
+PRED 75: xname is a child friendly place in riverside .
+PRED SCORE: -1.4143
+GOLD 75: xname is a child - friendly place on the riverside .
+GOLD SCORE: -72.4683
+
+[2019-03-10 10:46:50,625 INFO] 
+SENT 76: ['area', '_(', 'xname', 'riverside', ')_']
+PRED 76: xname is in the riverside area .
+PRED SCORE: -0.4071
+GOLD 76: the xname is in the riverside area .
+GOLD SCORE: -46.2843
+
+[2019-03-10 10:46:50,625 INFO] 
+SENT 77: ['place', '_(', 'it', 'friendly', 'family', ')_']
+PRED 77: it is a family friendly place .
+PRED SCORE: -0.8332
+GOLD 77: it is a family friendly place .
+GOLD SCORE: -49.2343
+
+[2019-03-10 10:46:50,625 INFO] 
+SENT 78: ['friendly', '_(', 'xname', 'kid', 'located', '_(', 'and', 'area', 'riverside', ')_', ')_']
+PRED 78: xname is kid friendly and located in the riverside area .
+PRED SCORE: -0.6447
+GOLD 78: the xname is kid friendly and is located in the riverside area .
+GOLD SCORE: -100.7360
+
+[2019-03-10 10:46:50,625 INFO] 
+SENT 79: ['is', '_(', 'riverside', 'venue', '_(', 'kids', 'friendly', 'called', 'xname', ')_', ')_']
+PRED 79: in riverside there is a kids friendly venue called xname .
+PRED SCORE: -1.2468
+GOLD 79: on the riverside , there is a kids friendly venue called xname .
+GOLD SCORE: -76.2588
+
+[2019-03-10 10:46:50,625 INFO] 
+SENT 80: ['friendly', '_(', 'xname', 'kid', 'located', '_(', 'and', 'riverside', ')_', ')_']
+PRED 80: xname is kid friendly and located in riverside .
+PRED SCORE: -1.7114
+GOLD 80: xname is kid - friendly and is located at the riverside .
+GOLD SCORE: -67.5959
+
+[2019-03-10 10:46:50,625 INFO] 
+SENT 81: ['is', '_(', 'riverside', 'place', '_(', 'friendly', 'child', 'called', 'xname', ')_', ')_']
+PRED 81: in riverside there is a child friendly place called xname .
+PRED SCORE: -1.5751
+GOLD 81: on the riverside there is a child friendly place called xname .
+GOLD SCORE: -74.1001
+
+[2019-03-10 10:46:50,626 INFO] 
+SENT 82: ['find', '_(', 'riverside', 'you', 'xname', '_(', 'place', '_(', 'friendly', 'family', ')_', ')_', ')_']
+PRED 82: in the riverside you will find xname , a family - friendly place .
+PRED SCORE: -6.0144
+GOLD 82: by the riverside you can find xname , which is a family friendly place .
+GOLD SCORE: -76.7172
+
+[2019-03-10 10:46:50,626 INFO] 
+SENT 83: ['find', '_(', 'riverside', 'you', 'xname', '_(', 'friendly', 'kid', 'restaurant', ')_', ')_']
+PRED 83: in the riverside you will find a kid friendly restaurant xname .
+PRED SCORE: -3.8979
+GOLD 83: in riverside you will find the kid - friendly restaurant xname .
+GOLD SCORE: -92.6536
+
+[2019-03-10 10:46:50,626 INFO] 
+SENT 84: ['try', '_(', 'want', '_(', 'if', 'you', 'take', '_(', 'children', 'meal', ')_', ')_', 'then', 'xname', 'provide', '_(', 'they', 'service', '_(', 'friendly', 'child', ')_', 'setting', '_(', 'their', 'riverside', ')_', ')_', ')_']
+PRED 84: if you want take to meal for meal , then try xname , they provide child friendly service , their riverside setting .
+PRED SCORE: -10.8534
+GOLD 84: if you want to take the children for a meal then try xname they provide a child friendly service in their riverside setting .
+GOLD SCORE: -237.5145
+
+[2019-03-10 10:46:50,626 INFO] 
+SENT 85: ['area', '_(', 'xname', 'riverside', ')_']
+PRED 85: xname is in the riverside area .
+PRED SCORE: -0.4071
+GOLD 85: the xname is in the riverside area .
+GOLD SCORE: -46.2843
+
+[2019-03-10 10:46:50,626 INFO] 
+SENT 86: ['friendly', '_(', 'it', 'family', ')_']
+PRED 86: it is family friendly .
+PRED SCORE: -0.3907
+GOLD 86: it is family friendly .
+GOLD SCORE: -29.4606
+
+[2019-03-10 10:46:50,626 INFO] 
+SENT 87: ['try', '_(', 'looking', '_(', 'if', 'you', 'establishment', '_(', 'kids', 'friendly', 'area', 'riverside', ')_', ')_', 'xname', ')_']
+PRED 87: if you are looking for a kids friendly establishment in the riverside area .
+PRED SCORE: -2.1013
+GOLD 87: if you are looking for a kids friendly establishment in the riverside area , try xname .
+GOLD SCORE: -112.5816
+
+[2019-03-10 10:46:50,626 INFO] 
+SENT 88: ['friendly', '_(', 'located', '_(', 'area', 'riverside', ')_', 'xname', 'kid', ')_']
+PRED 88: located in the riverside area , xname is kid friendly .
+PRED SCORE: -0.9279
+GOLD 88: located in the riverside area the xname is kid friendly .
+GOLD SCORE: -82.3823
+
+[2019-03-10 10:46:50,627 INFO] 
+SENT 89: ['friendly', '_(', 'located', '_(', 'area', 'riverside', ')_', 'xname', 'child', ')_']
+PRED 89: located in the riverside area , xname is child friendly .
+PRED SCORE: -0.9041
+GOLD 89: located in the riverside area , xname is child friendly .
+GOLD SCORE: -88.5465
+
+[2019-03-10 10:46:50,627 INFO] 
+SENT 90: ['xname', '_(', 'place', '_(', 'friendly', 'kid', 'riverside', ')_', ')_']
+PRED 90: a kid friendly place in riverside is xname .
+PRED SCORE: -1.7242
+GOLD 90: a kid friendly place in riverside is xname .
+GOLD SCORE: -72.0016
+
+[2019-03-10 10:46:51,159 INFO] 
+SENT 91: ['friendly', '_(', 'xname', '_(', 'located', '_(', 'area', 'riverside', ')_', ')_', 'kid', ')_']
+PRED 91: xname , located in the riverside area is kid friendly .
+PRED SCORE: -1.1416
+GOLD 91: xname , located in the riverside area is kid friendly .
+GOLD SCORE: -71.6308
+
+[2019-03-10 10:46:51,160 INFO] 
+SENT 92: ['find', '_(', 'you', 'xname', 'place', '_(', 'nice', 'friendly', 'child', ')_', ')_']
+PRED 92: you can find xname , a nice child friendly place .
+PRED SCORE: -2.7160
+GOLD 92: you will find xname a nice child friendly place .
+GOLD SCORE: -72.8736
+
+[2019-03-10 10:46:51,160 INFO] 
+SENT 93: ['located', '_(', 'it', 'xnear', '_(', 'riverside', 'and', ')_', ')_']
+PRED 93: it is located near xnear and is in the riverside .
+PRED SCORE: -2.4969
+GOLD 93: it is located near xnear and riverside .
+GOLD SCORE: -62.7864
+
+[2019-03-10 10:46:51,160 INFO] 
+SENT 94: ['xnear', '_(', 'xname', 'riverside', '_(', 'and', 'not', 'only', 'friendly', '_(', 'but', 'children', 'as', 'well', ')_', ')_', ')_']
+PRED 94: xname is near xnear and not only riverside but children friendly as well .
+PRED SCORE: -4.3713
+GOLD 94: xname is near xnear and is not only riverside , but children friendly as well .
+GOLD SCORE: -119.1967
+
+[2019-03-10 10:46:51,160 INFO] 
+SENT 95: ['establishment', '_(', 'xname', 'friendly', 'family', 'area', '_(', 'riverside', 'xnear', ')_', ')_']
+PRED 95: xname is a family friendly establishment in the riverside area near xnear .
+PRED SCORE: -1.0400
+GOLD 95: xname is a family friendly establishment in the riverside area near the xnear .
+GOLD SCORE: -90.0732
+
+[2019-03-10 10:46:51,160 INFO] 
+SENT 96: ['close', '_(', 'xname', '_(', 'xnear', 'by', 'restaurant', '_(', 'friendly', 'child', 'riverside', ')_', ')_', ')_']
+PRED 96: xname , near xnear , by a child friendly restaurant in riverside .
+PRED SCORE: -5.5200
+GOLD 96: close - by to xnear is xname , a child - friendly restaurant by the riverside .
+GOLD SCORE: -103.0322
+
+[2019-03-10 10:46:51,161 INFO] 
+SENT 97: ['is', '_(', 'xname', '_(', 'friendly', 'family', 'place', 'located', '_(', 'xnear', 'riverside', ')_', ')_', ')_']
+PRED 97: there is a family friendly place xname located near xnear in riverside .
+PRED SCORE: -1.7563
+GOLD 97: there is a family friendly place xname located near xnear in riverside .
+GOLD SCORE: -46.9235
+
+[2019-03-10 10:46:51,161 INFO] 
+SENT 98: ['spot', '_(', 'xname', 'friendly', 'children', 'xnear', 'riverside', ')_']
+PRED 98: xname is a children friendly spot near xnear in riverside .
+PRED SCORE: -1.2866
+GOLD 98: xname is a children - friendly spot near xnear in riverside .
+GOLD SCORE: -76.4745
+
+[2019-03-10 10:46:51,161 INFO] 
+SENT 99: ['establishment', '_(', 'located', '_(', 'near', 'xnear', 'riverside', ')_', 'xname', 'friendly', 'child', ')_']
+PRED 99: located near to xnear in riverside , xname is a child friendly establishment .
+PRED SCORE: -2.2421
+GOLD 99: located near to xnear on the riverside , xname is a child friendly establishment .
+GOLD SCORE: -57.9295
+
+[2019-03-10 10:46:51,161 INFO] 
+SENT 100: ['is', '_(', 'restaurant', '_(', 'friendly', 'kid', 'riverside', 'xnear', '_(', 'named', 'xname', ')_', ')_', ')_']
+PRED 100: there is a kid friendly restaurant in riverside near xnear named xname .
+PRED SCORE: -2.1806
+GOLD 100: there is a kid - friendly restaurant in riverside near the xnear named xname .
+GOLD SCORE: -61.1025
+
+[2019-03-10 10:46:51,161 INFO] 
+SENT 101: ['is', '_(', 'place', '_(', 'kid', 'friendly', 'riverside', 'xnear', 'named', 'xname', ')_', ')_']
+PRED 101: there is a kid friendly place in riverside near xnear named xname .
+PRED SCORE: -1.4642
+GOLD 101: there is a kid friendly place in riverside near xnear named xname .
+GOLD SCORE: -30.6358
+
+[2019-03-10 10:46:51,161 INFO] 
+SENT 102: ['location', '_(', 'xname', 'friendly', 'family', 'area', 'riverside', 'xnear', ')_']
+PRED 102: xname is a family friendly location in the riverside area near xnear .
+PRED SCORE: -1.1636
+GOLD 102: xname is a family - friendly location in the riverside area , near the xnear .
+GOLD SCORE: -90.2932
+
+[2019-03-10 10:46:51,161 INFO] 
+SENT 103: ['is', '_(', 'place', '_(', 'child', 'friendly', 'called', '_(', 'xname', 'riverside', 'xnear', ')_', ')_', ')_']
+PRED 103: there is a child friendly place called xname in riverside near xnear .
+PRED SCORE: -1.5204
+GOLD 103: there is a child friendly place called xname by the riverside , near xnear .
+GOLD SCORE: -36.6758
+
+[2019-03-10 10:46:51,162 INFO] 
+SENT 104: ['called', '_(', 'venue', '_(', 'friendly', 'family', 'xnear', 'riverside', ')_', 'xname', ')_']
+PRED 104: a family friendly venue near xnear in riverside is called xname .
+PRED SCORE: -2.0541
+GOLD 104: family friendly venue near the xnear on the riverside is called xname .
+GOLD SCORE: -93.8852
+
+[2019-03-10 10:46:51,162 INFO] 
+SENT 105: ['eatery', '_(', 'riverside', 'kids', 'friendly', 'called', 'xname', ')_']
+PRED 105: in riverside is a kids friendly eatery called xname .
+PRED SCORE: -1.5129
+GOLD 105: near the riverside is a kids friendly eatery called xname .
+GOLD SCORE: -85.7106
+
+[2019-03-10 10:46:51,162 INFO] 
+SENT 106: ['is', '_(', 'xnear', '_(', 'close', 'it', ')_', 'as', 'well', ')_']
+PRED 106: near xnear , there is it is well as well .
+PRED SCORE: -4.5940
+GOLD 106: there is a xnear close to it as well .
+GOLD SCORE: -63.3864
+
+[2019-03-10 10:46:51,162 INFO] 
+SENT 107: ["'s", '_(', 'unk_NNS_1', '_(', 'places', '_(', 'kids', 'friendly', ')_', ')_', 'xname', '_(', 'riverside', 'xnear', ')_', ')_']
+PRED 107: there 's a kids friendly places unk_NNS_1 in the riverside near xnear .
+PRED SCORE: -5.1631
+GOLD 107: in unk_NNS_1 of kids friendly places , there 's xname in riverside , near xnear .
+GOLD SCORE: -72.5691
+
+[2019-03-10 10:46:51,162 INFO] 
+SENT 108: ['check', '_(', 'atmosphere', '_(', 'friendly', 'family', 'riverside', ')_', 'out', 'xname', 'xnear', ')_']
+PRED 108: for a family - friendly atmosphere in the riverside , check out xname near xnear .
+PRED SCORE: -3.9394
+GOLD 108: for a family - friendly atmosphere in riverside , check out xname near the xnear .
+GOLD SCORE: -106.6406
+
+[2019-03-10 10:46:51,162 INFO] 
+SENT 109: ["'s", '_(', 'xnear', 'riverside', 'place', '_(', 'family', 'friendly', 'named', 'xname', ')_', ')_']
+PRED 109: near xnear in riverside there 's a family friendly place named xname .
+PRED SCORE: -2.2287
+GOLD 109: near xnear on the riverside , there 's a family friendly place named xname .
+GOLD SCORE: -85.6854
+
+[2019-03-10 10:46:51,162 INFO] 
+SENT 110: ['is', '_(', 'xnear', 'place', '_(', 'friendly', 'kid', 'called', '_(', 'xname', 'riverside', ')_', ')_', ')_']
+PRED 110: near xnear there is a kid friendly place called xname in riverside .
+PRED SCORE: -2.7212
+GOLD 110: near xnear , there is a kid friendly place called xname near the riverside .
+GOLD SCORE: -72.2862
+
+[2019-03-10 10:46:51,163 INFO] 
+SENT 111: ['located', '_(', 'restaurant', '_(', 'this', 'friendly', 'kids', 'called', 'xname', ')_', 'riverside', 'xnear', ')_']
+PRED 111: this kids friendly restaurant called xname is located in riverside near xnear .
+PRED SCORE: -2.7886
+GOLD 111: this kids - friendly restaurant called xname is located in riverside near xnear .
+GOLD SCORE: -79.3102
+
+[2019-03-10 10:46:51,163 INFO] 
+SENT 112: ["'s", '_(', 'riverside', 'xnear', 'xname', '_(', 'kid', 'friendly', ')_', ')_']
+PRED 112: in the riverside , near xnear , there 's a kid friendly xname .
+PRED SCORE: -4.7605
+GOLD 112: by the riverside near xnear , there 's a kid friendly xname .
+GOLD SCORE: -55.1688
+
+[2019-03-10 10:46:51,163 INFO] 
+SENT 113: ['establishment', '_(', 'xname', 'friendly', 'child', 'located', '_(', 'xnear', 'riverside', ')_', ')_']
+PRED 113: xname is a child friendly establishment located near xnear in riverside .
+PRED SCORE: -1.5331
+GOLD 113: xname is a child friendly establishment located near xnear on the riverside .
+GOLD SCORE: -84.6290
+
+[2019-03-10 10:46:51,163 INFO] 
+SENT 114: ['establishment', '_(', 'xname', 'located', '_(', 'near', 'xnear', 'riverside', ')_', 'friendly', 'child', ')_']
+PRED 114: xname is located near to xnear in riverside , is child friendly .
+PRED SCORE: -3.8742
+GOLD 114: xname , located near to xnear on the riverside , is a child friendly establishment .
+GOLD SCORE: -81.3238
+
+[2019-03-10 10:46:51,163 INFO] 
+SENT 115: ['is', '_(', 'riverside', 'xnear', 'venue', '_(', 'friendly', 'family', 'called', 'xname', ')_', ')_']
+PRED 115: in riverside near xnear there is a family friendly venue called xname .
+PRED SCORE: -2.7257
+GOLD 115: in riverside , near xnear , there is a family friendly venue called xname .
+GOLD SCORE: -51.5678
+
+[2019-03-10 10:46:51,163 INFO] 
+SENT 116: ['near', '_(', 'xname', '_(', 'friendly', 'child', ')_', 'xnear', 'riverside', ')_']
+PRED 116: the child friendly xname is near to xnear in riverside .
+PRED SCORE: -3.5177
+GOLD 116: the child - friendly xname is near to xnear by the riverside .
+GOLD SCORE: -84.8695
+
+[2019-03-10 10:46:51,164 INFO] 
+SENT 117: ['xname', '_(', 'xnear', 'friendly', 'child', ')_']
+PRED 117: near xnear is the child friendly xname .
+PRED SCORE: -1.7458
+GOLD 117: near xnear is the child friendly xname .
+GOLD SCORE: -45.7538
+
+[2019-03-10 10:46:51,164 INFO] 
+SENT 118: ['river', 'it']
+PRED 118: it is near the river .
+PRED SCORE: -0.9244
+GOLD 118: it is by the river .
+GOLD SCORE: -25.5823
+
+[2019-03-10 10:46:51,164 INFO] 
+SENT 119: ['located', '_(', 'xname', '_(', 'friendly', 'child', 'riverside', 'venue', ')_', 'xnear', ')_']
+PRED 119: the child friendly riverside venue xname is located near xnear .
+PRED SCORE: -2.4832
+GOLD 119: the child - friendly riverside venue xname is located near xnear .
+GOLD SCORE: -93.0304
+
+[2019-03-10 10:46:51,164 INFO] 
+SENT 120: ['place', '_(', 'xnear', 'area', 'riverside', 'called', 'xname', 'friendly', '_(', 'and', 'it', 'kid', ')_', ')_']
+PRED 120: near xnear is a place in the riverside area called xname and it is kid friendly .
+PRED SCORE: -2.7380
+GOLD 120: near xnear , in the riverside area , is a place called xname , and it is kid friendly .
+GOLD SCORE: -144.5023
+
+[2019-03-10 10:46:52,026 INFO] 
+SENT 121: ['place', '_(', 'xname', 'friendly', 'kids', 'area', '_(', 'riverside', 'xnear', ')_', ')_']
+PRED 121: xname is a kids friendly place in the riverside area near xnear .
+PRED SCORE: -0.7732
+GOLD 121: xname is a kids friendly place in the riverside area near xnear .
+GOLD SCORE: -88.3999
+
+[2019-03-10 10:46:52,027 INFO] 
+SENT 122: ['friendly', '_(', 'located', '_(', 'riverside', 'xnear', ')_', 'xname', 'children', ')_']
+PRED 122: located in riverside near xnear , xname is children friendly .
+PRED SCORE: -2.2366
+GOLD 122: located riverside near xnear , xname is children friendly .
+GOLD SCORE: -64.3574
+
+[2019-03-10 10:46:52,027 INFO] 
+SENT 123: ['is', '_(', 'venue', '_(', 'family', 'friendly', 'named', 'xname', 'located', '_(', 'riverside', 'xnear', ')_', ')_', ')_']
+PRED 123: there is a family friendly venue named xname located in riverside near xnear .
+PRED SCORE: -1.9241
+GOLD 123: there is a family friendly venue named xname which is located at the riverside near xnear
+GOLD SCORE: -111.9385
+
+[2019-03-10 10:46:52,027 INFO] 
+SENT 124: ['xname', '_(', 'xnear', 'friendly', '_(', 'child', 'unk_VBZ_1', '_(', 'and', 'riverside', ')_', ')_', ')_']
+PRED 124: near xnear is xname that is child friendly and unk_VBZ_1 by the riverside .
+PRED SCORE: -3.8079
+GOLD 124: near xnear is xname , which is child friendly and unk_VBZ_1 along the riverside .
+GOLD SCORE: -97.4134
+
+[2019-03-10 10:46:52,027 INFO] 
+SENT 125: ['place', '_(', 'xname', 'friendly', 'family', 'riverside', 'xnear', ')_']
+PRED 125: xname is a family friendly place in riverside near xnear .
+PRED SCORE: -1.6849
+GOLD 125: xname is a family friendly place in riverside near xnear .
+GOLD SCORE: -93.5101
+
+[2019-03-10 10:46:52,027 INFO] 
+SENT 126: ["'s", '_(', 'restaurant', '_(', 'friendly', 'kid', 'named', 'xname', 'located', '_(', 'xnear', 'riverside', ')_', ')_', ')_']
+PRED 126: there 's a kid friendly restaurant named xname located near xnear in riverside .
+PRED SCORE: -2.1262
+GOLD 126: there 's a kid - friendly restaurant named xname , located near the xnear at the riverside .
+GOLD SCORE: -133.5899
+
+[2019-03-10 10:46:52,028 INFO] 
+SENT 127: ['friendly', '_(', 'xname', 'riverside', 'child', 'located', '_(', 'and', 'xnear', ')_', ')_']
+PRED 127: xname is child friendly , and located near xnear .
+PRED SCORE: -3.0054
+GOLD 127: xname in riverside is child friendly and is located near xnear .
+GOLD SCORE: -89.8394
+
+[2019-03-10 10:46:52,028 INFO] 
+SENT 128: ['known', '_(', 'located', '_(', 'xnear', 'area', 'riverside', ')_', 'xname', 'environment', '_(', 'its', 'friendly', 'kid', ')_', ')_']
+PRED 128: located near xnear in the riverside area is known to its kid friendly environment .
+PRED SCORE: -3.2065
+GOLD 128: located near xnear in the riverside area , xname is known for its kid - friendly environment .
+GOLD SCORE: -115.7545
+
+[2019-03-10 10:46:52,028 INFO] 
+SENT 129: ['place', '_(', 'riverside', 'xnear', 'children', 'family', 'called', 'xname', ')_']
+PRED 129: in riverside near xnear is a family place called xname .
+PRED SCORE: -3.4173
+GOLD 129: in riverside , near xnear , is a children family place called xname .
+GOLD SCORE: -97.6621
+
+[2019-03-10 10:46:52,028 INFO] 
+SENT 130: ['place', '_(', 'xnear', 'children', 'friendly', 'called', 'xname', ')_']
+PRED 130: near xnear is a children friendly place called xname .
+PRED SCORE: -0.4764
+GOLD 130: near the xnear is a children friendly place called xname .
+GOLD SCORE: -96.4502
+
+[2019-03-10 10:46:52,028 INFO] 
+SENT 131: ['is', '_(', 'riverside', 'xnear', 'place', '_(', 'kids', 'friendly', 'called', 'xname', ')_', ')_']
+PRED 131: in riverside near xnear there is a kids friendly place called xname .
+PRED SCORE: -2.2197
+GOLD 131: on the riverside near the xnear there is a kids friendly place called xname .
+GOLD SCORE: -95.4850
+
+[2019-03-10 10:46:52,028 INFO] 
+SENT 132: ['restaurant', '_(', 'xname', 'friendly', 'family', 'close', '_(', 'river', 'xnear', ')_', ')_']
+PRED 132: xname is a family friendly restaurant close to the river near xnear .
+PRED SCORE: -1.3906
+GOLD 132: xname is a family friendly restaurant close to the river near xnear .
+GOLD SCORE: -93.0706
+
+[2019-03-10 10:46:52,029 INFO] 
+SENT 133: ['are', '_(', 'unk_NNS_1', '_(', 'child', 'friendly', 'xnear', '_(', 'such', 'xname', 'and', ')_', ')_', 'riverside', ')_']
+PRED 133: there are a child friendly unk_NNS_1 , such near xnear and xname .
+PRED SCORE: -4.9254
+GOLD 133: there are child friendly unk_NNS_1 such as xnear and xname near the riverside .
+GOLD SCORE: -109.0840
+
+[2019-03-10 10:46:52,029 INFO] 
+SENT 134: ['is', '_(', 'shop', '_(', 'chinese', 'coffee', 'named', '_(', 'xname', 'riverside', ')_', 'has', '_(', '1', '5', 'unk_NN_1', 'customer', 'friendly', '_(', 'and', 'kid', ')_', ')_', ')_', ')_']
+PRED 134: there is a chinese coffee shop named xname in riverside that has 1 out of 5 customer unk_NN_1 and is kid friendly .
+PRED SCORE: -2.8323
+GOLD 134: there is an chinese coffee shop named xname near the riverside that has 1 out of 5 in the customer unk_NN_1 and friendly with kid
+GOLD SCORE: -194.0215
+
+[2019-03-10 10:46:52,029 INFO] 
+SENT 135: ['shop', '_(', 'xname', 'coffee', 'providing', '_(', 'food', 'chinese', ')_', ')_']
+PRED 135: xname is a coffee shop providing chinese food .
+PRED SCORE: -0.5653
+GOLD 135: xname is a coffee shop providing chinese food
+GOLD SCORE: -89.4652
+
+[2019-03-10 10:46:52,029 INFO] 
+SENT 136: ['located', '_(', 'it', 'riverside', ')_']
+PRED 136: it is located in the riverside .
+PRED SCORE: -0.4924
+GOLD 136: it is located in the riverside .
+GOLD SCORE: -46.2481
+
+[2019-03-10 10:46:52,029 INFO] 
+SENT 137: ['1', '_(', 'it', '5', '_(', 'rating', 'customer', ')_', ')_']
+PRED 137: it s customer rating is 1 out of 5 .
+PRED SCORE: -0.2478
+GOLD 137: it s customer rating is 1 out of 5 .
+GOLD SCORE: -67.6981
+
+[2019-03-10 10:46:52,029 INFO] 
+SENT 138: ['shop', '_(', 'xname', 'coffee', 'providing', '_(', 'food', 'chinese', ')_', ')_']
+PRED 138: xname is a coffee shop providing chinese food .
+PRED SCORE: -0.5653
+GOLD 138: xname is a coffee shop providing chinese food
+GOLD SCORE: -89.4652
+
+[2019-03-10 10:46:52,029 INFO] 
+SENT 139: ['located', '_(', 'it', 'riverside', ')_']
+PRED 139: it is located in the riverside .
+PRED SCORE: -0.4924
+GOLD 139: it is located in the riverside .
+GOLD SCORE: -46.2481
+
+[2019-03-10 10:46:52,030 INFO] 
+SENT 140: ['1', '_(', 'it', '5', '_(', 'rating', 'customer', ')_', ')_']
+PRED 140: it s customer rating is 1 out of 5 .
+PRED SCORE: -0.2478
+GOLD 140: it s customer rating is 1 out of 5 .
+GOLD SCORE: -67.6981
+
+[2019-03-10 10:46:52,030 INFO] 
+SENT 141: ['shop', '_(', 'xname', 'coffee', 'providing', '_(', 'food', 'chinese', ')_', ')_']
+PRED 141: xname is a coffee shop providing chinese food .
+PRED SCORE: -0.5653
+GOLD 141: xname is a coffee shop providing chinese food
+GOLD SCORE: -89.4652
+
+[2019-03-10 10:46:52,030 INFO] 
+SENT 142: ['located', '_(', 'it', 'riverside', ')_']
+PRED 142: it is located in the riverside .
+PRED SCORE: -0.4924
+GOLD 142: it is located in the riverside .
+GOLD SCORE: -46.2481
+
+[2019-03-10 10:46:52,030 INFO] 
+SENT 143: ['1', '_(', 'it', '5', '_(', 'rating', 'customer', ')_', ')_']
+PRED 143: it s customer rating is 1 out of 5 .
+PRED SCORE: -0.2478
+GOLD 143: it s customer rating is 1 out of 5 .
+GOLD SCORE: -67.6981
+
+[2019-03-10 10:46:52,030 INFO] 
+SENT 144: ['rated', '_(', 'xname', '_(', 'unk_NN_1', '_(', 'unk_JJ_1', 'shop', '_(', 'coffee', 'cuisine', '_(', 'and', 'chinese', ')_', ')_', ')_', 'restaurant', '_(', 'friendly', 'child', 'located', '_(', 'and', 'area', 'riverside', ')_', ')_', ')_', 'it', 'unk_NN_2', '1', 'customers', 'unk_VBG_1', ')_']
+PRED 144: xname , a unk_JJ_1 unk_NN_1 , coffee shop and chinese cuisine is rated restaurant , is child friendly restaurant and located in the riverside area .
+PRED SCORE: -8.4167
+GOLD 144: xname , an unk_JJ_1 unk_NN_1 of coffee shop and chinese cuisine . a child friendly restaurant and located in a riverside area , it has been rated unk_NN_2 1 by unk_VBG_1 customers .
+GOLD SCORE: -306.8654
+
+[2019-03-10 10:46:52,030 INFO] 
+SENT 145: ['serves', '_(', 'shop', '_(', 'xname', 'coffee', ')_', 'food', 'chinese', 'area', 'riverside', 'friendly', '_(', 'and', 'kids', 'has', '_(', 'but', 'rating', '_(', 'customer', '1', '5', ')_', ')_', ')_', ')_']
+PRED 145: xname coffee shop serves chinese food in the riverside area and kids friendly but has a customer rating of 1 out of 5 .
+PRED SCORE: -2.7015
+GOLD 145: xname coffee shop serves chinese food in the riverside area and is kids friendly but has a customer rating of 1 out of 5
+GOLD SCORE: -219.8307
+
+[2019-03-10 10:46:52,030 INFO] 
+SENT 146: ['shop', '_(', 'xname', 'coffee', 'offer', '_(', 'cuisine', 'chinese', ')_', ')_']
+PRED 146: xname is a coffee shop that offer chinese cuisine .
+PRED SCORE: -0.4106
+GOLD 146: xname is a coffee shop that offer chinese cuisine .
+GOLD SCORE: -78.0049
+
+[2019-03-10 10:46:52,031 INFO] 
+SENT 147: ['located', '_(', 'rated', '_(', 'unk_NN_1', '1', 'customers', 'unk_VBG_1', ')_', 'it', 'area', 'riverside', 'welcomes', '_(', 'and', 'children', ')_', ')_']
+PRED 147: rated unk_NN_1 of 1 out of customers , it is located in the riverside area and welcomes children .
+PRED SCORE: -4.7359
+GOLD 147: rated unk_NN_1 1 by unk_VBG_1 customers , it is located in a riverside area and welcomes children .
+GOLD SCORE: -142.0113
+
+[2019-03-10 10:46:52,031 INFO] 
+SENT 148: ['has', '_(', 'shop', '_(', 'xname', 'chinese', 'coffee', ')_', '1', '5', 'rating', '_(', 'customer', 'riverside', ')_', 'friendly', '_(', 'and', 'kid', ')_', ')_']
+PRED 148: xname chinese coffee shop has 1 out of 5 with a customer rating of riverside and is kid friendly .
+PRED SCORE: -3.8588
+GOLD 148: xname is an chinese coffee shop has 1 out of 5 in the customer rating near the riverside and friendly with kid
+GOLD SCORE: -155.7064
+
+[2019-03-10 10:46:52,031 INFO] 
+SENT 149: ['shop', '_(', 'xname', 'coffee', 'area', 'riverside', ')_']
+PRED 149: xname is a coffee shop in the riverside area .
+PRED SCORE: -0.2912
+GOLD 149: xname is a coffee shop in the riverside area .
+GOLD SCORE: -69.5783
+
+[2019-03-10 10:46:52,031 INFO] 
+SENT 150: ['sells', '_(', 'it', 'food', 'chinese', 'has', '_(', 'and', 'rating', '_(', 'customer', '1', '5', ')_', ')_', ')_']
+PRED 150: it sells chinese food and has a customer rating of 1 out of 5 .
+PRED SCORE: -0.2438
+GOLD 150: it sells chinese food and has a customer rating of 1 out of 5 .
+GOLD SCORE: -97.1861
+
+[2019-03-10 10:46:53,184 INFO] 
+SENT 151: ['friendly', '_(', 'it', 'very', 'children', ')_']
+PRED 151: it is very children friendly .
+PRED SCORE: -0.5650
+GOLD 151: it is very children friendly .
+GOLD SCORE: -63.9806
+
+[2019-03-10 10:46:53,185 INFO] 
+SENT 152: ['is', '_(', 'shop', '_(', 'coffee', 'area', '_(', 'riverside', 'called', 'xname', ')_', ')_', ')_']
+PRED 152: there is a coffee shop in the riverside area called xname .
+PRED SCORE: -0.4017
+GOLD 152: there is a coffee shop in the riverside area called xname .
+GOLD SCORE: -73.1462
+
+[2019-03-10 10:46:53,185 INFO] 
+SENT 153: ['sells', '_(', 'it', 'food', 'chinese', 'friendly', '_(', 'and', 'children', ')_', ')_']
+PRED 153: it sells chinese food and is children friendly .
+PRED SCORE: -0.1878
+GOLD 153: it sells chinese food and is children friendly .
+GOLD SCORE: -75.3626
+
+[2019-03-10 10:46:53,185 INFO] 
+SENT 154: ['has', '_(', 'overall', 'it', 'rating', '_(', 'customer', '1', '5', ')_', ')_']
+PRED 154: overall it has a customer rating of 1 out of 5 .
+PRED SCORE: -1.3269
+GOLD 154: overall , it has a customer rating of 1 out of 5 .
+GOLD SCORE: -87.8419
+
+[2019-03-10 10:46:53,185 INFO] 
+SENT 155: ['shop', '_(', 'xname', 'decent', 'fairly', 'coffee', 'down', 'riverside', ')_']
+PRED 155: xname is a fairly decent coffee shop down by the riverside .
+PRED SCORE: -1.3422
+GOLD 155: xname 's a fairly decent coffee shop down at riverside .
+GOLD SCORE: -96.6818
+
+[2019-03-10 10:46:53,186 INFO] 
+SENT 156: ['has', '_(', 'it', 'food', 'chinese', 'allows', '_(', 'and', 'kids', 'unk_NNS_1', ')_', ')_']
+PRED 156: it has chinese food and allows kids to unk_NNS_1 .
+PRED SCORE: -1.5846
+GOLD 156: it has chinese food and allows kids on the unk_NNS_1 .
+GOLD SCORE: -103.1941
+
+[2019-03-10 10:46:53,186 INFO] 
+SENT 157: ['go', '_(', 'looking', '_(', 'if', 'you', 'shop', '_(', 'decent', 'friendly', 'family', 'coffee', 'riverside', ')_', ')_', 'then', 'xname', ')_']
+PRED 157: if you are looking for a decent family friendly coffee shop in riverside then go to xname .
+PRED SCORE: -3.8281
+GOLD 157: if you 're looking for a decent , family friendly coffee shop in riverside , then go to xname .
+GOLD SCORE: -178.2575
+
+[2019-03-10 10:46:53,186 INFO] 
+SENT 158: ['serves', '_(', 'it', 'food', 'chinese', 'there', 'too', ')_']
+PRED 158: it serves chinese food there serves too .
+PRED SCORE: -2.1991
+GOLD 158: it serves chinese food there too .
+GOLD SCORE: -77.1212
+
+[2019-03-10 10:46:53,186 INFO] 
+SENT 159: ['serves', '_(', 'shop', '_(', 'xname', 'coffee', ')_', 'food', 'chinese', 'friendly', '_(', 'kid', 'has', '_(', 'and', 'rating', '_(', 'customer', '3', '5', ')_', ')_', ')_', ')_']
+PRED 159: xname coffee shop serves chinese food that is kid friendly and has a customer rating of 3 out of 5 .
+PRED SCORE: -1.6702
+GOLD 159: the xname coffee shop serves chinese food , is kid friendly and has a customer rating of 3 out of 5 .
+GOLD SCORE: -177.7454
+
+[2019-03-10 10:46:53,186 INFO] 
+SENT 160: ['located', '_(', 'it', 'riverside', ')_']
+PRED 160: it is located in the riverside .
+PRED SCORE: -0.4924
+GOLD 160: it is located riverside .
+GOLD SCORE: -42.4123
+
+[2019-03-10 10:46:53,187 INFO] 
+SENT 161: ['shop', '_(', 'xname', 'coffee', 'serves', '_(', 'food', 'chinese', 'area', 'riverside', 'rating', '_(', 'good', 'customer', '3', '5', ')_', ')_', 'friendly', '_(', 'it', 'not', 'child', ')_', ')_']
+PRED 161: xname is a coffee shop that serves chinese food in the riverside area with a good customer rating of 3 out of 5 .
+PRED SCORE: -2.9392
+GOLD 161: xname is a coffee shop that serves chinese food in the riverside area with a good customer rating of 3 out of 5 , it is not child friendly .
+GOLD SCORE: -246.9206
+
+[2019-03-10 10:46:53,187 INFO] 
+SENT 162: ['shop', '_(', 'xname', 'friendly', 'kid', 'coffee', 'rating', '_(', '3', '5', 'serving', '_(', 'food', '_(', 'chinese', 'located', '_(', 'area', 'riverside', ')_', ')_', ')_', ')_', ')_']
+PRED 162: xname is a kid friendly coffee shop with a 3 out of 5 rating serving chinese food located in the riverside area .
+PRED SCORE: -2.5736
+GOLD 162: xname is a kid friendly coffee shop with a 3 out of 5 rating serving chinese food located in the riverside area .
+GOLD SCORE: -201.5048
+
+[2019-03-10 10:46:53,187 INFO] 
+SENT 163: ['is', '_(', 'shop', '_(', 'coffee', 'serves', '_(', 'food', '_(', 'chinese', 'called', '_(', 'xname', 'area', 'riverside', ')_', ')_', ')_', ')_', 'friendly', '_(', 'it', 'not', 'child', 'has', '_(', 'and', 'rating', '_(', 'customer', '3', '5', ')_', ')_', ')_', ')_']
+PRED 163: there is a coffee shop that serves chinese food called xname in the riverside area , it is not child friendly and has a customer rating of 3 out of 5 .
+PRED SCORE: -1.9126
+GOLD 163: there is a coffee shop that serves chinese food called xname , in the riverside area , it is not child friendly and has a customer rating of 3 out of 5 .
+GOLD SCORE: -279.0080
+
+[2019-03-10 10:46:53,187 INFO] 
+SENT 164: ['serves', '_(', 'shop', '_(', 'kid', 'friendly', 'coffee', 'xname', ')_', 'food', 'chinese', 'located', '_(', 'and', 'riverside', ')_', ')_']
+PRED 164: the kid friendly coffee shop , xname , serves chinese food and is located in riverside .
+PRED SCORE: -3.1374
+GOLD 164: the kid friendly coffee shop , xname , serves chinese food and is located riverside .
+GOLD SCORE: -134.5107
+
+[2019-03-10 10:46:53,187 INFO] 
+SENT 165: ['has', '_(', 'it', 'rating', '_(', 'customer', '3', '5', ')_', ')_']
+PRED 165: it has a customer rating of 3 out of 5 .
+PRED SCORE: -0.1617
+GOLD 165: it has a customer rating of 3 out of 5 .
+GOLD SCORE: -65.3440
+
+[2019-03-10 10:46:53,187 INFO] 
+SENT 166: ['shop', '_(', 'xname', 'coffee', 'providing', '_(', 'food', 'chinese', ')_', ')_']
+PRED 166: xname is a coffee shop providing chinese food .
+PRED SCORE: -0.5653
+GOLD 166: xname is a coffee shop providing chinese food
+GOLD SCORE: -89.3487
+
+[2019-03-10 10:46:53,188 INFO] 
+SENT 167: ['located', '_(', 'it', 'centre', 'city', ')_']
+PRED 167: it is located in the city centre .
+PRED SCORE: -0.2013
+GOLD 167: it is located in the city centre .
+GOLD SCORE: -58.5170
+
+[2019-03-10 10:46:53,188 INFO] 
+SENT 168: ['5', '_(', 'it', 'rating', 'customer', '5', ')_']
+PRED 168: it s customer rating is 5 out of 5 .
+PRED SCORE: -0.1745
+GOLD 168: it s customer rating is 5 out of 5 .
+GOLD SCORE: -67.2138
+
+[2019-03-10 10:46:53,188 INFO] 
+SENT 169: ['shop', '_(', 'xname', 'coffee', 'offer', '_(', 'and', 'also', 'food', 'chinese', ')_', ')_']
+PRED 169: xname is a coffee shop and also offer chinese food .
+PRED SCORE: -0.4337
+GOLD 169: xname is a coffee shop and also offer chinese food .
+GOLD SCORE: -117.5069
+
+[2019-03-10 10:46:53,188 INFO] 
+SENT 170: ['have', '_(', 'we', 'rating', '_(', 'customer', '5', '5', ')_', ')_']
+PRED 170: we have a customer rating of 5 out of 5 .
+PRED SCORE: -0.2339
+GOLD 170: we have a customer rating of 5 out of 5 .
+GOLD SCORE: -80.4046
+
+[2019-03-10 10:46:53,188 INFO] 
+SENT 171: ['located', '_(', 'center', 'city', ')_']
+PRED 171: located in the city center .
+PRED SCORE: -0.6332
+GOLD 171: located in city center .
+GOLD SCORE: -44.4017
+
+[2019-03-10 10:46:53,188 INFO] 
+SENT 172: ['friendly', '_(', 'unfortunately', 'not', 'family', ')_']
+PRED 172: unfortunately is not family - friendly .
+PRED SCORE: -0.9367
+GOLD 172: unfortunately not family friendly
+GOLD SCORE: -59.3925
+
+[2019-03-10 10:46:53,189 INFO] 
+SENT 173: ['joint', '_(', 'rate', '_(', '5', '5', 'satisfaction', 'customers', 'its', ')_', 'xname', 'shop', 'coffee', 'known', '_(', 'food', '_(', 'its', 'chinese', ')_', ')_', ')_']
+PRED 173: with a 5 out of 5 satisfaction satisfaction joint near customers , its coffee shop joint known its chinese food .
+PRED SCORE: -8.2120
+GOLD 173: given a 5 out of 5 satisfaction rate by its customers , xname is a coffee shop joint known for its chinese food .
+GOLD SCORE: -201.3553
+
+[2019-03-10 10:46:53,189 INFO] 
+SENT 174: ['located', '_(', 'restaurant', '_(', 'this', 'non-family', 'friendly', ')_', 'centre', 'city', ')_']
+PRED 174: this non-family friendly restaurant is located in the city centre .
+PRED SCORE: -1.0822
+GOLD 174: this non-family friendly restaurant is located in the city centre .
+GOLD SCORE: -109.5180
+
+[2019-03-10 10:46:53,189 INFO] 
+SENT 175: ['shop', '_(', 'xname', 'coffee', 'selling', '_(', 'food', 'chinese', ')_', ')_']
+PRED 175: xname is a coffee shop selling chinese food .
+PRED SCORE: -0.6088
+GOLD 175: xname is a coffee shop selling chinese food .
+GOLD SCORE: -84.0125
+
+[2019-03-10 10:46:53,189 INFO] 
+SENT 176: ['has', '_(', 'it', 'rating', '_(', 'customer', 'stars', '_(', '5', '5', ')_', ')_', ')_']
+PRED 176: it has a customer rating of 5 out of 5 stars .
+PRED SCORE: -0.7353
+GOLD 176: it has a customer rating of 5 out of 5 stars .
+GOLD SCORE: -78.7795
+
+[2019-03-10 10:46:53,189 INFO] 
+SENT 177: ['friendly', '_(', 'it', 'not', 'family', 'located', '_(', 'and', 'centre', 'city', ')_', ')_']
+PRED 177: it is not family friendly and located in the city centre .
+PRED SCORE: -1.5740
+GOLD 177: it is not family friendly and is located in the city centre
+GOLD SCORE: -81.1000
+
+[2019-03-10 10:46:53,190 INFO] 
+SENT 178: ['shop', '_(', 'coffee', 'food', '_(', 'and', 'chinese', ')_', 'available', 'xname', ')_']
+PRED 178: coffee shop and chinese food is available at xname .
+PRED SCORE: -2.4129
+GOLD 178: coffee shop and chinese food available at the xname .
+GOLD SCORE: -80.2071
+
+[2019-03-10 10:46:53,190 INFO] 
+SENT 179: ['rating', '_(', 'customer', '5', '5', ')_']
+PRED 179: with a customer rating of 5 out of 5 .
+PRED SCORE: -1.3512
+GOLD 179: customer rating 5 out of 5 .
+GOLD SCORE: -43.5662
+
+[2019-03-10 10:46:53,190 INFO] 
+SENT 180: ['center', '_(', 'city', 'based', ')_']
+PRED 180: in the city center is based .
+PRED SCORE: -2.6199
+GOLD 180: city center based .
+GOLD SCORE: -42.6271
+
+[2019-03-10 10:46:53,923 INFO] 
+SENT 181: ['friendly', '_(', 'not', 'family', ')_']
+PRED 181: not family friendly .
+PRED SCORE: -1.1608
+GOLD 181: not family friendly
+GOLD SCORE: -43.5710
+
+[2019-03-10 10:46:53,924 INFO] 
+SENT 182: ['is', '_(', 'shop', '_(', 'coffee', 'called', 'xname', 'provides', '_(', 'food', 'chinese', ')_', ')_', ')_']
+PRED 182: there is a coffee shop called xname that provides chinese food .
+PRED SCORE: -0.4187
+GOLD 182: there is a coffee shop called xname that provides chinese food .
+GOLD SCORE: -83.8107
+
+[2019-03-10 10:46:53,924 INFO] 
+SENT 183: ['has', '_(', 'it', 'rating', '_(', 'customer', 'unk_NNS_1', '_(', '5', '5', ')_', ')_', 'located', '_(', 'and', 'centre', 'city', ')_', ')_']
+PRED 183: it has a customer rating of 5 out of 5 , and is located in the city centre .
+PRED SCORE: -2.1507
+GOLD 183: it has a customer rating of 5 out of 5 unk_NNS_1 and is located in the city centre .
+GOLD SCORE: -145.7305
+
+[2019-03-10 10:46:53,924 INFO] 
+SENT 184: ['friendly', '_(', 'it', 'not', 'family', ')_']
+PRED 184: it is not family - friendly .
+PRED SCORE: -0.5595
+GOLD 184: it is not family friendly
+GOLD SCORE: -65.9668
+
+[2019-03-10 10:46:53,925 INFO] 
+SENT 185: ['shop', '_(', 'xname', 'coffee', 'providing', '_(', 'food', 'chinese', ')_', ')_']
+PRED 185: xname is a coffee shop providing chinese food .
+PRED SCORE: -0.5653
+GOLD 185: xname is a coffee shop providing chinese food
+GOLD SCORE: -88.4823
+
+[2019-03-10 10:46:53,925 INFO] 
+SENT 186: ['located', '_(', 'it', 'centre', 'city', ')_']
+PRED 186: it is located in the city centre .
+PRED SCORE: -0.2013
+GOLD 186: it is located in the city centre .
+GOLD SCORE: -57.6120
+
+[2019-03-10 10:46:53,925 INFO] 
+SENT 187: ['5', '_(', 'it', 'rating', 'customer', '5', ')_']
+PRED 187: it s customer rating is 5 out of 5 .
+PRED SCORE: -0.1745
+GOLD 187: it s customer rating is 5 out of 5 .
+GOLD SCORE: -63.4351
+
+[2019-03-10 10:46:53,925 INFO] 
+SENT 188: ['is', '_(', 'shop', '_(', 'family', 'friendly', 'coffee', 'centre', '_(', 'city', 'serves', '_(', 'food', '_(', 'chinese', 'xname', ')_', ')_', ')_', ')_', ')_']
+PRED 188: there is a family friendly coffee shop in the city centre that serves chinese food at xname .
+PRED SCORE: -1.5010
+GOLD 188: there is a family friendly coffee shop in the city centre that serves chinese food , xname .
+GOLD SCORE: -139.6509
+
+[2019-03-10 10:46:53,925 INFO] 
+SENT 189: ['has', '_(', 'it', 'rating', '_(', '5', '5', 'customer', ')_', ')_']
+PRED 189: it has a 5 out of 5 customer rating .
+PRED SCORE: -0.1545
+GOLD 189: it has a 5 out of 5 customer rating .
+GOLD SCORE: -58.2295
+
+[2019-03-10 10:46:53,925 INFO] 
+SENT 190: ['shop', '_(', 'xname', 'coffee', 'serves', '_(', 'food', 'chinese', 'centre', 'city', ')_', ')_']
+PRED 190: xname is a coffee shop that serves chinese food in the city centre .
+PRED SCORE: -0.4580
+GOLD 190: xname is a coffee shop that serves chinese food in the city centre .
+GOLD SCORE: -70.8574
+
+[2019-03-10 10:46:53,926 INFO] 
+SENT 191: ['friendly', '_(', 'it', 'family', 'has', '_(', 'and', 'rating', '_(', '5', '5', 'customer', ')_', ')_', ')_']
+PRED 191: it is family friendly and has a 5 out of 5 customer rating .
+PRED SCORE: -0.4192
+GOLD 191: it is family friendly and has a 5 out of 5 customer rating .
+GOLD SCORE: -109.0022
+
+[2019-03-10 10:46:53,926 INFO] 
+SENT 192: ['serves', '_(', 'shop', '_(', 'xname', 'coffee', ')_', 'food', 'chinese', 'centre', 'city', ')_']
+PRED 192: xname coffee shop serves chinese food in the city centre .
+PRED SCORE: -0.8400
+GOLD 192: xname coffee shop serves chinese food in the city centre .
+GOLD SCORE: -78.9544
+
+[2019-03-10 10:46:53,926 INFO] 
+SENT 193: ['standard', '_(', 'it', 'high', 'welcome', '_(', 'and', 'families', ')_', ')_']
+PRED 193: it is high standard and welcome families .
+PRED SCORE: -1.8474
+GOLD 193: it is of high standard and families are welcome .
+GOLD SCORE: -97.7157
+
+[2019-03-10 10:46:53,926 INFO] 
+SENT 194: ['serves', '_(', 'shop', 'coffee', 'xname', 'food', 'chinese', 'environment', '_(', 'friendly', 'family', ')_', 'quality', '_(', 'and', 'high', ')_', ')_']
+PRED 194: the coffee shop , xname serves chinese food in a family friendly environment and high quality .
+PRED SCORE: -4.1241
+GOLD 194: coffee shop xname serves chinese food in a family friendly environment and is of high quality .
+GOLD SCORE: -177.2230
+
+[2019-03-10 10:46:53,926 INFO] 
+SENT 195: ['situated', '_(', 'it', 'centre', 'city', ')_']
+PRED 195: it is situated in the city centre .
+PRED SCORE: -0.2481
+GOLD 195: it is situated in the city centre .
+GOLD SCORE: -56.9375
+
+[2019-03-10 10:46:53,927 INFO] 
+SENT 196: ['shop', '_(', 'xname', 'coffee', 'providing', '_(', 'food', 'chinese', ')_', ')_']
+PRED 196: xname is a coffee shop providing chinese food .
+PRED SCORE: -0.5653
+GOLD 196: xname is a coffee shop providing chinese food
+GOLD SCORE: -88.4823
+
+[2019-03-10 10:46:53,927 INFO] 
+SENT 197: ['located', '_(', 'it', 'centre', 'city', ')_']
+PRED 197: it is located in the city centre .
+PRED SCORE: -0.2013
+GOLD 197: it is located in the city centre .
+GOLD SCORE: -57.6120
+
+[2019-03-10 10:46:53,927 INFO] 
+SENT 198: ['5', '_(', 'it', 'rating', 'customer', '5', ')_']
+PRED 198: it s customer rating is 5 out of 5 .
+PRED SCORE: -0.1745
+GOLD 198: it s customer rating is 5 out of 5 .
+GOLD SCORE: -63.4351
+
+[2019-03-10 10:46:53,927 INFO] 
+SENT 199: ['shop', '_(', 'xname', 'coffee', 'providing', '_(', 'food', 'chinese', ')_', ')_']
+PRED 199: xname is a coffee shop providing chinese food .
+PRED SCORE: -0.5653
+GOLD 199: xname is a coffee shop providing chinese food
+GOLD SCORE: -88.4823
+
+[2019-03-10 10:46:53,927 INFO] 
+SENT 200: ['located', '_(', 'it', 'riverside', ')_']
+PRED 200: it is located in the riverside .
+PRED SCORE: -0.4924
+GOLD 200: it is located in the riverside .
+GOLD SCORE: -46.2481
+
+[2019-03-10 10:46:53,927 INFO] 
+SENT 201: ['5', '_(', 'it', 'rating', 'customer', '5', ')_']
+PRED 201: it s customer rating is 5 out of 5 .
+PRED SCORE: -0.1745
+GOLD 201: it s customer rating is 5 out of 5 .
+GOLD SCORE: -66.8736
+
+[2019-03-10 10:46:53,928 INFO] 
+SENT 202: ['serves', '_(', 'shop', '_(', 'xname', 'coffee', ')_', 'food', 'chinese', 'area', 'riverside', ')_']
+PRED 202: xname coffee shop serves chinese food in the riverside area .
+PRED SCORE: -0.8100
+GOLD 202: xname coffee shop serves chinese food in the riverside area .
+GOLD SCORE: -66.5242
+
+[2019-03-10 10:46:53,928 INFO] 
+SENT 203: ['rated', '_(', 'it', 'highly', 'friendly', '_(', 'but', 'not', 'family', ')_', ')_']
+PRED 203: it is highly rated but not family friendly .
+PRED SCORE: -1.3579
+GOLD 203: it is highly rated but not family friendly .
+GOLD SCORE: -74.8750
+
+[2019-03-10 10:46:53,928 INFO] 
+SENT 204: ['shop', '_(', 'xname', 'coffee', 'providing', '_(', 'food', 'chinese', ')_', ')_']
+PRED 204: xname is a coffee shop providing chinese food .
+PRED SCORE: -0.5653
+GOLD 204: xname is a coffee shop providing chinese food
+GOLD SCORE: -88.4823
+
+[2019-03-10 10:46:53,928 INFO] 
+SENT 205: ['located', '_(', 'it', 'riverside', ')_']
+PRED 205: it is located in the riverside .
+PRED SCORE: -0.4924
+GOLD 205: it is located in the riverside .
+GOLD SCORE: -46.2481
+
+[2019-03-10 10:46:53,928 INFO] 
+SENT 206: ['5', '_(', 'it', 'rating', 'customer', '5', ')_']
+PRED 206: it s customer rating is 5 out of 5 .
+PRED SCORE: -0.1745
+GOLD 206: it s customer rating is 5 out of 5 .
+GOLD SCORE: -66.8736
+
+[2019-03-10 10:46:53,929 INFO] 
+SENT 207: ['shop', '_(', 'xname', 'rated', 'highly', 'coffee', 'providing', '_(', 'food', 'chinese', 'area', 'riverside', ')_', ')_']
+PRED 207: xname is a highly rated coffee shop providing chinese food in the riverside area .
+PRED SCORE: -0.5574
+GOLD 207: xname is a highly rated coffee shop providing chinese food in the riverside area .
+GOLD SCORE: -158.6398
+
+[2019-03-10 10:46:53,929 INFO] 
+SENT 208: ['friendly', '_(', 'it', 'not', 'family', ')_']
+PRED 208: it is not family - friendly .
+PRED SCORE: -0.5595
+GOLD 208: it is not family friendly .
+GOLD SCORE: -63.3892
+
+[2019-03-10 10:46:53,929 INFO] 
+SENT 209: ['is', '_(', 'shop', '_(', 'coffee', 'riverside', 'serves', '_(', 'xname', '_(', 'chinese', 'food', ')_', ')_', ')_', ')_']
+PRED 209: there is a coffee shop in riverside that serves chinese food food .
+PRED SCORE: -2.1779
+GOLD 209: there is a coffee shop on riverside that serves chinese food xname .
+GOLD SCORE: -75.5226
+
+[2019-03-10 10:46:53,929 INFO] 
+SENT 210: ['friendly', '_(', 'it', 'not', 'family', 'rated', '_(', 'and', '5', '5', 'customers', ')_', ')_']
+PRED 210: it is not family - friendly and rated 5 out of 5 by customers .
+PRED SCORE: -1.6049
+GOLD 210: it is not family friendly and is rated 5 out of 5 by customers .
+GOLD SCORE: -95.2514
+

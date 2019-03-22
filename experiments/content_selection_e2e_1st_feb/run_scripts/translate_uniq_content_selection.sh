@@ -1,9 +1,9 @@
 #!/usr/bin/env sh
-export CUDA_VISIBLE_DEVICES=0
+for this_set in {dev,test}
+do
 python /home/henrye/downloads/Henry_OpenNMT-py/translate.py \
-	-model train/1st_feb_tests/e2e_content_selection_step_5400.pt \
-	-src data/1st_feb_tests/devset.utterances.ewt_ud_2.3_DEEP.conllu.content_selection.dev.src.uniq \
-	-beam_size 5 \
-	-verbose \
-	-output translate/devset_uniq/e2e_content_selection_step_5400.beam_5_uniq.pred.txt \
+	-model train/e2e_delex_8th_march/e2e_delex_step_8400.pt \
+	-src data/e2e_delex_8th_march/e2e_delex_DEEP.conllu.content_selection."$this_set".src.uniq \
+	-output translate/uniq_e2e_delex_8th_march/"$this_set".e2e_delex_step_8400.pred.txt \
 	-gpu 0
+done

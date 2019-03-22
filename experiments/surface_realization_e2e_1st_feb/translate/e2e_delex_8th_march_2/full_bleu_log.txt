@@ -1,0 +1,54 @@
+
+BLEU = 76.36, 94.0/82.7/74.1/66.8 (BP=0.970, ratio=0.970, hyp_len=105395, ref_len=108615)
+thiswasmodelcheckpoint1
+
+BLEU = 79.80, 94.7/85.0/77.3/70.5 (BP=0.980, ratio=0.980, hyp_len=106492, ref_len=108615)
+thiswasmodelcheckpoint2
+
+BLEU = 80.15, 93.8/84.1/76.1/69.0 (BP=0.999, ratio=0.999, hyp_len=108470, ref_len=108615)
+thiswasmodelcheckpoint3
+
+BLEU = 80.51, 95.1/85.8/78.2/71.7 (BP=0.979, ratio=0.979, hyp_len=106367, ref_len=108615)
+thiswasmodelcheckpoint4
+
+BLEU = 80.68, 94.3/84.8/77.2/70.6 (BP=0.993, ratio=0.993, hyp_len=107842, ref_len=108615)
+thiswasmodelcheckpoint5
+
+BLEU = 81.04, 94.3/84.9/77.4/70.9 (BP=0.995, ratio=0.995, hyp_len=108101, ref_len=108615)
+thiswasmodelcheckpoint6
+
+BLEU = 81.23, 94.8/85.7/78.3/71.9 (BP=0.987, ratio=0.988, hyp_len=107263, ref_len=108615)
+thiswasmodelcheckpoint7
+
+BLEU = 81.40, 94.6/85.4/78.0/71.6 (BP=0.993, ratio=0.993, hyp_len=107849, ref_len=108615)
+thiswasmodelcheckpoint8
+
+BLEU = 81.03, 94.5/85.2/77.7/71.2 (BP=0.992, ratio=0.992, hyp_len=107735, ref_len=108615)
+thiswasmodelcheckpoint9
+
+BLEU = 80.99, 94.7/85.5/77.9/71.5 (BP=0.988, ratio=0.988, hyp_len=107360, ref_len=108615)
+thiswasmodelcheckpoint10
+
+BLEU = 80.99, 94.5/85.2/77.6/71.1 (BP=0.992, ratio=0.992, hyp_len=107731, ref_len=108615)
+thiswasmodelcheckpoint11
+
+BLEU = 81.06, 94.6/85.3/77.9/71.4 (BP=0.990, ratio=0.991, hyp_len=107584, ref_len=108615)
+thiswasmodelcheckpoint12
+
+BLEU = 81.04, 94.6/85.2/77.8/71.3 (BP=0.991, ratio=0.991, hyp_len=107683, ref_len=108615)
+thiswasmodelcheckpoint13
+
+BLEU = 81.12, 94.6/85.3/77.8/71.4 (BP=0.992, ratio=0.992, hyp_len=107709, ref_len=108615)
+thiswasmodelcheckpoint14
+
+BLEU = 81.08, 94.6/85.3/77.8/71.3 (BP=0.992, ratio=0.992, hyp_len=107697, ref_len=108615)
+thiswasmodelcheckpoint15
+
+BLEU = 81.10, 94.6/85.3/77.8/71.3 (BP=0.992, ratio=0.992, hyp_len=107702, ref_len=108615)
+thiswasmodelcheckpoint16
+
+BLEU = 81.09, 94.6/85.3/77.8/71.3 (BP=0.991, ratio=0.991, hyp_len=107686, ref_len=108615)
+thiswasmodelcheckpoint17
+
+BLEU = 81.06, 94.6/85.3/77.8/71.3 (BP=0.991, ratio=0.991, hyp_len=107679, ref_len=108615)
+thiswasmodelcheckpoint18

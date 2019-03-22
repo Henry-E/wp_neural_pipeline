@@ -41,10 +41,10 @@ def main():
 
     contains_unk_ids = []
     for this_id, gen_sent in zip(ids, model_outputs):
-        if 'unk' in gen_sent:
+        if 'unk' in gen_sent.lower():
             contains_unk_ids.append(this_id)
 
-    acceptable_differences = ['', ',', '.', 'a', 'an', 'the']
+    acceptable_differences = ['', ',', '.', 'a', 'an', 'the', 'athe', 'thea']
     matching_sent_ids = []
     very_similar_sent_ids = []
     for this_id, ref_sent, gen_sent in zip(ids, model_inputs, model_outputs):
@@ -76,9 +76,10 @@ def main():
             very_similar_sent_ids.append(this_id)
         #     print('{} => {}'.format(ref_sent, gen_sent))
         #     print(contiguous_changes)
-    # print("There are this many similar sents ", len(very_similar_sent_ids))
-    # print("Num that contains unks", len(contains_unk_ids))
-    # print(len(ids))
+    print("Total sents", len(ids))
+    print("Num that contains unks", len(contains_unk_ids))
+    print("this many matching sents", len(matching_sent_ids))
+    print("There are this many similar sents ", len(very_similar_sent_ids))
 
     # annotations = []
     # for this_id, this_input, this_output in zip(ids, model_inputs,

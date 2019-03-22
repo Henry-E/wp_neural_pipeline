@@ -1,0 +1,7 @@
+1	Xname	Xname	PROPN	NNP	Number=Sing|id1=1|original_id=1	2	A1	_	_
+2	restaurant	restaurant	NOUN	NN	Tense=Pres|Number=Sing|id2=3|id1=6|original_id=6|ClauseType=Dec|Definite=Ind	0	ROOT	_	_
+3	located	locate	VERB	VBN	Tense=Past|id1=7|original_id=7	2	A2INV	_	_
+4	friendly	friendly	ADJ	JJ	Degree=Pos|id1=5|original_id=5	2	A1INV	_	_
+5	riverside	riverside	NOUN	NN	Number=Sing|id2=8|id1=10|id3=9|original_id=10|Definite=Def	3	AM	_	_
+6	Xnear	Xnear	PROPN	NNP	Number=Sing|id2=11|id1=12|original_id=12	3	AM	_	_
+7	family	family	NOUN	NN	Number=Sing|id1=4|original_id=4	4	AM	_	_
