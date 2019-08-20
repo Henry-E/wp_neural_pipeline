@@ -8,6 +8,7 @@ from pyconll.tree import SentenceTree
 import jsonlines
 from tqdm import tqdm
 
+
 def linearize_tree(node, scopes_to_close=0):
     linearization = []
     if node.data.form:
@@ -18,12 +19,12 @@ def linearize_tree(node, scopes_to_close=0):
     child_nodes = [child for child in node.children if child.data.form]
     # we want child nodes to appear in the order they appeared in the original
     # sentence. This will simplify things for the model a bit
-    sorted_child_nodes = sorted(child_nodes,
-                                key=lambda child:
-                                int(list(child.data.feats['original_id'])[0]))
+    sorted_child_nodes = sorted(
+        child_nodes,
+        key=lambda child: int(list(child.data.feats['original_id'])[0]))
     # More than one child or the sole child has its own children
-    if sorted_child_nodes and (len(sorted_child_nodes) > 1 or
-                               sorted_child_nodes[0].children):
+    if sorted_child_nodes and (len(sorted_child_nodes) > 1
+                               or sorted_child_nodes[0].children):
         # Open scope
         linearization.append('_(')
     # if there's no more child nodes
@@ -32,8 +33,8 @@ def linearize_tree(node, scopes_to_close=0):
         linearization.extend([')_'] * scopes_to_close)
     for k, child in enumerate(sorted_child_nodes):
         # if it's the last one and we just opened a scope
-        if k == len(sorted_child_nodes) - 1 and (len(sorted_child_nodes) > 1 or
-                                                 sorted_child_nodes[0].children):
+        if k == len(sorted_child_nodes) - 1 and (
+                len(sorted_child_nodes) > 1 or sorted_child_nodes[0].children):
             scopes_to_close += 1
             linearization.extend(linearize_tree(child, scopes_to_close))
         elif len(sorted_child_nodes) == 1:
@@ -43,6 +44,7 @@ def linearize_tree(node, scopes_to_close=0):
             # do with closing scopes
             linearization.extend(linearize_tree(child))
     return linearization
+
 
 def process_deep_ud(deep_ud, args, unk_mapping=None):
     if args.original_sentence_order:
@@ -60,8 +62,10 @@ def process_deep_ud(deep_ud, args, unk_mapping=None):
             # we determined it was easier to simpler filter out the scoping
             # markers than to add a whole bunch of special statements in the
             # original function
-            linearized_ids = [token for token in linearized_ids
-                              if token != '_(' or token != ')_']
+            linearized_ids = [
+                token for token in linearized_ids
+                if token != '_(' or token != ')_'
+            ]
 
     linearized_deep_tokens = []
     for tok_id in linearized_ids:
@@ -87,6 +91,7 @@ def process_deep_ud(deep_ud, args, unk_mapping=None):
             linearized_deep_tokens.append(this_form)
     return linearized_deep_tokens
 
+
 def get_ud_sent_tokens(sentence, vocab=None):
     tokens = []
     unk_freqs = Counter()
@@ -94,7 +99,7 @@ def get_ud_sent_tokens(sentence, vocab=None):
     for token in sentence:
         this_form = token.form
         if not this_form:
-           continue
+            continue
         # lower casing all the tokens
         this_form = this_form.lower()
         # check if we've already seen this unk before (very unlikely)
@@ -118,6 +123,7 @@ def get_ud_sent_tokens(sentence, vocab=None):
             tokens.append(this_form)
     return tokens, unk_mapping
 
+
 def get_mr_source_tokens(e2e_mr, tokenize_mr=False):
     mr_tokens = []
     if tokenize_mr:
@@ -132,7 +138,7 @@ def get_mr_source_tokens(e2e_mr, tokenize_mr=False):
                 # the delexicalized act types
                 mr_tokens.append('x' + act_type)
             else:
-                value = act[act.find('[')+1:act.find(']')]
+                value = act[act.find('[') + 1:act.find(']')]
                 value = re.sub(r'£', r'£ ', value)
                 value = re.sub(r'-', r' - ', value)
                 mr_tokens.append(value)
@@ -148,13 +154,14 @@ def get_mr_source_tokens(e2e_mr, tokenize_mr=False):
                 mr_tokens.append('x' + act_type)
             else:
                 # mr_tokens.append(act_type + ':')
-                value = act[act.find('[')+1:act.find(']')].replace(' ', '')
+                value = act[act.find('[') + 1:act.find(']')].replace(' ', '')
                 mr_tokens.append(act_type + '_' + value)
             # mr_tokens.append(',')
     if tokenize_mr:
         # We remove the final , comma at the end of the list
         mr_tokens.pop()
     return mr_tokens
+
 
 def create_source_and_target_both(args):
     e2e_lines = csv.reader(open(args.e2e_data_file_name))
@@ -202,8 +209,9 @@ def create_source_and_target_both(args):
         os.path.basename(os.path.splitext(args.deep_conllu_file_name)[0])
     # whether it's .train, .dev or .test
     input_file_data_split = os.path.splitext(args.deep_conllu_file_name)[1]
-    print("expect the end of the deep file to indicate what data split this is: ",
-          input_file_data_split)
+    print(
+        "expect the end of the deep file to indicate what data split this is: ",
+        input_file_data_split)
 
     content_selection_src_file_name = \
         os.path.join(args.content_selection_dir_name,
@@ -264,8 +272,9 @@ def create_source_and_target_surface_realization_only(args):
         os.path.basename(os.path.splitext(args.deep_conllu_file_name)[0])
     # whether it's .train, .dev or .test
     input_file_data_split = os.path.splitext(args.deep_conllu_file_name)[1]
-    print("expect the end of the deep file to indicate what data split this is: ",
-          input_file_data_split)
+    print(
+        "expect the end of the deep file to indicate what data split this is: ",
+        input_file_data_split)
 
     surface_realization_src_file_name = \
         os.path.join(args.surface_realization_dir_name,
@@ -295,29 +304,45 @@ def main():
     # inputs
     parser.add_argument('-e', '--e2e_data_file_name', help='original e2e file')
     parser.add_argument('-u', '--ud_conllu_file_name', help='ud_conllu output')
-    parser.add_argument('-d', '--deep_conllu_file_name',
-                        help='''deep parser output, expected to end in .dev or .train''')
-    parser.add_argument('--vocab_file', default='',
-                        help='vocab file with one word per line, optional')
-    parser.add_argument('--sent_ids_file_name', help='utterance level sent ids')
+    parser.add_argument(
+        '-d',
+        '--deep_conllu_file_name',
+        help='''deep parser output, expected to end in .dev or .train''')
+    parser.add_argument(
+        '--vocab_file',
+        default='',
+        help='vocab file with one word per line, optional')
+    parser.add_argument(
+        '--sent_ids_file_name', help='utterance level sent ids')
     # outputs
-    parser.add_argument('-c', '--content_selection_dir_name', help='output directory')
-    parser.add_argument('-s', '--surface_realization_dir_name', help='output dir')
+    parser.add_argument(
+        '-c', '--content_selection_dir_name', help='output directory')
+    parser.add_argument(
+        '-s', '--surface_realization_dir_name', help='output dir')
     # processing options
-    parser.add_argument('--add_scope_markers', action='store_true',
-                        help='add parentheses around linearized nodes')
-    parser.add_argument('--original_sentence_order', action='store_true',
-                        help='order tokens based on the original sentence')
-    parser.add_argument('--tokenize_mr', action='store_true',
-                        help='split apart the MR acts in small tokens')
-    parser.add_argument('--surface_realization_only', action='store_true',
-                        help='only process the src and tgt files for SR')
+    parser.add_argument(
+        '--add_scope_markers',
+        action='store_true',
+        help='add parentheses around linearized nodes')
+    parser.add_argument(
+        '--original_sentence_order',
+        action='store_true',
+        help='order tokens based on the original sentence')
+    parser.add_argument(
+        '--tokenize_mr',
+        action='store_true',
+        help='split apart the MR acts in small tokens')
+    parser.add_argument(
+        '--surface_realization_only',
+        action='store_true',
+        help='only process the src and tgt files for SR')
     args = parser.parse_args()
 
     if args.surface_realization_only:
         create_source_and_target_surface_realization_only(args)
     else:
         create_source_and_target_both(args)
+
 
 if __name__ == '__main__':
     main()
