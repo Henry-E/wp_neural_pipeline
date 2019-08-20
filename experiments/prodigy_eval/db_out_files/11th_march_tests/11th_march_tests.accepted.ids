@@ -1,0 +1,4 @@
+name[TheGoldenPalace],eatType[coffeeshop],food[English],priceRange[morethan\u00a330],customerrating[high],area[riverside]_9_1_e2e
+name[Fitzbillies],eatType[coffeeshop],food[English],priceRange[lessthan\u00a320],customerrating[low],area[citycentre],familyFriendly[no]_3_1_ta
+name[TheEagle],eatType[coffeeshop],food[Chinese],priceRange[cheap],customerrating[5outof5],area[riverside],familyFriendly[no],near[BurgerKing]_1_1_e2e
+name[TheEagle],customerrating[5outof5],area[riverside],familyFriendly[yes],near[Caf\u00e9Brazil]_11_0_ta

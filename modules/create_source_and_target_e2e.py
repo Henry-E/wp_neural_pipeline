@@ -165,6 +165,8 @@ def create_source_and_target_both(args):
     vocab = set()
     if args.vocab_file:
         vocab = set(line.strip() for line in open(args.vocab_file))
+    with open(args.sent_ids_file_name) as in_file:
+        sent_ids = [this_id[:-2] for this_id in in_file]
 
     content_selection_src = []
     content_selection_tgt = []
@@ -175,8 +177,9 @@ def create_source_and_target_both(args):
     # We're keeping a rolling list in case an utterance is more than one
     # sentence
     deep_utterance = []
-    for sent in tqdm(ud_sents):
-        if sent.meta_present("newpar"):
+    previous_id = ''
+    for sent, sent_id in zip(ud_sents, sent_ids):
+        if sent_id != previous_id:
             if deep_utterance:
                 e2e_mr = next(e2e_lines)[0].split(', ')
                 e2e_mr_tokens = get_mr_source_tokens(e2e_mr, args.tokenize_mr)
@@ -189,6 +192,7 @@ def create_source_and_target_both(args):
         surface_realization_src.append(' '.join(deep_sent_tokens))
         surface_realization_tgt.append(' '.join(ud_sent_tokens))
         unk_mappings.append(unk_mapping)
+        previous_id = sent_id
         if deep_utterance:
             deep_utterance.extend(['new_sent'] + deep_sent_tokens)
         else:
@@ -214,26 +218,26 @@ def create_source_and_target_both(args):
     with open(content_selection_tgt_file_name, 'w') as out_file:
         out_file.write('\n'.join(content_selection_tgt))
 
-    surface_realization_src_file_name = \
-        os.path.join(args.surface_realization_dir_name,
-                     input_file_root + '.surface_realization'
-                     + input_file_data_split + '.src')
-    with open(surface_realization_src_file_name, 'w') as out_file:
-        out_file.write('\n'.join(surface_realization_src))
-    surface_realization_tgt_file_name = \
-        os.path.join(args.surface_realization_dir_name,
-                     input_file_root + '.surface_realization'
-                     + input_file_data_split + '.tgt')
-    with open(surface_realization_tgt_file_name, 'w') as out_file:
-        out_file.write('\n'.join(surface_realization_tgt))
+    # surface_realization_src_file_name = \
+    #     os.path.join(args.surface_realization_dir_name,
+    #                  input_file_root + '.surface_realization'
+    #                  + input_file_data_split + '.src')
+    # with open(surface_realization_src_file_name, 'w') as out_file:
+    #     out_file.write('\n'.join(surface_realization_src))
+    # surface_realization_tgt_file_name = \
+    #     os.path.join(args.surface_realization_dir_name,
+    #                  input_file_root + '.surface_realization'
+    #                  + input_file_data_split + '.tgt')
+    # with open(surface_realization_tgt_file_name, 'w') as out_file:
+    #     out_file.write('\n'.join(surface_realization_tgt))
 
-    output_file_name = \
-        os.path.join(args.surface_realization_dir_name,
-                     input_file_root + input_file_data_split +
-                     '.unk_mapping.jsonl')
-    with jsonlines.open(output_file_name, mode='w') as out_file:
-        for this in unk_mappings:
-            out_file.write(this)
+    # output_file_name = \
+    #     os.path.join(args.surface_realization_dir_name,
+    #                  input_file_root + input_file_data_split +
+    #                  '.unk_mapping.jsonl')
+    # with jsonlines.open(output_file_name, mode='w') as out_file:
+    #     for this in unk_mappings:
+    #         out_file.write(this)
 
 
 def create_source_and_target_surface_realization_only(args):
@@ -295,6 +299,7 @@ def main():
                         help='''deep parser output, expected to end in .dev or .train''')
     parser.add_argument('--vocab_file', default='',
                         help='vocab file with one word per line, optional')
+    parser.add_argument('--sent_ids_file_name', help='utterance level sent ids')
     # outputs
     parser.add_argument('-c', '--content_selection_dir_name', help='output directory')
     parser.add_argument('-s', '--surface_realization_dir_name', help='output dir')
@@ -312,7 +317,7 @@ def main():
     if args.surface_realization_only:
         create_source_and_target_surface_realization_only(args)
     else:
-        print('not doing anything yet')
+        create_source_and_target_both(args)
 
 if __name__ == '__main__':
     main()
